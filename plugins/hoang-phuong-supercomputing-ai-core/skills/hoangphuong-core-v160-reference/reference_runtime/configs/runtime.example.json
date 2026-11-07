@@ -1,0 +1,10 @@
+{
+  "mode": "local_reference_only",
+  "kill_switch": true,
+  "allowed_resources": ["local:plan", "local:demo"],
+  "max_steps": 8,
+  "timeout_seconds": 60,
+  "max_cost_usd": 0.50,
+  "remote_provider_credentials": "NOT_CONFIGURED",
+  "allow_external_actions": false
+}

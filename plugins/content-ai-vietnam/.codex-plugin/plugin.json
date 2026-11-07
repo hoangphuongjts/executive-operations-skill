@@ -1,0 +1,20 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Creativity",
+    "defaultPrompt": "T\u1ea1o n\u1ed9i dung ti\u1ebfng Vi\u1ec7t theo m\u00f4-\u0111un ph\u00f9 h\u1ee3p; kh\u00f4ng b\u1ecba d\u1eef ki\u1ec7n ho\u1eb7c \u0111\u0103ng thay t\u00f4i.",
+    "developerName": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "displayName": "Content AI Vi\u1ec7t Nam",
+    "longDescription": "B\u1ed9 14 skill ti\u1ebfng Vi\u1ec7t: gi\u1eef b\u1ea3y chuy\u00ean m\u00f4n n\u1ed9i dung hi\u1ec7n c\u00f3, b\u1ed5 sung \u0111i\u1ec1u ph\u1ed1i, nghi\u00ean c\u1ee9u kh\u00e1ch h\u00e0ng, gi\u1ecdng th\u01b0\u01a1ng hi\u1ec7u, chi\u1ebfn d\u1ecbch, t\u00e1i s\u1eed d\u1ee5ng, c\u00e2u chuy\u1ec7n s\u1ea3n ph\u1ea9m \u0111\u1ecba ph\u01b0\u01a1ng v\u00e0 \u0111o l\u01b0\u1eddng. C\u00f3 brief v\u00e0 s\u1ed5 b\u1eb1ng ch\u1ee9ng d\u00f9ng chung. Plugin cung c\u1ea5p h\u01b0\u1edbng d\u1eabn; kh\u00f4ng c\u00f3 backend, k\u1ebft n\u1ed1i d\u1eef li\u1ec7u ho\u1eb7c ch\u1ee9c n\u0103ng t\u1ef1 \u0111\u0103ng.",
+    "shortDescription": "14 skill n\u1ed9i dung ti\u1ebfng Vi\u1ec7t"
+  },
+  "name": "content-ai-vietnam",
+  "version": "0.3.3",
+  "description": "B\u1ed9 h\u01b0\u1edbng d\u1eabn Content AI b\u1eb1ng ti\u1ebfng Vi\u1ec7t cho chi\u1ebfn l\u01b0\u1ee3c n\u1ed9i dung, m\u1ea1ng x\u00e3 h\u1ed9i, vi\u1ebft b\u00e1n h\u00e0ng, video, qu\u1ea3ng c\u00e1o, bi\u00ean t\u1eadp v\u00e0 SEO.",
+  "author": {
+    "name": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "email": "hoangphuongelectrical@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

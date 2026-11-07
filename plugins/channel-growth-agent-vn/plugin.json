@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "channel-growth-agent-vn",
+  "version": "1.3.3",
+  "description": "AI Agent xây kênh đa nền tảng, nghiên cứu, kịch bản, analytics và điều phối sản xuất video ngắn/dài để xuất MP4 qua công cụ được kết nối.",
+  "author": {
+    "name": "Hoàng Phương",
+    "email": "hoangphuongelectrical@gmail.com"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Creativity",
+        "defaultPrompt": "Dùng Channel Growth Agent xây kế hoạch 30 ngày cho Tò Mò Lab.",
+        "developerName": "Hoàng Phương",
+        "displayName": "Trợ Lý Xây Kênh",
+        "longDescription": "Chín skill xây kênh: điều phối, sản xuất video, định vị, nghiên cứu, tiêu đề–thumbnail, giữ chân, đo lường, kiếm tiền và vận hành. Giữ cấu hình Tò Mò Lab, hỗ trợ brief kênh khác. Plugin cung cấp hướng dẫn; chỉ render, truy cập analytics hoặc đăng khi có công cụ, quyền và ủy quyền phù hợp.",
+        "shortDescription": "9 skill xây kênh tiếng Việt"
+      }
+    }
+  }
+}

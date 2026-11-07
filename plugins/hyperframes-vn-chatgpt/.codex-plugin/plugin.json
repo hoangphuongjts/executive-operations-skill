@@ -1,0 +1,25 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "D\u00f9ng HyperFrames VN l\u00ean k\u1ecbch b\u1ea3n qu\u1ea3ng c\u00e1o 30 gi\u00e2y 9:16 r\u1ed3i chu\u1ea9n b\u1ecb d\u1ef1 \u00e1n HTML \u0111\u1ec3 d\u1ef1ng video.",
+      "H\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng HyperFrames trong Gemini CLI v\u00e0 gi\u1eef nguy\u00ean c\u00e1c module c\u00f3 s\u1eb5n."
+    ],
+    "developerName": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "displayName": "HyperFrames VN",
+    "longDescription": "L\u1eadp brief, timeline, m\u00e3 ngu\u1ed3n HTML/video HyperFrames v\u00e0 h\u01b0\u1edbng d\u1eabn d\u00f9ng c\u00f9ng Gemini CLI. Kh\u00f4ng t\u1ef1 ch\u1ea1y HyperFrames ho\u1eb7c render video n\u1ebfu ch\u01b0a c\u00f3 runtime ph\u00f9 h\u1ee3p.",
+    "shortDescription": "Tr\u1ee3 l\u00fd d\u1ef1ng video HTML"
+  },
+  "name": "hyperframes-vn-chatgpt",
+  "version": "0.1.0",
+  "description": "Tr\u1ee3 l\u00fd HyperFrames b\u1eb1ng ti\u1ebfng Vi\u1ec7t trong ChatGPT: thi\u1ebft k\u1ebf HTML video, ph\u1ed1i h\u1ee3p Video ShotCraft, ki\u1ec3m tra storyboard v\u00e0 quy tr\u00ecnh c\u00e0i Gemini CLI; kh\u00f4ng t\u00edch h\u1ee3p tr\u00ecnh render ch\u1ea1y tr\u00ean server.",
+  "author": {
+    "name": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "email": "hoangphuongelectrical@gmail.com"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/heygen-com/hyperframes",
+  "license": "Apache-2.0",
+  "skills": "./skills"
+}

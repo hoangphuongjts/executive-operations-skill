@@ -1,0 +1,11 @@
+{
+  "status":"review_only_not_installed",
+  "snapshot_date":"2026-11-05",
+  "cluster_replacements":[
+    {"cluster_id":3,"repo":"pallets/flask","reason":"replace duplicate from cluster 1","license_file":"LICENSE.txt","license_note":"BSD-3-Clause text observed","readme_blob_sha":"64f56cac4f9d60020a39b9c2f803b1846796cf6d","license_blob_sha":"9d227a0cc43c3268d15722b763bd94ad298645a1","review":"source_and_dependency_audit_required"},
+    {"cluster_id":9,"repo":"uswds/uswds","reason":"replace archived 18F/ux-guide","license_file":"LICENSE.md","license_note":"multi-license / public-domain with exceptions; inspect asset by asset","license_blob_sha":"b2cb0aeeb7812dc9f94454d5c232f76fd5978d9a","review":"license_assets_audit_required"},
+    {"cluster_id":10,"repo":"apache/airflow","reason":"replace archived SnowGraph","license_file":"LICENSE","license_note":"Apache-2.0 observed","license_blob_sha":"cda7cffa6aa85bc22615d650bbb52026a8863d21","readme_blob_sha":"e1a994222e981d4226aa4c3036c9ee801bea1689","review":"source_and_dependency_audit_required"},
+    {"cluster_id":16,"repo":"promptfoo/promptfoo","reason":"replace duplicate Zapier/AutomationBench","license_file":"LICENSE","license_note":"MIT observed","license_blob_sha":"af3fa111d9303b3041d225fb851534e50a4bbec2","package_blob_sha":"1f4a076ec1523245f48dd882a83b030a1629c8f4","review":"high_dependency_and_build_hook_audit_required","dependencies_observed":77}
+  ],
+  "source_note":"GitHub connector file reads of default branch; blob SHA is not pinned commit SHA. Do not use file SHAs for --commit."
+}

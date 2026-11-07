@@ -1,0 +1,901 @@
+{
+  "count": 128,
+  "profiles": [
+    {
+      "agent_id": 1,
+      "key": "agent-001",
+      "name": "Lead Co-Scientist",
+      "group_id": 1,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 2,
+      "key": "agent-002",
+      "name": "First Principles Analyst",
+      "group_id": 1,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 3,
+      "key": "agent-003",
+      "name": "Socratic Challenger",
+      "group_id": 1,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 4,
+      "key": "agent-004",
+      "name": "Popperian Falsifier",
+      "group_id": 1,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 5,
+      "key": "agent-005",
+      "name": "Evidence Librarian",
+      "group_id": 1,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 6,
+      "key": "agent-006",
+      "name": "Literature Reviewer",
+      "group_id": 1,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 7,
+      "key": "agent-007",
+      "name": "Research Reproducer",
+      "group_id": 1,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 8,
+      "key": "agent-008",
+      "name": "Ethics & Research Integrity Reviewer",
+      "group_id": 1,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 9,
+      "key": "agent-009",
+      "name": "Systems Architect",
+      "group_id": 2,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 10,
+      "key": "agent-010",
+      "name": "API Contract Architect",
+      "group_id": 2,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 11,
+      "key": "agent-011",
+      "name": "Distributed Systems Architect",
+      "group_id": 2,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 12,
+      "key": "agent-012",
+      "name": "Data Architect",
+      "group_id": 2,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 13,
+      "key": "agent-013",
+      "name": "Event Topology Architect",
+      "group_id": 2,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 14,
+      "key": "agent-014",
+      "name": "Security Architect",
+      "group_id": 2,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 15,
+      "key": "agent-015",
+      "name": "Reliability Architect",
+      "group_id": 2,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 16,
+      "key": "agent-016",
+      "name": "Cost & Capacity Architect",
+      "group_id": 2,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 17,
+      "key": "agent-017",
+      "name": "Implementation Engineer",
+      "group_id": 3,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 18,
+      "key": "agent-018",
+      "name": "Systems Programming Engineer",
+      "group_id": 3,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 19,
+      "key": "agent-019",
+      "name": "Compiler & JIT Engineer",
+      "group_id": 3,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 20,
+      "key": "agent-020",
+      "name": "SIMD Optimization Engineer",
+      "group_id": 3,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 21,
+      "key": "agent-021",
+      "name": "Concurrency Engineer",
+      "group_id": 3,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 22,
+      "key": "agent-022",
+      "name": "Database Engineer",
+      "group_id": 3,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 23,
+      "key": "agent-023",
+      "name": "Integration Engineer",
+      "group_id": 3,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 24,
+      "key": "agent-024",
+      "name": "Developer Experience Engineer",
+      "group_id": 3,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 25,
+      "key": "agent-025",
+      "name": "Test Strategist",
+      "group_id": 4,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 26,
+      "key": "agent-026",
+      "name": "Unit & Property Tester",
+      "group_id": 4,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 27,
+      "key": "agent-027",
+      "name": "Differential Tester",
+      "group_id": 4,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 28,
+      "key": "agent-028",
+      "name": "Formal Methods Specialist",
+      "group_id": 4,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 29,
+      "key": "agent-029",
+      "name": "Static Analysis Specialist",
+      "group_id": 4,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 30,
+      "key": "agent-030",
+      "name": "Adversarial Reviewer",
+      "group_id": 4,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 31,
+      "key": "agent-031",
+      "name": "Regression Guardian",
+      "group_id": 4,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 32,
+      "key": "agent-032",
+      "name": "Release Auditor",
+      "group_id": 4,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 33,
+      "key": "agent-033",
+      "name": "Performance Profiler",
+      "group_id": 5,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 34,
+      "key": "agent-034",
+      "name": "CPU Microarchitecture Analyst",
+      "group_id": 5,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 35,
+      "key": "agent-035",
+      "name": "Lock-Free Data Structure Analyst",
+      "group_id": 5,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 36,
+      "key": "agent-036",
+      "name": "Latency Engineer",
+      "group_id": 5,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 37,
+      "key": "agent-037",
+      "name": "Throughput Engineer",
+      "group_id": 5,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 38,
+      "key": "agent-038",
+      "name": "Memory Engineer",
+      "group_id": 5,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 39,
+      "key": "agent-039",
+      "name": "Benchmark Reproducibility Auditor",
+      "group_id": 5,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 40,
+      "key": "agent-040",
+      "name": "Capacity Planner",
+      "group_id": 5,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 41,
+      "key": "agent-041",
+      "name": "Quantum Circuit Researcher",
+      "group_id": 6,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 42,
+      "key": "agent-042",
+      "name": "Noise Modeling Scientist",
+      "group_id": 6,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 43,
+      "key": "agent-043",
+      "name": "Quantum Error Correction Analyst",
+      "group_id": 6,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 44,
+      "key": "agent-044",
+      "name": "Topological Quantum Researcher",
+      "group_id": 6,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 45,
+      "key": "agent-045",
+      "name": "Majorana Braiding Critic",
+      "group_id": 6,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 46,
+      "key": "agent-046",
+      "name": "Cryptography Engineer",
+      "group_id": 6,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 47,
+      "key": "agent-047",
+      "name": "Homomorphic Encryption Analyst",
+      "group_id": 6,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 48,
+      "key": "agent-048",
+      "name": "P2P Network Analyst",
+      "group_id": 6,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 49,
+      "key": "agent-049",
+      "name": "Algorithm Designer",
+      "group_id": 7,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 50,
+      "key": "agent-050",
+      "name": "Complexity Theorist",
+      "group_id": 7,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 51,
+      "key": "agent-051",
+      "name": "Lower-Bound Skeptic",
+      "group_id": 7,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 52,
+      "key": "agent-052",
+      "name": "Search & Synthesis Engineer",
+      "group_id": 7,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 53,
+      "key": "agent-053",
+      "name": "ML Evaluator",
+      "group_id": 7,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 54,
+      "key": "agent-054",
+      "name": "Meta-Learning Researcher",
+      "group_id": 7,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 55,
+      "key": "agent-055",
+      "name": "Prompt & Context Engineer",
+      "group_id": 7,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 56,
+      "key": "agent-056",
+      "name": "Model Risk Analyst",
+      "group_id": 7,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 57,
+      "key": "agent-057",
+      "name": "Task Decomposition Planner",
+      "group_id": 8,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 58,
+      "key": "agent-058",
+      "name": "Swarm Coordinator",
+      "group_id": 8,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 59,
+      "key": "agent-059",
+      "name": "Tool Capability Verifier",
+      "group_id": 8,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 60,
+      "key": "agent-060",
+      "name": "Observability Engineer",
+      "group_id": 8,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 61,
+      "key": "agent-061",
+      "name": "Incident Response Engineer",
+      "group_id": 8,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 62,
+      "key": "agent-062",
+      "name": "Change Management Guardian",
+      "group_id": 8,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 63,
+      "key": "agent-063",
+      "name": "Documentation Curator",
+      "group_id": 8,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 64,
+      "key": "agent-064",
+      "name": "Delivery Integrator",
+      "group_id": 8,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 65,
+      "key": "agent-065",
+      "name": "Product Discovery Researcher",
+      "group_id": 9,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 66,
+      "key": "agent-066",
+      "name": "UX Journey Analyst",
+      "group_id": 9,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 67,
+      "key": "agent-067",
+      "name": "Accessibility Specialist",
+      "group_id": 9,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 68,
+      "key": "agent-068",
+      "name": "Human Factors Researcher",
+      "group_id": 9,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 69,
+      "key": "agent-069",
+      "name": "Interaction Prototype Designer",
+      "group_id": 9,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 70,
+      "key": "agent-070",
+      "name": "Experiment Design Strategist",
+      "group_id": 9,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 71,
+      "key": "agent-071",
+      "name": "Product Metrics Analyst",
+      "group_id": 9,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 72,
+      "key": "agent-072",
+      "name": "Release Adoption Analyst",
+      "group_id": 9,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 73,
+      "key": "agent-073",
+      "name": "Dataset Curator",
+      "group_id": 10,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 74,
+      "key": "agent-074",
+      "name": "Data Quality Auditor",
+      "group_id": 10,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 75,
+      "key": "agent-075",
+      "name": "ETL Pipeline Designer",
+      "group_id": 10,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 76,
+      "key": "agent-076",
+      "name": "Retrieval Architect",
+      "group_id": 10,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 77,
+      "key": "agent-077",
+      "name": "Knowledge Graph Modeler",
+      "group_id": 10,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 78,
+      "key": "agent-078",
+      "name": "Statistical Validity Reviewer",
+      "group_id": 10,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 79,
+      "key": "agent-079",
+      "name": "Causal Inference Researcher",
+      "group_id": 10,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 80,
+      "key": "agent-080",
+      "name": "Data Privacy Steward",
+      "group_id": 10,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 81,
+      "key": "agent-081",
+      "name": "Agent Runtime Architect",
+      "group_id": 11,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 82,
+      "key": "agent-082",
+      "name": "Agent Router Engineer",
+      "group_id": 11,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 83,
+      "key": "agent-083",
+      "name": "Tool Permission Auditor",
+      "group_id": 11,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 84,
+      "key": "agent-084",
+      "name": "Agent Communication Engineer",
+      "group_id": 11,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 85,
+      "key": "agent-085",
+      "name": "Agent Memory Architect",
+      "group_id": 11,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 86,
+      "key": "agent-086",
+      "name": "Multi-Agent Conflict Resolver",
+      "group_id": 11,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 87,
+      "key": "agent-087",
+      "name": "Agent Budget Controller",
+      "group_id": 11,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 88,
+      "key": "agent-088",
+      "name": "Agent Trace Auditor",
+      "group_id": 11,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 89,
+      "key": "agent-089",
+      "name": "Prompt Injection Defender",
+      "group_id": 12,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 90,
+      "key": "agent-090",
+      "name": "Secrets Lifecycle Auditor",
+      "group_id": 12,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 91,
+      "key": "agent-091",
+      "name": "Identity Access Reviewer",
+      "group_id": 12,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 92,
+      "key": "agent-092",
+      "name": "Supply Chain Security Analyst",
+      "group_id": 12,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 93,
+      "key": "agent-093",
+      "name": "Backup Restore Engineer",
+      "group_id": 12,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 94,
+      "key": "agent-094",
+      "name": "Chaos Testing Designer",
+      "group_id": 12,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 95,
+      "key": "agent-095",
+      "name": "Privacy Threat Modeler",
+      "group_id": 12,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 96,
+      "key": "agent-096",
+      "name": "Compliance Evidence Reviewer",
+      "group_id": 12,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 97,
+      "key": "agent-097",
+      "name": "Scientific Script Editor",
+      "group_id": 13,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 98,
+      "key": "agent-098",
+      "name": "Storyboard Director",
+      "group_id": 13,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 99,
+      "key": "agent-099",
+      "name": "Video Quality Inspector",
+      "group_id": 13,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 100,
+      "key": "agent-100",
+      "name": "Voice Synchronization Specialist",
+      "group_id": 13,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 101,
+      "key": "agent-101",
+      "name": "Music Rights Reviewer",
+      "group_id": 13,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 102,
+      "key": "agent-102",
+      "name": "Multilingual Localization Editor",
+      "group_id": 13,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 103,
+      "key": "agent-103",
+      "name": "Creative Originality Auditor",
+      "group_id": 13,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 104,
+      "key": "agent-104",
+      "name": "Channel Performance Analyst",
+      "group_id": 13,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 105,
+      "key": "agent-105",
+      "name": "Scenario Modeling Analyst",
+      "group_id": 14,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 106,
+      "key": "agent-106",
+      "name": "Risk Budget Analyst",
+      "group_id": 14,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 107,
+      "key": "agent-107",
+      "name": "Sensitivity Analysis Specialist",
+      "group_id": 14,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 108,
+      "key": "agent-108",
+      "name": "Cash Flow Modeler",
+      "group_id": 14,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 109,
+      "key": "agent-109",
+      "name": "Pricing Economics Analyst",
+      "group_id": 14,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 110,
+      "key": "agent-110",
+      "name": "Decision Quality Auditor",
+      "group_id": 14,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 111,
+      "key": "agent-111",
+      "name": "Market Evidence Researcher",
+      "group_id": 14,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 112,
+      "key": "agent-112",
+      "name": "Financial Assumptions Reviewer",
+      "group_id": 14,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 113,
+      "key": "agent-113",
+      "name": "Parametric CAD Designer",
+      "group_id": 15,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 114,
+      "key": "agent-114",
+      "name": "FDM Printability Engineer",
+      "group_id": 15,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 115,
+      "key": "agent-115",
+      "name": "Manufacturing Cost Estimator",
+      "group_id": 15,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 116,
+      "key": "agent-116",
+      "name": "Geometry Validation Analyst",
+      "group_id": 15,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 117,
+      "key": "agent-117",
+      "name": "IoT Systems Architect",
+      "group_id": 15,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 118,
+      "key": "agent-118",
+      "name": "Physical Experiment Planner",
+      "group_id": 15,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 119,
+      "key": "agent-119",
+      "name": "Hardware Safety Reviewer",
+      "group_id": 15,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 120,
+      "key": "agent-120",
+      "name": "Simulation Accuracy Auditor",
+      "group_id": 15,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 121,
+      "key": "agent-121",
+      "name": "Evaluation Dataset Architect",
+      "group_id": 16,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 122,
+      "key": "agent-122",
+      "name": "Hallucination Claim Auditor",
+      "group_id": 16,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 123,
+      "key": "agent-123",
+      "name": "Benchmark Protocol Designer",
+      "group_id": 16,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 124,
+      "key": "agent-124",
+      "name": "Drift Monitoring Analyst",
+      "group_id": 16,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 125,
+      "key": "agent-125",
+      "name": "SLO Acceptance Reviewer",
+      "group_id": 16,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 126,
+      "key": "agent-126",
+      "name": "Release Evidence Publisher",
+      "group_id": 16,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 127,
+      "key": "agent-127",
+      "name": "Rollback Decision Owner",
+      "group_id": 16,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    },
+    {
+      "agent_id": 128,
+      "key": "agent-128",
+      "name": "Independent Quality Gatekeeper",
+      "group_id": 16,
+      "simulation_status": "PROFILE_ONLY; NO_ACTUAL_AI_AGENT_PROCESS"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "scope": "SOURCE_CHATGPT_HOST_NOT_TARGET",
+  "query_method": "Read current host registered skill directory and selected skill contents",
+  "plugin_skill_counts_visible": {
+    "ai-coding-vietnamese-kit": 46,
+    "ai-promo-video-maker-vn": 1,
+    "ai-tool-manager-vn": 1,
+    "anything2explainer-vn-guidance": 1,
+    "channel-growth-agent-vn": 11,
+    "content-ai-vietnam": 16,
+    "dev-8e2c158c632881918d6f75b1f38a2f7d": 0,
+    "hoang-phuong-ai-ebook-library": 0,
+    "hoang-phuong-supercomputing-ai-core": 92,
+    "hyperframes-vn-chatgpt": 2,
+    "moneyprinter-vn": 3,
+    "nango-gateway-vn": 0,
+    "opus-video-skills-vn": 3,
+    "software-rebuild-ai-vn": 10,
+    "study108-auto-sync-staging-phuong": 2,
+    "video-shotcraft-vn": 2,
+    "voxcpm-voice-vn": 3
+  },
+  "owned_plugin_skills_visible_total": 193,
+  "staging_package_portable_skill_count": 197,
+  "unavailable_from_current_host": [
+    {
+      "plugin": "nango-gateway-vn",
+      "skill": "nango-gateway-vn"
+    },
+    {
+      "plugin": "nango-gateway-vn",
+      "skill": "nango-security-vn"
+    },
+    {
+      "plugin": "nango-gateway-vn",
+      "skill": "nango-video-ai-vn"
+    },
+    {
+      "plugin": "hoang-phuong-ai-ebook-library",
+      "skill": "ebook-library"
+    }
+  ],
+  "sampled_host_skill_readback": [
+    {
+      "skill": "chidao",
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "status": "READ_OK"
+    },
+    {
+      "skill": "hoangphuong-v16-active",
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "status": "READ_OK"
+    },
+    {
+      "skill": "revidapi-reup-video-vn",
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "status": "READ_OK"
+    }
+  ],
+  "core_host_discovery": {
+    "expected_source_skills": 92,
+    "registered_current_host_skills": 92,
+    "all_skill_invocations_executed": false
+  },
+  "agent_profile_catalog_validation": "128/128 static; agent host runtime not tested",
+  "interpretation": "Skill registration/readback is not execution or integration E2E; target account inaccessible."
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "hoangphuong-core-cluster-link/1.0",
+  "skill_id": "thammuutruong",
+  "skill_path": "skills/thammuutruong/SKILL.md",
+  "source_zip": "thammuutruong.zip",
+  "source_zip_sha256": "0595fbd666163f5c49293d07addd12e06b5789c45677c72736f7b30d0f36626a",
+  "source_skill_sha256": "854f9b9b0e53276a4d3ea13558b2accb620313556a12d48686d5fa21134a1169",
+  "installed_skill_sha256": "854f9b9b0e53276a4d3ea13558b2accb620313556a12d48686d5fa21134a1169",
+  "normalization": "none",
+  "primary_cluster": {
+    "id": 8,
+    "name": "Điều phối & vận hành"
+  },
+  "secondary_clusters": [
+    {
+      "id": 11,
+      "name": "Agent & công cụ"
+    },
+    {
+      "id": 10,
+      "name": "Dữ liệu & tri thức"
+    },
+    {
+      "id": 14,
+      "name": "Tài chính & quyết định"
+    }
+  ],
+  "kind": "core_skill_overlay",
+  "workflow": "Điều phối chiến thuật/chiến lược và quản trị tri thức dài hạn",
+  "external_runtime_bundled": false,
+  "user_content_source": true,
+  "host_activation_untested": false,
+  "baseline_108_unchanged": true,
+  "source_original_unchanged": true,
+  "host_visibility_verified": true,
+  "skill_read_verified": true,
+  "runtime_e2e_verified": false,
+  "observed_version": "16.0.49"
+}

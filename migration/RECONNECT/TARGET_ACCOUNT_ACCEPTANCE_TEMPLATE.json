@@ -1,0 +1,176 @@
+{
+  "target_account": "NOT_ATTACHED",
+  "install_sessions": [],
+  "per_plugin": [
+    {
+      "source_name": "hoang-phuong-supercomputing-ai-core",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "589752205ca697d5be062cdeb4e031bca657392f8954a61969ec8be0232c2e3e"
+    },
+    {
+      "source_name": "study108-auto-sync-staging-phuong",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "11e9cb5c1390ef57b71c25783bf2a422422f8f8269a5f81a9c5a7e0388fc4f7d"
+    },
+    {
+      "source_name": "ai-coding-vietnamese-kit",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "32d697dc321293fe5f8e9555f8cb0d49ed7cfbd3c0391596ab74681b98b05529"
+    },
+    {
+      "source_name": "content-ai-vietnam",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "352c3ccb4bb94558f94280490ab4e7c60b0bcdd6eac720ebcc29f88e137b9218"
+    },
+    {
+      "source_name": "channel-growth-agent-vn",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "384baf67c2d290c5c5a39bba98b6b96f8c2b261cbc400b09511971ead0137533"
+    },
+    {
+      "source_name": "nango-gateway-vn",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "cd2b280d58fb5005541b03b7bf2f6c97022fe00ccb9c37ece0431faf7812ad64"
+    },
+    {
+      "source_name": "hoang-phuong-ai-ebook-library",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "203ca7a572e5af38ff78234691b693f97e7caf171fb6f2648bd10210aa14c427"
+    },
+    {
+      "source_name": "ai-promo-video-maker-vn",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "6f7e9139a83e2ee694ed17aafd63a370aedd866383fbdddb60fd2ce004c4b2e4"
+    },
+    {
+      "source_name": "ai-tool-manager-vn",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "7f1163c6d675405b93ba961d527a88db29631da592e446e51678ab0c0825c7c5"
+    },
+    {
+      "source_name": "anything2explainer-vn-guidance",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "78db6c60bb4645e23bbcb90180af4472e00bf638fbc9ff1d46fd7a52b8b29328"
+    },
+    {
+      "source_name": "dev-8e2c158c632881918d6f75b1f38a2f7d",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "4664d952d4a92ea6e502cfc4f5dc6266584d1db30d9222a7d73ba35b68859dab"
+    },
+    {
+      "source_name": "hyperframes-vn-chatgpt",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "524c55da96e6525fbe41ba3cbc49ab20cb0fa771dd83d4bcfd8c6590d4bf480c"
+    },
+    {
+      "source_name": "moneyprinter-vn",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "fe46c78d528061b63775feec1628eb5c8b1f0b4322040b8d1b6b6a647272f2fb"
+    },
+    {
+      "source_name": "opus-video-skills-vn",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "9f8976178ff47fb323fffa526079d01ace8ec3cbac46c9e74affd9a4a2f7d2cf"
+    },
+    {
+      "source_name": "software-rebuild-ai-vn",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "660412a70bf68be94ba86c884f3c916e6b61a28cba6da6727f214888f40a970e"
+    },
+    {
+      "source_name": "video-shotcraft-vn",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "ae45edefc4295cbc3378ee2799a48e84d2581d4e6ebb0a9886a7fb274e3e4043"
+    },
+    {
+      "source_name": "voxcpm-voice-vn",
+      "target_plugin_id": null,
+      "target_release_id": null,
+      "install_status": "NOT_ATTEMPTED",
+      "host_skill_count": null,
+      "live_activation_test_status": "NOT_TESTED",
+      "mcp_auth_status": "NOT_TESTED",
+      "rollback_reference": "952e284e9afc468e4f7b57674079069a30092967c8d3bb4dc7fbf92acb7811b8"
+    }
+  ]
+}

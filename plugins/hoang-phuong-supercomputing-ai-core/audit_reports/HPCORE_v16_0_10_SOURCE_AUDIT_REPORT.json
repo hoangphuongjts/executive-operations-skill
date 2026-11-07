@@ -1,0 +1,24 @@
+{
+  "kind": "source_selected_guidance_adapter",
+  "core_release_candidate": "16.0.10",
+  "source": "K-Dense-AI/scientific-agent-skills",
+  "source_commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+  "source_docs_inspected": [
+    "skills/scientific-critical-thinking/SKILL.md",
+    "skills/scientific-critical-thinking/references/review_sources.md",
+    "LICENSE.md"
+  ],
+  "copyright": "K-Dense Inc / MIT; upstream repo code not bundled",
+  "review_scope": "selected docs and original local standalone program",
+  "status": "ADAPTER_OFFLINE_TESTED_NOT_UPSTREAM_CODE_INSTALLED",
+  "test_count": 10,
+  "test_passed": 10,
+  "code_execution": "only new Python stdlib on synthetic inputs",
+  "manual_review_required": [
+    "external scientific content verification",
+    "Windows environment validation",
+    "full upstream repo security review"
+  ],
+  "permissions": "no network/no external writes",
+  "legacy_policy": "keep all seven Skills, 128 profiles, 16 clusters and 108 codes"
+}

@@ -1,0 +1,24 @@
+{
+  "version": "16.0.41",
+  "baseline": "16.0.40",
+  "environment": "offline standard Python staging",
+  "tests_total": 216,
+  "tests_passed": 216,
+  "tests_failed": [],
+  "role_registry_valid": 128,
+  "workflow_blueprints_valid": 16,
+  "skill_sources_preserved": 181,
+  "mapping_changes": 27,
+  "semantic_source_validation": "partial: purpose-based, not all 181 full source read",
+  "host_workflow_e2e": "NOT_TESTED",
+  "runtime_deployed": false,
+  "production_mutated": false,
+  "zero_cost": true,
+  "preserved_by_overlay": [
+    "other skills",
+    "128 agent profiles",
+    "108 study codes",
+    "plugin connections"
+  ],
+  "notes": "Do not claim zero-bug guarantee or production E2E."
+}

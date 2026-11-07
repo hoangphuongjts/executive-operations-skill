@@ -1,0 +1,51 @@
+{
+  "release": "14.6.0",
+  "catalog_total": 500,
+  "pilot_total": 25,
+  "license_file_located": 23,
+  "full_repo_security_audits_complete": 0,
+  "host_integrated_native_skills_intended": 3,
+  "external_repo_code_executed": 0,
+  "review_date": "2026-11-04",
+  "status_semantics": {
+    "integrated_native": "originally authored, adapted skill instructions packaged in Core; verification only after host postpublish",
+    "source_reviewed": "selected source skill and license read, NOT entire repo security audit",
+    "pending": "license/path not verified or not cleared for copying or execution"
+  },
+  "integrations": [
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "file": "skills/ab-testing/SKILL.md",
+      "blob_sha": "c9deeb82ba70977fbdf6eae4a7a4e0a818afec9e",
+      "license_root": "MIT",
+      "native_path": "skills/github500-ab-testing/SKILL.md",
+      "integration": "adapted_skill_guidance",
+      "runtime": "none",
+      "scope": "Marketing/content A/B design",
+      "risk": "No external action; original references/scripts not packaged"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "file": "skills/experimental-design/SKILL.md",
+      "blob_sha": "ee14f9ed795c791ac80e3ea946858d97d09c3e50",
+      "license_root": "MIT",
+      "license_individual": "MIT",
+      "native_path": "skills/github500-experimental-design/SKILL.md",
+      "integration": "adapted_skill_guidance",
+      "runtime": "none",
+      "scope": "Experimental design / DOE",
+      "risk": "Source Python/NumPy/pydoe not installed or executed"
+    },
+    {
+      "repo": "github/awesome-copilot",
+      "file": "skills/agent-supply-chain/SKILL.md",
+      "blob_sha": "995c87835577fc396d31ff4447cea9d91ca61484",
+      "license_root": "MIT",
+      "native_path": "skills/github500-agent-supply-chain/SKILL.md",
+      "integration": "adapted_skill_guidance + newly authored checksum tool",
+      "runtime": "optional local python, off by default",
+      "scope": "Agent/plugin integrity & provenance",
+      "risk": "Checksum is not signature; local Python only with explicit execution"
+    }
+  ]
+}

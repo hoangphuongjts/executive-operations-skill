@@ -1,0 +1,32 @@
+{
+  "run_id": "baseline-illustrative",
+  "dataset_id": "example-frozen-5",
+  "dataset_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "evaluator": "execution_test",
+  "environment": "synthetic-example-not-live",
+  "model_version": "example-only",
+  "measured_at": "2026-11-05T00:00:00Z",
+  "tasks": [
+    {
+      "id": "task-0",
+      "passed": true
+    },
+    {
+      "id": "task-1",
+      "passed": true
+    },
+    {
+      "id": "task-2",
+      "passed": true
+    },
+    {
+      "id": "task-3",
+      "passed": false
+    },
+    {
+      "id": "task-4",
+      "passed": false
+    }
+  ],
+  "security_blockers": []
+}

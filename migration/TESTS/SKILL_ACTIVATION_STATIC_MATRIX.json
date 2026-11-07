@@ -1,0 +1,1396 @@
+{
+  "count": 197,
+  "skills": [
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-api-and-interface-design",
+      "relative_path": "skills/addy-api-and-interface-design/SKILL.md",
+      "trigger_description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-browser-testing-with-devtools",
+      "relative_path": "skills/addy-browser-testing-with-devtools/SKILL.md",
+      "trigger_description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-ci-cd-and-automation",
+      "relative_path": "skills/addy-ci-cd-and-automation/SKILL.md",
+      "trigger_description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-code-review-and-quality",
+      "relative_path": "skills/addy-code-review-and-quality/SKILL.md",
+      "trigger_description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch. Use when asked to review a diff or a pull request, even when the diff is pasted inline.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-code-simplification",
+      "relative_path": "skills/addy-code-simplification/SKILL.md",
+      "trigger_description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. Use when asked to simplify, clean up, or reduce the nesting of a function or module that already works, even when the code is pasted inline and nothing else needs to change.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-constraint-driven-development",
+      "relative_path": "skills/addy-constraint-driven-development/SKILL.md",
+      "trigger_description": "Establishes a project's quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane default thresholds when they have no number in mind, records everything in CONSTRAINTS.md, and watches the diff for a weakened bar — new @ts-ignore or eslint-disable suppressions, skipped or deleted tests, assertions stripped out, unimplemented stubs, thresholds edited down. Use when no quality bar is written down, when the user says \"set up constraints\" or \"define our standards\", when the user wants dimensions they care about — accessibility, web performance, coverage — set up as enforced constraints, when an agent keeps silencing checks or skipping tests to get to green, when you need a coverage or performance threshold and don't know what number to pick, or when an agent writes more code than anyone will read.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-context-engineering",
+      "relative_path": "skills/addy-context-engineering/SKILL.md",
+      "trigger_description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-debugging-and-error-recovery",
+      "relative_path": "skills/addy-debugging-and-error-recovery/SKILL.md",
+      "trigger_description": "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why — a systematic approach to finding and fixing the root cause rather than guessing.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-deprecation-and-migration",
+      "relative_path": "skills/addy-deprecation-and-migration/SKILL.md",
+      "trigger_description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in production, such as renaming or dropping a column without downtime (expand/contract). Use when deciding whether to maintain or sunset existing code.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-documentation-and-adrs",
+      "relative_path": "skills/addy-documentation-and-adrs/SKILL.md",
+      "trigger_description": "Records decisions and documentation. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-doubt-driven-development",
+      "relative_path": "skills/addy-doubt-driven-development/SKILL.md",
+      "trigger_description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding, when stress-testing a plan for hidden failure modes, when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production auth, security-sensitive logic, a high-stakes migration, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-frontend-ui-engineering",
+      "relative_path": "skills/addy-frontend-ui-engineering/SKILL.md",
+      "trigger_description": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-git-workflow-and-versioning",
+      "relative_path": "skills/addy-git-workflow-and-versioning/SKILL.md",
+      "trigger_description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, splitting uncommitted work in a messy working tree into clean atomic commits, opening or reviewing a pull request (PR), pushing to a remote, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog. Use when asked to write a commit message or a changelog entry for a change, or to split a change into commits, even when the diff is pasted inline and the message seems easy to write from it.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-idea-refine",
+      "relative_path": "skills/addy-idea-refine/SKILL.md",
+      "trigger_description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on \"ideate\", \"refine this idea\", or \"stress-test my plan\".",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-incremental-implementation",
+      "relative_path": "skills/addy-incremental-implementation/SKILL.md",
+      "trigger_description": "Delivers changes incrementally in thin, verifiable slices. Use when implementing any feature or change that touches more than one file, or when picking up the next task from a plan. Use when rolling a change out behind a feature flag, when you're about to write a large amount of code at once, or when a task feels too big to land in one step.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-interview-me",
+      "relative_path": "skills/addy-interview-me/SKILL.md",
+      "trigger_description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified (\"build me X\" without \"for whom\" or \"why now\"), when the user explicitly invokes (\"interview me\", \"grill me\", \"are we sure?\", \"stress-test my thinking\"), or when you catch yourself silently filling in ambiguous requirements before any plan, spec, or code exists.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-observability-and-instrumentation",
+      "relative_path": "skills/addy-observability-and-instrumentation/SKILL.md",
+      "trigger_description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the available data.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-performance-optimization",
+      "relative_path": "skills/addy-performance-optimization/SKILL.md",
+      "trigger_description": "Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regressions, when Core Web Vitals or load times need improvement, when N+1 query patterns need fixing, or when profiling reveals bottlenecks.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-planning-and-task-breakdown",
+      "relative_path": "skills/addy-planning-and-task-breakdown/SKILL.md",
+      "trigger_description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-security-and-hardening",
+      "relative_path": "skills/addy-security-and-hardening/SKILL.md",
+      "trigger_description": "Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when handling user input, authentication, data storage, or external integrations, or when checking a login flow is safe against the OWASP Top Ten. Use when building any feature that accepts untrusted data, manages user sessions or session cookies, or interacts with third-party services. Use when auditing dependencies for known vulnerabilities, triaging package-manager audit findings, or assessing supply-chain risk in a new package. Use when personal data or privacy compliance (GDPR, CCPA) is involved.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-shipping-and-launch",
+      "relative_path": "skills/addy-shipping-and-launch/SKILL.md",
+      "trigger_description": "Prepares production launches. Use when preparing to deploy to production, or when asking what needs to be in place before shipping. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-source-driven-development",
+      "relative_path": "skills/addy-source-driven-development/SKILL.md",
+      "trigger_description": "Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-spec-driven-development",
+      "relative_path": "skills/addy-spec-driven-development/SKILL.md",
+      "trigger_description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when drafting a PRD or requirements document with objectives and scope, or when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requirement spans several independently testable capabilities and needs decomposing into a capability map of modules before specifying.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-test-driven-development",
+      "relative_path": "skills/addy-test-driven-development/SKILL.md",
+      "trigger_description": "Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality. Use when asked to add tests to a function, fix a bug in it or change its behavior, even when the code is pasted inline and the request does not mention tests.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "addy-using-agent-skills",
+      "relative_path": "skills/addy-using-agent-skills/SKILL.md",
+      "trigger_description": "Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow applies to the piece of work at hand. This is the meta-skill that governs how all other skills are discovered and invoked.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "agent-code-reviewer",
+      "relative_path": "skills/agent-code-reviewer/SKILL.md",
+      "trigger_description": "Senior code reviewer that evaluates changes across five dimensions — correctness, readability, architecture, security, and performance. Use for thorough code review before merge.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "agent-security-auditor",
+      "relative_path": "skills/agent-security-auditor/SKILL.md",
+      "trigger_description": "Security engineer focused on vulnerability detection, threat modeling, and secure coding practices. Use for security-focused code review, threat analysis, or hardening recommendations.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "agent-test-engineer",
+      "relative_path": "skills/agent-test-engineer/SKILL.md",
+      "trigger_description": "QA engineer specialized in test strategy, test writing, and coverage analysis. Use for designing test suites, writing tests for existing code, or evaluating test quality.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "agent-web-performance-auditor",
+      "relative_path": "skills/agent-web-performance-auditor/SKILL.md",
+      "trigger_description": "Web performance engineer focused on Core Web Vitals, loading, rendering, and network optimization. Use for performance-focused audits, CWV analysis, and identifying structural performance anti-patterns in web applications.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "ai-coding-router",
+      "relative_path": "skills/ai-coding-router/SKILL.md",
+      "trigger_description": "Định tuyến yêu cầu phát triển phần mềm đến bộ 40 kỹ năng kỹ thuật và 4 vai trò kiểm định mã; trình bày bằng tiếng Việt.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "ai-coding-setup",
+      "relative_path": "skills/ai-coding-setup/SKILL.md",
+      "trigger_description": "Thiết lập cách sử dụng bộ AI Coding kỹ năng và vai trò trong ChatGPT hoặc Codex.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-brainstorming",
+      "relative_path": "skills/super-brainstorming/SKILL.md",
+      "trigger_description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-diagnosing-superpowers",
+      "relative_path": "skills/super-diagnosing-superpowers/SKILL.md",
+      "trigger_description": "Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too long\", \"why is it so expensive\", \"what is it doing\" — or wants to build a bug report for the superpowers maintainers, for the current session or a past one identified by id or path, on any harness.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-dispatching-parallel-agents",
+      "relative_path": "skills/super-dispatching-parallel-agents/SKILL.md",
+      "trigger_description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-executing-plans",
+      "relative_path": "skills/super-executing-plans/SKILL.md",
+      "trigger_description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-finishing-a-development-branch",
+      "relative_path": "skills/super-finishing-a-development-branch/SKILL.md",
+      "trigger_description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-receiving-code-review",
+      "relative_path": "skills/super-receiving-code-review/SKILL.md",
+      "trigger_description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-requesting-code-review",
+      "relative_path": "skills/super-requesting-code-review/SKILL.md",
+      "trigger_description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-subagent-driven-development",
+      "relative_path": "skills/super-subagent-driven-development/SKILL.md",
+      "trigger_description": "Use when executing implementation plans with independent tasks in the current session",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-systematic-debugging",
+      "relative_path": "skills/super-systematic-debugging/SKILL.md",
+      "trigger_description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-test-driven-development",
+      "relative_path": "skills/super-test-driven-development/SKILL.md",
+      "trigger_description": "Use when implementing any feature or bugfix, before writing implementation code",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-using-git-worktrees",
+      "relative_path": "skills/super-using-git-worktrees/SKILL.md",
+      "trigger_description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-using-superpowers",
+      "relative_path": "skills/super-using-superpowers/SKILL.md",
+      "trigger_description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-verification-before-completion",
+      "relative_path": "skills/super-verification-before-completion/SKILL.md",
+      "trigger_description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-writing-plans",
+      "relative_path": "skills/super-writing-plans/SKILL.md",
+      "trigger_description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-coding-vietnamese-kit",
+      "skill": "super-writing-skills",
+      "relative_path": "skills/super-writing-skills/SKILL.md",
+      "trigger_description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-promo-video-maker-vn",
+      "skill": "ai-promo-video-maker-vn",
+      "relative_path": "skills/ai-promo-video-maker-vn/SKILL.md",
+      "trigger_description": "Điều phối video quảng bá sản phẩm, website, ứng dụng, khóa học qua kịch bản, kiểm chứng nguồn, storyboard, ảnh chụp giao diện thật, Remotion, giọng đọc, phụ đề, QC và video 4K/9:16. Skill hướng dẫn không tự render.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "ai-tool-manager-vn",
+      "skill": "ai-tool-manager",
+      "relative_path": "skills/ai-tool-manager/SKILL.md",
+      "trigger_description": "Dùng khi người dùng muốn tìm, cài, kích hoạt, kiểm tra, chuyển đổi, đóng gói, tích hợp hoặc nâng cấp Skill, Plugin, AI Agent, Workflow, MCP, GitHub repository, mã nguồn, API, ứng dụng, prompt, template hay công cụ bất kỳ vào ChatGPT.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "anything2explainer-vn-guidance",
+      "skill": "anything2explainer-vn",
+      "relative_path": "skills/anything2explainer-vn/SKILL.md",
+      "trigger_description": "Bộ hướng dẫn tiếng Việt cho quy trình video thuyết minh dựa trên dự án anything2explainer của Vincentwei1021: nghiên cứu, kịch bản, TTS, storyboard, Remotion, kiểm tra chất lượng; bắt buộc kiểm tra giấy phép trước khi dùng engine gốc.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "channel-growth-agent-vn",
+      "skill": "channel-analytics",
+      "relative_path": "skills/channel-analytics/SKILL.md",
+      "trigger_description": "Phân tích dữ liệu kênh và thử nghiệm tăng trưởng với mẫu số, thời gian và quy gán rõ ràng; không tự có quyền truy cập analytics.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "channel-growth-agent-vn",
+      "skill": "channel-growth-agent",
+      "relative_path": "skills/channel-growth-agent/SKILL.md",
+      "trigger_description": "Dùng khi cần AI Agent xây kênh, tìm video outlier, chấm hook, viết kịch bản, dựng video ngắn/dài, tạo phụ đề, xuất MP4 qua các dịch vụ video đã kết nối và phân tích hiệu suất sáu nền tảng; ưu tiên Tò Mò Lab.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "channel-growth-agent-vn",
+      "skill": "channel-monetization",
+      "relative_path": "skills/channel-monetization/SKILL.md",
+      "trigger_description": "Thiết kế và kiểm tra thử nghiệm tạo thu nhập qua nội dung, dịch vụ, sản phẩm hoặc hợp tác dựa trên năng lực và dữ liệu thực.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "channel-growth-agent-vn",
+      "skill": "channel-operations",
+      "relative_path": "skills/channel-operations/SKILL.md",
+      "trigger_description": "Tổ chức lịch sản xuất, hàng đợi nội dung, phản hồi cộng đồng và bàn giao đăng bài có trạng thái kiểm chứng.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "channel-growth-agent-vn",
+      "skill": "channel-packaging",
+      "relative_path": "skills/channel-packaging/SKILL.md",
+      "trigger_description": "Thiết kế gói tiêu đề–thumbnail–mở đầu đồng nhất với nội dung video, hỗ trợ thử nghiệm có kiểm soát.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "channel-growth-agent-vn",
+      "skill": "channel-positioning",
+      "relative_path": "skills/channel-positioning/SKILL.md",
+      "trigger_description": "Xác định khán giả, lời hứa và định dạng lặp lại cho kênh mới hoặc cần đổi định vị; không tự đổi tên hay thông tin tài khoản.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "channel-growth-agent-vn",
+      "skill": "channel-research",
+      "relative_path": "skills/channel-research/SKILL.md",
+      "trigger_description": "Tìm câu hỏi khán giả, chủ đề và video nổi bật có bằng chứng để xây kênh; phân biệt mẫu tham khảo với dự báo tăng trưởng.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "channel-growth-agent-vn",
+      "skill": "channel-retention",
+      "relative_path": "skills/channel-retention/SKILL.md",
+      "trigger_description": "Phân tích biểu đồ giữ chân, transcript hoặc video để tìm đoạn cần cải thiện; khi không có analytics chỉ đánh giá biên tập.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "channel-growth-agent-vn",
+      "skill": "channel-video-production",
+      "relative_path": "skills/channel-video-production/SKILL.md",
+      "trigger_description": "Kích hoạt khi người dùng yêu cầu Xây Kênh hoặc Tò Mò Lab dựng/xuất MP4 hoàn chỉnh, video dài 3–15 phút, video Shorts/Reels 45–90 giây, lồng giọng đọc Adam có quyền sử dụng, nhạc nền, phụ đề SRT, đồng bộ hoặc kiểm tra chất lượng video.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "channel-growth-agent-vn",
+      "skill": "free-voiceover",
+      "relative_path": "skills/free-voiceover/SKILL.md",
+      "trigger_description": "Dùng khi cần giọng đọc miễn phí chạy tại máy, tạo tiếng Việt từ văn bản, clone giọng từ file được phép, hoặc nhà cung cấp trả phí hết credits.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "channel-growth-agent-vn",
+      "skill": "voice-selection",
+      "relative_path": "skills/voice-selection/SKILL.md",
+      "trigger_description": "Dùng khi cần chọn giữa VieNeu, VoxCPM2, Chatterbox, OpenVoice V2, Qwen3-TTS, F5-TTS hoặc so sánh file giọng đọc A/B để chọn bản phù hợp.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "ad-creative",
+      "relative_path": "skills/ad-creative/SKILL.md",
+      "trigger_description": "Dùng khi cần tạo hoặc cải tiến biến thể nội dung quảng cáo trả phí theo nền tảng, định dạng và dữ liệu hiệu suất.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "audience-research",
+      "relative_path": "skills/audience-research/SKILL.md",
+      "trigger_description": "Nghiên cứu nhu cầu, ngôn ngữ và băn khoăn của khách hàng từ nguồn được phép truy cập để tạo brief nội dung. Không thay thế dữ liệu thật bằng persona tưởng tượng.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "brand-voice",
+      "relative_path": "skills/brand-voice/SKILL.md",
+      "trigger_description": "Xây dựng hoặc hiệu chỉnh giọng thương hiệu tiếng Việt từ mẫu viết và sở thích đã xác nhận; dùng khi cần tính nhất quán giữa nhiều nội dung.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "campaign-planning",
+      "relative_path": "skills/campaign-planning/SKILL.md",
+      "trigger_description": "Thiết kế chiến dịch nội dung có mục tiêu, thời hạn và nhiều đầu ra liên quan, cân đối năng lực sản xuất và kế hoạch đo lường.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "content-orchestrator",
+      "relative_path": "skills/content-orchestrator/SKILL.md",
+      "trigger_description": "Điều phối chiến dịch nội dung nhiều bước hoặc nhiều định dạng từ nghiên cứu đến đo lường. Dùng khi cần quy trình tổng thể; một bài riêng lẻ dùng skill viết tương ứng.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "content-performance",
+      "relative_path": "skills/content-performance/SKILL.md",
+      "trigger_description": "Phân tích số liệu nội dung được cung cấp hoặc truy xuất hợp lệ, tìm hướng thử tiếp theo và tránh so sánh sai mẫu số, thời gian hoặc nền tảng.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "content-repurposing",
+      "relative_path": "skills/content-repurposing/SKILL.md",
+      "trigger_description": "Chuyển bài viết, transcript hoặc tư liệu có sẵn thành nhiều định dạng nội dung, giữ nguồn gốc và sự thật xuyên suốt.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "content-strategy",
+      "relative_path": "skills/content-strategy/SKILL.md",
+      "trigger_description": "Dùng khi cần xác định nên làm nội dung gì, cho ai, theo mục tiêu nào và ưu tiên chủ đề ra sao.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "copy-editing",
+      "relative_path": "skills/copy-editing/SKILL.md",
+      "trigger_description": "Dùng khi đã có bản nháp cần rà lỗi, làm rõ, giữ giọng văn hoặc cập nhật nội dung cũ.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "copywriting",
+      "relative_path": "skills/copywriting/SKILL.md",
+      "trigger_description": "Dùng khi cần viết thông điệp marketing mới cho trang sản phẩm, trang giới thiệu, landing page hoặc nội dung bán hàng.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "free-voiceover",
+      "relative_path": "skills/free-voiceover/SKILL.md",
+      "trigger_description": "Dùng khi cần giọng đọc miễn phí chạy tại máy, tạo tiếng Việt từ văn bản, clone giọng từ file được phép, hoặc nhà cung cấp trả phí hết credits.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "product-storytelling",
+      "relative_path": "skills/product-storytelling/SKILL.md",
+      "trigger_description": "Viết câu chuyện và nội dung giới thiệu sản phẩm địa phương từ xuất xứ, quy trình và bằng chứng đã xác nhận, phù hợp thử bán online.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "seo-audit",
+      "relative_path": "skills/seo-audit/SKILL.md",
+      "trigger_description": "Dùng khi cần rà soát SEO cho website/trang đã tồn tại và có thể truy cập hoặc có dữ liệu kiểm tra.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "social",
+      "relative_path": "skills/social/SKILL.md",
+      "trigger_description": "Dùng khi cần viết, lên kế hoạch hoặc tái sử dụng bài đăng và kịch bản nội dung mạng xã hội.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "video",
+      "relative_path": "skills/video/SKILL.md",
+      "trigger_description": "Dùng khi cần ý tưởng, cấu trúc, lời thoại, danh sách cảnh quay hoặc phương án sản xuất video marketing.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "content-ai-vietnam",
+      "skill": "voice-selection",
+      "relative_path": "skills/voice-selection/SKILL.md",
+      "trigger_description": "Dùng khi cần chọn giữa VieNeu, VoxCPM2, Chatterbox, OpenVoice V2, Qwen3-TTS, F5-TTS hoặc so sánh file giọng đọc A/B để chọn bản phù hợp.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-ai-ebook-library",
+      "skill": "ebook-library",
+      "relative_path": "skills/ebook-library/SKILL.md",
+      "trigger_description": "Hỗ trợ người dùng tìm sách Google Books, xem danh mục ebook đã tải lên Google Play Sách, quản lý thư viện EPUB/PDF cục bộ, đọc sách, đánh dấu tiến độ và học tập từ tài liệu có quyền truy cập.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "adu-motion-video-vn",
+      "relative_path": "skills/adu-motion-video-vn/SKILL.md",
+      "trigger_description": "Hướng dẫn tiếng Việt dùng adunext/adu-motion-video và định dạng MotionGit .motion để tạo video đồ họa chuyển động có lời đọc, phụ đề, xuất MP4 và dự án có thể chỉnh sửa; chỉ triển khai runtime khi có quyền thực thi và đã kiểm tra giấy phép từng template.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "agent-workflow-16-cluster-bridge",
+      "relative_path": "skills/agent-workflow-16-cluster-bridge/SKILL.md",
+      "trigger_description": "Định tuyến 128 Agent Role, 16 workflow bản thiết kế và 181 Skill nguồn vào 16 cụm gốc; bản 16.0.41 có hợp đồng kiểm thử ngoại tuyến và cổng quyền mặc định đóng.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "api-contract-compatibility-testing-vn",
+      "relative_path": "skills/api-contract-compatibility-testing-vn/SKILL.md",
+      "trigger_description": "Dùng khi cần xây ma trận kiểm thử tương thích contract API giữa provider và consumer, kiểm tra null, enum, lỗi và phiên bản wire-level từ đặc tả và mã thực tế, không thay thế skill thiết kế API.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "architecture-documentation-arc42-vn",
+      "relative_path": "skills/architecture-documentation-arc42-vn/SKILL.md",
+      "trigger_description": "Lập hồ sơ kiến trúc phần mềm có cấu trúc cho hệ thống mới hoặc hiện hữu; tổ chức bằng chứng, quyết định, luồng chạy, triển khai, chất lượng và rủi ro theo arc42.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "architecture-quality-requirements-vn",
+      "relative_path": "skills/architecture-quality-requirements-vn/SKILL.md",
+      "trigger_description": "Soạn yêu cầu chất lượng kiến trúc phần mềm có tiêu chí chấp nhận kiểm chứng được; dùng khi cần xác định điều kiện về hiệu năng, độ tin cậy, bảo mật, khả năng vận hành, quyền riêng tư hoặc thuộc tính chất lượng khác. Phân biệt ví dụ minh họa với yêu cầu dự án có tính ràng buộc.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "architecture-technology-evaluation-vn",
+      "relative_path": "skills/architecture-technology-evaluation-vn/SKILL.md",
+      "trigger_description": "Đánh giá và chọn stack công nghệ cho hệ thống bằng ma trận 12 tiêu chí có trọng số, kịch bản chất lượng và ATAM; dùng khi cần so sánh ít nhất hai phương án trước khi lập ADR, không cài hoặc gọi CLI ANWS.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "auto-evolution-mvp",
+      "relative_path": "skills/auto-evolution-mvp/SKILL.md",
+      "trigger_description": "Use when the user asks HoangPhuong Core to inventory Skills, diagnose gaps, propose verifiable improvements, create safe local patches, audit versions, or plan controlled Auto-Evolution and rollback.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "chidao",
+      "relative_path": "skills/chidao/SKILL.md",
+      "trigger_description": "Siêu quy chuẩn Điều phối Đa Mô hình Đa Lĩnh Vực (/chidao) tinh gọn tối thượng - Bộ lọc phân loại độ phức tạp thích ứng, mô hình phẳng 2 cấp, Neo Hồng Tâm, tác chiến câm lặng và Thiết luật Zero-Delegation.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "claude-code-video-toolkit-vn",
+      "relative_path": "skills/claude-code-video-toolkit-vn/SKILL.md",
+      "trigger_description": "Skill tham chiếu tiếng Việt cho wilwaldon/Claude-Code-Video-Toolkit; lập kế hoạch video Remotion/Manim, quay màn hình, phụ đề và FFmpeg. Chỉ tham chiếu nguồn và điều phối; không chứa engine hay cài phụ thuộc.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-01-software-engineering",
+      "relative_path": "skills/cluster-skill-01-software-engineering/SKILL.md",
+      "trigger_description": "Skill bổ sung về kỹ thuật phần mềm cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-02-automation-devops",
+      "relative_path": "skills/cluster-skill-02-automation-devops/SKILL.md",
+      "trigger_description": "Skill bổ sung về tự động hóa và devops cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-03-data-analytics",
+      "relative_path": "skills/cluster-skill-03-data-analytics/SKILL.md",
+      "trigger_description": "Skill bổ sung về phân tích dữ liệu cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-04-digital-marketing-seo",
+      "relative_path": "skills/cluster-skill-04-digital-marketing-seo/SKILL.md",
+      "trigger_description": "Skill bổ sung về marketing và seo cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-05-content-media",
+      "relative_path": "skills/cluster-skill-05-content-media/SKILL.md",
+      "trigger_description": "Skill bổ sung về nội dung và video ai cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-06-social-growth",
+      "relative_path": "skills/cluster-skill-06-social-growth/SKILL.md",
+      "trigger_description": "Skill bổ sung về mạng xã hội và tăng trưởng cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-07-sales-ecommerce",
+      "relative_path": "skills/cluster-skill-07-sales-ecommerce/SKILL.md",
+      "trigger_description": "Skill bổ sung về bán hàng và thương mại điện tử cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-08-customer-support-rag",
+      "relative_path": "skills/cluster-skill-08-customer-support-rag/SKILL.md",
+      "trigger_description": "Skill bổ sung về cskh và rag cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-09-operations-hr",
+      "relative_path": "skills/cluster-skill-09-operations-hr/SKILL.md",
+      "trigger_description": "Skill bổ sung về vận hành và nhân sự cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-10-accounting-audit",
+      "relative_path": "skills/cluster-skill-10-accounting-audit/SKILL.md",
+      "trigger_description": "Skill bổ sung về kế toán và kiểm toán cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-11-smart-agriculture",
+      "relative_path": "skills/cluster-skill-11-smart-agriculture/SKILL.md",
+      "trigger_description": "Skill bổ sung về nông nghiệp thông minh cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-12-supply-chain",
+      "relative_path": "skills/cluster-skill-12-supply-chain/SKILL.md",
+      "trigger_description": "Skill bổ sung về tối ưu chuỗi cung ứng cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-13-business-strategy",
+      "relative_path": "skills/cluster-skill-13-business-strategy/SKILL.md",
+      "trigger_description": "Skill bổ sung về chiến lược kinh doanh cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-14-investment-research",
+      "relative_path": "skills/cluster-skill-14-investment-research/SKILL.md",
+      "trigger_description": "Skill bổ sung về nghiên cứu đầu tư cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-15-research-education",
+      "relative_path": "skills/cluster-skill-15-research-education/SKILL.md",
+      "trigger_description": "Skill bổ sung về nghiên cứu và giáo dục cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "cluster-skill-16-legal-compliance",
+      "relative_path": "skills/cluster-skill-16-legal-compliance/SKILL.md",
+      "trigger_description": "Skill bổ sung về pháp lý và tuân thủ cho Hoàng Phương Supercomputing Core; kích hoạt khi nhiệm vụ thuộc lĩnh vực này.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "core-16-cluster-router",
+      "relative_path": "skills/core-16-cluster-router/SKILL.md",
+      "trigger_description": "Định tuyến Skill/Agent/Plugin/Workflow mới vào 16 cụm chức năng Hoàng Phương Core, kiểm kê 24 Skill/cụm; không tự cài mã GitHub chưa kiểm toán.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "core-chidao-auto-router",
+      "relative_path": "skills/core-chidao-auto-router/SKILL.md",
+      "trigger_description": "Kích hoạt đồng thời hoangphuong-v16-active và chidao khi người dùng gọi @hoangphuong-supercomputing-core hoặc mở Core qua liên kết; điều phối nhiệm vụ mà không cần gõ /chidao.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "explainer-studio-vn",
+      "relative_path": "skills/explainer-studio-vn/SKILL.md",
+      "trigger_description": "Hướng dẫn tiếng Việt dùng reedodev/explainer-studio để lập storyboard có nguồn, chọn 8 phong cách đồ họa vẽ tay, dựng MP4/SRT bằng Node.js và FFmpeg; chỉ sử dụng engine khi có môi trường thực thi được phép.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "external-capability-bridge",
+      "relative_path": "skills/external-capability-bridge/SKILL.md",
+      "trigger_description": "Định tuyến 181 Skill ngoài Core và 14 plugin cá nhân vào 16 cụm theo chức năng, dùng cầu liên kết federated không xóa hay sao chép plugin nguồn.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github-repo-intake-vn",
+      "relative_path": "skills/github-repo-intake-vn/SKILL.md",
+      "trigger_description": "Dùng khi cần tiếp nhận, tải và phân loại repository GitHub vào 16 cụm HoangPhuong Core, phát hiện trùng nguồn, xem xét thay thế và kiểm toán an toàn trước khi cài.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github-scientific-appraisal-vn",
+      "relative_path": "skills/github-scientific-appraisal-vn/SKILL.md",
+      "trigger_description": "Dùng khi cần phản biện tính hợp lệ của nghiên cứu, đánh giá rủi ro sai lệch, yếu tố gây nhiễu, suy luận nhân quả, độ chắc chắn và nguồn bằng chứng; không dùng để chấm điểm tự động thay chuyên gia.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-ab-testing",
+      "relative_path": "skills/github500-ab-testing/SKILL.md",
+      "trigger_description": "Dùng để thiết kế thí nghiệm A/B có đối chứng trong marketing, nội dung, UX, tăng trưởng; xác định giả thuyết, thước đo, chia nhóm và dừng thử nghiệm an toàn.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-agent-evaluation",
+      "relative_path": "skills/github500-agent-evaluation/SKILL.md",
+      "trigger_description": "Dùng khi thiết kế benchmark, đánh giá chất lượng trả lời của AI Agent, kiểm thử đối chứng, rubric độc lập và quy trình cải tiến có bằng chứng.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-agent-governance",
+      "relative_path": "skills/github500-agent-governance/SKILL.md",
+      "trigger_description": "Dùng để quản trị quyền, phê duyệt thao tác và kiểm toán khi AI Agent cần truy cập công cụ, dữ liệu hoặc phối hợp nhiều agent.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-agent-supply-chain",
+      "relative_path": "skills/github500-agent-supply-chain/SKILL.md",
+      "trigger_description": "Dùng để đánh giá nguy cơ phụ thuộc và tính nguyên vẹn của gói Skill/Plugin/Agent, tạo hoặc kiểm tra manifest SHA-256 offline khi được phép, trước khi tích hợp GitHub repo.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-architecture-blueprint",
+      "relative_path": "skills/github500-architecture-blueprint/SKILL.md",
+      "trigger_description": "Dùng khi nghiên cứu codebase và lập sơ đồ, ranh giới module, API, luồng dữ liệu và phương án mở rộng kiến trúc phần mềm.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-citation-verification",
+      "relative_path": "skills/github500-citation-verification/SKILL.md",
+      "trigger_description": "Dùng khi xác minh trích dẫn học thuật, DOI, PMID, tác giả, năm, bài báo và xây tài liệu tham khảo có nguồn đối chiếu.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-command-library",
+      "relative_path": "skills/github500-command-library/SKILL.md",
+      "trigger_description": "Dùng khi tra cứu hoặc gợi ý các câu lệnh chat AI được khai báo với tiền tố /gh500-, tránh trùng bộ 108 mã học tập và định tuyến tới các Skill đã cài.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-competitor-analysis",
+      "relative_path": "skills/github500-competitor-analysis/SKILL.md",
+      "trigger_description": "Dùng khi phân tích đối thủ theo nguồn công khai, so sánh giá, định vị, SEO, trải nghiệm khách hàng hoặc nội dung mà không bịa số liệu.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-experimental-design",
+      "relative_path": "skills/github500-experimental-design/SKILL.md",
+      "trigger_description": "Dùng khi cần thiết kế thực nghiệm khoa học, nghiên cứu nông nghiệp, sản xuất hoặc sản phẩm với randomization, replication, blocking, DOE và đánh giá sai lệch; không thay thế giám sát chuyên môn.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-exploratory-data",
+      "relative_path": "skills/github500-exploratory-data/SKILL.md",
+      "trigger_description": "Dùng để phân tích khám phá dữ liệu khoa học hoặc kinh doanh, rà soát missingness, leakage, outlier và tính hợp lệ của thống kê.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-hypothesis-research",
+      "relative_path": "skills/github500-hypothesis-research/SKILL.md",
+      "trigger_description": "Dùng khi xây giả thuyết khoa học có khả năng bác bỏ, thiết kế phép thử đối chứng và phân biệt dự đoán với chứng cứ.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-lab-cad-planning",
+      "relative_path": "skills/github500-lab-cad-planning/SKILL.md",
+      "trigger_description": "Dùng để thiết kế thông số và kiểm tra dung sai của phụ kiện in 3D, jig, giá đỡ, adapter hoặc thiết bị phòng thí nghiệm trước khi tạo STL.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-prompt-refiner",
+      "relative_path": "skills/github500-prompt-refiner/SKILL.md",
+      "trigger_description": "Dùng để chuyển ý tưởng, yêu cầu ngắn hoặc prompt chưa rõ thành prompt có cấu trúc, đầu ra, giới hạn và tiêu chuẩn nghiệm thu.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-prompt-safety",
+      "relative_path": "skills/github500-prompt-safety/SKILL.md",
+      "trigger_description": "Dùng để rà soát, cải thiện prompt ChatGPT, phát hiện prompt injection, rò rỉ dữ liệu, sai phạm quyền và rủi ro thiên lệch.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-research",
+      "relative_path": "skills/github500-research/SKILL.md",
+      "trigger_description": "Dùng để tra cứu, phân loại, kiểm tra giấy phép, đánh giá và đề xuất tích hợp repository GitHub đa lĩnh vực vào Hoangphuong Supercomputing Core. Catalog 500 repo là kết quả khám phá, chưa phải 500 bản cài; không tự chạy script bên ngoài.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "github500-workflow-design",
+      "relative_path": "skills/github500-workflow-design/SKILL.md",
+      "trigger_description": "Dùng khi người dùng muốn biến tác vụ lặp lại hoặc video thao tác thành bản thiết kế workflow tự động hóa n8n, Make, Python hay công cụ được kết nối.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "hbg-life-simulation-vn",
+      "relative_path": "skills/hbg-life-simulation-vn/SKILL.md",
+      "trigger_description": "Hướng dẫn dựng video kể chuyện cuộc đời theo HBG Life Simulation; quản lý IP nhân vật, storyboard, Edge TTS, HyperFrames, QA và bản quyền. Không tự khởi động local API, OAuth hay sử dụng tài khoản.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "hoangphuong-core-v160-reference",
+      "relative_path": "skills/hoangphuong-core-v160-reference/SKILL.md",
+      "trigger_description": "Hoàng Phương Core v16.0 optional local-only reference prototype. Use for safe architecture, offline test, audit and integration plans; legacy 15.1.3 untouched.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "hoangphuong-supercomputing-core",
+      "relative_path": "skills/hoangphuong-supercomputing-core/SKILL.md",
+      "trigger_description": "Historical offline reference for Hoàng Phương Supercomputing Core v15.1.3; the active Core Skill is $hoangphuong-v16-active. Preserve the legacy material without treating this document as the current release.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "hoangphuong-v16-active",
+      "relative_path": "skills/hoangphuong-v16-active/SKILL.md",
+      "trigger_description": "Dùng mặc định khi gọi @hoangphuong-supercomputing-core, yêu cầu kích hoạt Core v16, thiết kế kiến trúc, lập trình, kiểm thử, phản biện Socratic, nghiên cứu có nguồn hoặc điều phối Skill/Agent của Hoàng Phương; ưu tiên các tác vụ có thể kiểm chứng.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "hoangphuong",
+      "relative_path": "skills/hoangphuong/SKILL.md",
+      "trigger_description": "Dùng khi người dùng gọi @hoangphuong, cần điều phối công việc phức tạp, thiết kế quy trình hoặc tạo plugin/tool.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "hp-hpc-mpi-guidance",
+      "relative_path": "skills/hp-hpc-mpi-guidance/SKILL.md",
+      "trigger_description": "Hướng dẫn MPI cho Hoàng Phương Core; chỉ phân tích, thiết kế và tạo ví dụ an toàn khi được yêu cầu.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "hp-hpc-slurm-guidance",
+      "relative_path": "skills/hp-hpc-slurm-guidance/SKILL.md",
+      "trigger_description": "Hướng dẫn Slurm cho Hoàng Phương Core; chỉ phân tích, thiết kế và tạo ví dụ an toàn khi được yêu cầu.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "hp-quantum-qiskit-guidance",
+      "relative_path": "skills/hp-quantum-qiskit-guidance/SKILL.md",
+      "trigger_description": "Hướng dẫn Qiskit cho Hoàng Phương Core; chỉ phân tích, thiết kế và tạo ví dụ an toàn khi được yêu cầu.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "hyperframes-community-adapter",
+      "relative_path": "skills/hyperframes-community-adapter/SKILL.md",
+      "trigger_description": "Dùng khi người dùng muốn bổ sung hiệu ứng hoặc workflow từ bộ community skills của HyperFrames vào hệ thống dựng video.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "hyperframes-core-adapter",
+      "relative_path": "skills/hyperframes-core-adapter/SKILL.md",
+      "trigger_description": "Dùng khi người dùng gọi Hoàng Phương Core để thiết kế, sửa, kiểm thử, dựng hoặc xuất video bằng HyperFrames, gồm Shorts/Reels 9:16 và video giáo dục.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "literature-review-vn",
+      "relative_path": "skills/literature-review-vn/SKILL.md",
+      "trigger_description": "Dùng khi cần tìm và tổng hợp tài liệu khoa học: xác định bài nền tảng, so sánh phương pháp/kết quả, đánh giá đồng thuận và tranh luận, kiểm tra khoảng trống, hoặc viết tổng quan có liên kết nguồn.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "marketingtongluc",
+      "relative_path": "skills/marketingtongluc/SKILL.md",
+      "trigger_description": "Dùng khi gọi @marketingtongluc hoặc cần SEO, landing page, AIDA/PAS, biến thể quảng cáo và rà soát chính sách.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "microsoft-autogen-adapter",
+      "relative_path": "skills/microsoft-autogen-adapter/SKILL.md",
+      "trigger_description": "Dùng khi tích hợp hoặc kiểm thử Microsoft AutoGen, AgentChat, AutoGen Core, AutoGen Studio hoặc AutoGen Bench trong Hoàng Phương Core.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "ml-system-architecture-vn",
+      "relative_path": "skills/ml-system-architecture-vn/SKILL.md",
+      "trigger_description": "Thiết kế hoặc rà soát kiến trúc hệ thống có mô hình machine learning trong luồng sản phẩm; bao quát dữ liệu, đặc trưng, huấn luyện, phục vụ, đánh giá và vận hành.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "motion-design-skills-adapter",
+      "relative_path": "skills/motion-design-skills-adapter/SKILL.md",
+      "trigger_description": "Dùng khi muốn chọn workflow đồ họa chuyển động, tối ưu motion UI/video, QA hiệu ứng hoặc kết hợp GSAP, Lottie, Rive với Remotion.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "music-ai-render-bridge-vn",
+      "relative_path": "skills/music-ai-render-bridge-vn/SKILL.md",
+      "trigger_description": "Định tuyến tạo nhạc/giọng hát MP3 qua nhà cung cấp được cấp quyền, kiểm soát credit và prompt; Runway generate_music nếu kết nối, Suno/Udio nếu có quyền chính thức; Cụm 13, phối hợp Cụm 08.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "music-midi-arrangement-vn",
+      "relative_path": "skills/music-midi-arrangement-vn/SKILL.md",
+      "trigger_description": "Tạo MIDI Standard MIDI File và bản nhạc MusicXML không cần API/trả phí từ dữ liệu nốt/hợp âm do người dùng cung cấp hoặc được sáng tác; tương thích nhập vào DAW/MuseScore. Cụm 13.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "music-quality-audit-vn",
+      "relative_path": "skills/music-quality-audit-vn/SKILL.md",
+      "trigger_description": "Rà soát bản quyền, phát âm tiếng Việt, quyền giọng hát, cấu trúc, metadata và tiêu chuẩn kiểm tra file MP3/Audio sáng tác; Cụm 13 + kiểm định Cụm 16.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "music-songwriting-vn",
+      "relative_path": "skills/music-songwriting-vn/SKILL.md",
+      "trigger_description": "Sáng tác ca khúc, viết lời nguyên bản, cấu trúc verse/chorus/bridge, hợp âm, giai điệu bằng nốt và xây bản thông số sản xuất âm nhạc tiếng Việt; Cụm 13 Hoàng Phương Core.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "nango-core-adapter",
+      "relative_path": "skills/nango-core-adapter/SKILL.md",
+      "trigger_description": "Định tuyến tác vụ OAuth, API gateway, Nango Management MCP, Nango runtime MCP, integrations, API proxy hoặc kết nối AI Agent qua Nango từ Hoangphuong Supercomputing Core; cần quyền và xác thực độc lập.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "opencode-agent-adapter",
+      "relative_path": "skills/opencode-agent-adapter/SKILL.md",
+      "trigger_description": "Dùng khi Hoàng Phương Core cần phối hợp OpenCode để lập trình, sửa lỗi, review repo hoặc gợi ý cài agent lập trình vào máy tính.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "openmontage-video-adapter",
+      "relative_path": "skills/openmontage-video-adapter/SKILL.md",
+      "trigger_description": "Dùng khi yêu cầu sản xuất video nhiều công đoạn bằng OpenMontage, lựa chọn pipeline, kiểm soát ngân sách và kiểm thử video đầu ra.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "opus55-video-references-adapter",
+      "relative_path": "skills/opus55-video-references-adapter/SKILL.md",
+      "trigger_description": "Dùng khi người dùng muốn tham khảo ý tưởng video, phân tích phong cách, học prompt dựng clip hoặc mô phỏng kỹ thuật từ danh mục awesome-opus5-5-videos.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "phantichdautu",
+      "relative_path": "skills/phantichdautu/SKILL.md",
+      "trigger_description": "Dùng khi gọi @phantichdautu hoặc cần phân tích tài chính, tài sản, danh mục, Bull/Bear và rủi ro.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "phattrienungdung",
+      "relative_path": "skills/phattrienungdung/SKILL.md",
+      "trigger_description": "Dùng khi gọi @phattrienungdung hoặc cần kiến trúc hệ thống, Fullstack, Three.js/WebGL, tích hợp API AI.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "remotion-agent-skills-adapter",
+      "relative_path": "skills/remotion-agent-skills-adapter/SKILL.md",
+      "trigger_description": "Dùng khi user yêu cầu thiết kế video bằng Remotion/React, xuất video qua Remotion, hoặc chuyển dự án giữa HyperFrames và Remotion.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "research-grant-proposal-vn",
+      "relative_path": "skills/research-grant-proposal-vn/SKILL.md",
+      "trigger_description": "Dùng khi Hoàng Phương cần xác định yêu cầu tài trợ, lập đề cương đề xuất nghiên cứu hoặc rà soát hồ sơ theo thể lệ và tiêu chí của chương trình cụ thể.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "research-question-refiner-vn",
+      "relative_path": "skills/research-question-refiner-vn/SKILL.md",
+      "trigger_description": "Chuyển chủ đề nghiên cứu còn rộng thành một nhóm câu hỏi cụ thể, có thể trả lời, khả thi và có ý nghĩa; dùng trước giai đoạn giả thuyết hoặc thiết kế nghiên cứu. Cần tra cứu nguồn để nhận định độ mới; không thay thế khảo cứu văn liệu toàn diện hoặc viết đề cương xin tài trợ.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "revidapi-reup-video-vn",
+      "relative_path": "skills/revidapi-reup-video-vn/SKILL.md",
+      "trigger_description": "Adapter an toàn cho RevidAPI Reup Video: phân tích nội dung được cấp quyền và dựng MP4 offline qua FFmpeg; tích hợp HoangPhuong Core Cụm 05, không tự phát sinh credit.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "reworkd-agentgpt-adapter",
+      "relative_path": "skills/reworkd-agentgpt-adapter/SKILL.md",
+      "trigger_description": "Dùng khi tích hợp, phân tích hoặc thử nghiệm ứng dụng AgentGPT của Reworkd cho tác vụ AI Agent tự chủ trên trình duyệt.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "sanxuatnoidung",
+      "relative_path": "skills/sanxuatnoidung/SKILL.md",
+      "trigger_description": "Dùng khi gọi @sanxuatnoidung hoặc cần ý tưởng, kịch bản video, bài Facebook, carousel và biên tập văn phong.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "schematic-figure-design-vn",
+      "relative_path": "skills/schematic-figure-design-vn/SKILL.md",
+      "trigger_description": "Lập thiết kế sơ đồ khoa học về cơ chế, thiết bị, quy trình hoặc tổng quan bằng brief, bố cục, quan hệ, nhãn và quy tắc bằng chứng; dùng khi tạo hoặc sửa schematic cho bài báo, đề xuất hay thuyết trình. Dùng scientific-figure-planning-vn cho biểu đồ định lượng và figure lấy dữ liệu làm trung tâm.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "scientific-data-analysis-vn",
+      "relative_path": "skills/scientific-data-analysis-vn/SKILL.md",
+      "trigger_description": "Phân tích dữ liệu khoa học từ câu hỏi nghiên cứu đến kết quả có thể tái lập; dùng cho kiểm tra cấu trúc dữ liệu, phân tích khám phá, lựa chọn phương pháp, ước lượng và biểu đồ dựa trên dữ liệu. Không thay thế kiểm toán báo cáo thống kê trong bản thảo hay thiết kế hình khái niệm.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "scientific-figure-planning-vn",
+      "relative_path": "skills/scientific-figure-planning-vn/SKILL.md",
+      "trigger_description": "Thiết kế và rà soát hình dữ liệu khoa học, biểu đồ và figure nhiều panel dựa trên câu hỏi, đơn vị thí nghiệm, cấu trúc dữ liệu, bất định và khả năng đọc; dùng khi lập kế hoạch hình cho bài nghiên cứu hoặc kiểm tra hình trước khi gửi. Chuyển sang schematic-figure-design-vn cho hình cơ chế hoặc bố trí khái niệm.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "scientific-paper-reading-vn",
+      "relative_path": "skills/scientific-paper-reading-vn/SKILL.md",
+      "trigger_description": "Đọc và giải thích một bài báo khoa học cụ thể theo độ sâu người dùng cần, tạo bản tóm tắt có cấu trúc về câu hỏi, phương pháp, kết quả, giới hạn và khả năng tái lập. Dùng khi người dùng cung cấp bài báo hoặc mã định danh và muốn hiểu bài đơn lẻ; dùng literature-review-vn cho tổng hợp nhiều nguồn và github-scientific-appraisal-vn cho phản biện tính hợp lệ chuyên sâu.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "scientific-story-architecture-vn",
+      "relative_path": "skills/scientific-story-architecture-vn/SKILL.md",
+      "trigger_description": "Dùng khi cần tìm, đánh giá hoặc sắp xếp lập luận trung tâm trong bản thảo, đề cương, tóm tắt, kết quả, hình, đề xuất nghiên cứu hoặc bài trình bày khoa học; ưu tiên câu chuyện có thể bảo vệ bằng bằng chứng.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "sieunangluc",
+      "relative_path": "skills/sieunangluc/SKILL.md",
+      "trigger_description": "Bộ kỹ năng Siêu Năng Lực (Superpowers) lập trình thực chiến tinh lọc: Động não & Thiết kế (Brainstorming), Lập kế hoạch 2 tầng (Writing Plans), Lập trình hướng kiểm thử (TDD), Gỡ lỗi có hệ thống (Systematic Debugging), Kiểm chứng thực tế (Verification Before Completion) và Đánh giá mã nguồn (Code Review) nghiêm cẩn. Kích hoạt khi gõ /sieunangluc hoặc khi bắt đầu triển khai tính năng, refactor, sửa lỗi kỹ thuật phức tạp.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "speckit-sdd-vn",
+      "relative_path": "skills/speckit-sdd-vn/SKILL.md",
+      "trigger_description": "Spec Kit (github/spec-kit) — điều phối quy trình Spec-Driven Development bằng tiếng Việt: constitution, specify, clarify, plan, tasks, analyze, checklist, implement. Bổ sung an toàn cho Hoàng Phương Core; runtime CLI riêng, không tự thực thi.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "statistical-reporting-audit-vn",
+      "relative_path": "skills/statistical-reporting-audit-vn/SKILL.md",
+      "trigger_description": "Dùng khi cần soát, biên tập hoặc soạn phần phương pháp thống kê, kết quả, chú thích hình, cỡ mẫu, p-value, khoảng tin cậy, đơn vị thực nghiệm, phép thử, mô hình, hiệu chỉnh nhiều phép so sánh hoặc phản hồi nhận xét về thống kê trong bản thảo khoa học.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "system-design-planning-vn",
+      "relative_path": "skills/system-design-planning-vn/SKILL.md",
+      "trigger_description": "Lập phương án thiết kế hệ thống mới hoặc thiết kế lại từ yêu cầu, tải dự kiến, thuộc tính chất lượng và rủi ro; dùng trước khi chọn công nghệ hoặc triển khai. Với phân tích codebase hiện có, định tuyến sang github500-architecture-blueprint.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "thammuutruong",
+      "relative_path": "skills/thammuutruong/SKILL.md",
+      "trigger_description": "Tham mưu trưởng điều phối tác chiến và quản lý subagent dài hạn theo 2 tầng Chiến thuật - Chiến lược, duy trì tri thức bộ lạc qua Wiki tích lũy. Kích hoạt bằng lệnh /thammuutruong.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "trolydieuhanh",
+      "relative_path": "skills/trolydieuhanh/SKILL.md",
+      "trigger_description": "Dùng khi gọi @trolydieuhanh hoặc cần ưu tiên công việc, chuẩn bị họp, lịch làm việc và báo cáo ngày.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "tudonghethong",
+      "relative_path": "skills/tudonghethong/SKILL.md",
+      "trigger_description": "Dùng khi gọi @tudonghethong hoặc cần n8n/Make, Docker Compose, bot, PowerShell/CLI và xử lý file trùng.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "ultra-thinking",
+      "relative_path": "skills/ultra-thinking/SKILL.md",
+      "trigger_description": "Master quy chuẩn Tư Duy Cực Hạn & Suy Luận Đa Tầng Kịch Trần. CHỈ kích hoạt khi người dùng gõ /ultra-thinking, /ultrathink hoặc gọi đích danh skill ultra-thinking.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hoang-phuong-supercomputing-ai-core",
+      "skill": "web-technique-skill-extraction-vn",
+      "relative_path": "skills/web-technique-skill-extraction-vn/SKILL.md",
+      "trigger_description": "Dùng khi đã có hiệu ứng giao diện web hoạt động và muốn bóc tách một cơ chế kỹ thuật thành Skill tái sử dụng, có bản demo và bằng chứng kiểm chứng. Không dùng thay skill thiết kế UI từ số không.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hyperframes-vn-chatgpt",
+      "skill": "hyperframes-gemini-vn",
+      "relative_path": "skills/hyperframes-gemini-vn/SKILL.md",
+      "trigger_description": "Dùng khi cần thiết lập HyperFrames cho Gemini CLI, kiểm tra bản clone riêng Gemini và hướng dẫn tạo video từ Gemini mà không thay đổi plugin của ChatGPT.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "hyperframes-vn-chatgpt",
+      "skill": "hyperframes-vn",
+      "relative_path": "skills/hyperframes-vn/SKILL.md",
+      "trigger_description": "Dùng khi người dùng yêu cầu thiết kế, lên ý tưởng, storyboard, viết HTML/video, kiểm tra hoặc xuất MP4 bằng HyperFrames của HeyGen, gồm tích hợp Video ShotCraft và các nền tảng xã hội.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "moneyprinter-vn",
+      "skill": "moneyprinter-ai-video-vn",
+      "relative_path": "skills/moneyprinter-ai-video-vn/SKILL.md",
+      "trigger_description": "Điều phối nội dung video AI bằng tiếng Việt dùng MoneyPrinter hoặc MoneyPrinterTurbo kết hợp HyperFrames, Herk Edit Kit, Video ShotCraft, Gemini CLI và n8n; bảo đảm không ghi đè module và không đăng trước khi duyệt.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "moneyprinter-vn",
+      "skill": "moneyprinter-local-vn",
+      "relative_path": "skills/moneyprinter-local-vn/SKILL.md",
+      "trigger_description": "Dùng khi người dùng muốn hiểu, so sánh, cài hoặc vận hành repository FujiwaraChoki/MoneyPrinter chạy Ollama cục bộ, Python/uv, Docker/Postgres, worker và frontend; hỗ trợ tiếng Việt.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "moneyprinter-vn",
+      "skill": "moneyprinterturbo-vn",
+      "relative_path": "skills/moneyprinterturbo-vn/SKILL.md",
+      "trigger_description": "Dùng khi cần chuẩn bị, cài đặt, cấu hình, khắc phục lỗi hoặc lập kịch bản vận hành MoneyPrinterTurbo của harry0703 cho video ngắn 9:16 tiếng Việt qua WebUI/API/CLI hay AI Agent.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "nango-gateway-vn",
+      "skill": "nango-gateway-vn",
+      "relative_path": "skills/nango-gateway-vn/SKILL.md",
+      "trigger_description": "Sử dụng khi người dùng muốn tìm hiểu, kết nối hoặc quản lý Nango API Gateway, Nango Management MCP, OAuth, API proxy, action, sync hoặc tích hợp API với AI Agent và ChatGPT.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "nango-gateway-vn",
+      "skill": "nango-security-vn",
+      "relative_path": "skills/nango-security-vn/SKILL.md",
+      "trigger_description": "Dùng khi thiết kế bảo mật, kiểm tra scope, so sánh Nango Management MCP và runtime MCP, hoặc chuẩn bị Nango OAuth/API key cho ChatGPT và các AI Agent.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "nango-gateway-vn",
+      "skill": "nango-video-ai-vn",
+      "relative_path": "skills/nango-video-ai-vn/SKILL.md",
+      "trigger_description": "Dùng khi người dùng muốn bổ sung Nango vào hệ thống VIDEO AI, n8n, Google Drive, YouTube, TikTok, Facebook, Gemini, HyperFrames hoặc MoneyPrinter mà không thay thế module đang chạy.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "opus-video-skills-vn",
+      "skill": "claude-animation-base-vn",
+      "relative_path": "skills/claude-animation-base-vn/SKILL.md",
+      "trigger_description": "Hướng dẫn dùng repo JohnHeibel/ClaudeAnimationBase trên máy được phép cài đặt: thiết kế storyboard hoạt hình 2D vẽ tay, dựng mã p5.js + p5.brush, kiểm tra và xuất MP4; phối hợp với Hoangphuong Core và Opus Video Skills VN.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "opus-video-skills-vn",
+      "skill": "kinetic-reel-vn",
+      "relative_path": "skills/kinetic-reel-vn/SKILL.md",
+      "trigger_description": "Thiết kế và hướng dẫn dựng video kinetic typography, motion graphics, WebGL và nhạc nền bằng mã từ opus-video-skills; hỗ trợ storyboard, render và QC.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "opus-video-skills-vn",
+      "skill": "painted-animation-vn",
+      "relative_path": "skills/painted-animation-vn/SKILL.md",
+      "trigger_description": "Thiết kế và hướng dẫn dựng hoạt hình màu nước 2D bằng mã p5.js/p5.brush của opus-video-skills; storyboard, chuyển động, lời đọc, review và MP4.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "software-rebuild-ai-vn",
+      "skill": "android-rebuild",
+      "relative_path": "skills/android-rebuild/SKILL.md",
+      "trigger_description": "Dùng khi tái xây dựng ứng dụng Android APK/AAB/DEX hoặc mã Kotlin/Java mà người dùng có quyền phân tích.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "software-rebuild-ai-vn",
+      "skill": "api-data-rebuild",
+      "relative_path": "skills/api-data-rebuild/SKILL.md",
+      "trigger_description": "Dùng khi phải suy ra đặc tả API và mô hình dữ liệu hợp pháp để viết lại phần mềm hoặc chuyển dữ liệu giữa ứng dụng.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "software-rebuild-ai-vn",
+      "skill": "app-rebuild-router",
+      "relative_path": "skills/app-rebuild-router/SKILL.md",
+      "trigger_description": "Dùng khi người dùng muốn nhân bản, dịch ngược hợp pháp, phân tích hoặc viết lại ứng dụng/phần mềm thuộc bất kỳ nền tảng nào.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "software-rebuild-ai-vn",
+      "skill": "clean-room-build",
+      "relative_path": "skills/clean-room-build/SKILL.md",
+      "trigger_description": "Dùng khi người dùng đã xác định phạm vi và muốn viết mã nguồn mới, triển khai MVP hoặc thay thế ứng dụng từ đặc tả có quyền.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "software-rebuild-ai-vn",
+      "skill": "desktop-rebuild",
+      "relative_path": "skills/desktop-rebuild/SKILL.md",
+      "trigger_description": "Dùng khi phân tích hợp pháp và tái xây dựng EXE, DLL, MSI, MSIX, DMG, APP, ELF, DEB, RPM, ứng dụng desktop .NET, Electron hoặc native.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "software-rebuild-ai-vn",
+      "skill": "game-extension-rebuild",
+      "relative_path": "skills/game-extension-rebuild/SKILL.md",
+      "trigger_description": "Dùng khi cần tái xây dựng game, tiện ích mở rộng trình duyệt, plugin của ứng dụng khác hoặc phần mềm nhúng được phép.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "software-rebuild-ai-vn",
+      "skill": "ios-rebuild",
+      "relative_path": "skills/ios-rebuild/SKILL.md",
+      "trigger_description": "Dùng khi phân tích hợp pháp và tái xây dựng ứng dụng iOS/iPadOS từ IPA, video, tài liệu hoặc Swift source.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "software-rebuild-ai-vn",
+      "skill": "release-verification",
+      "relative_path": "skills/release-verification/SKILL.md",
+      "trigger_description": "Dùng khi kiểm tra quyền sở hữu, giấy phép, bảo mật, chất lượng và độ hoàn chỉnh trước khi công bố ứng dụng tái tạo.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "software-rebuild-ai-vn",
+      "skill": "toolchain-guidance",
+      "relative_path": "skills/toolchain-guidance/SKILL.md",
+      "trigger_description": "Dùng khi cần lựa chọn và hướng dẫn cài công cụ phân tích ứng dụng trên Windows, macOS hoặc Linux theo nguồn chính chủ.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "software-rebuild-ai-vn",
+      "skill": "web-rebuild",
+      "relative_path": "skills/web-rebuild/SKILL.md",
+      "trigger_description": "Dùng khi cần phân tích và tái xây dựng website, web app, SaaS, PWA hoặc giao diện web từ URL, screenshot và hành vi hợp pháp.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "study108-auto-sync-staging-phuong",
+      "skill": "study108-sync-router",
+      "relative_path": "skills/study108-sync-router/SKILL.md",
+      "trigger_description": "Kiểm thử định tuyến 108 mã học tập và mã mở rộng chỉ trong plugin staging, không thay đổi Hoàng Phương Core production.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "study108-auto-sync-staging-phuong",
+      "skill": "study108-sync-test",
+      "relative_path": "skills/study108-sync-test/SKILL.md",
+      "trigger_description": "Bộ kiểm thử offline, phê duyệt và đối chiếu release cho mã 108 mở rộng trong plugin staging.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "video-shotcraft-vn",
+      "skill": "video-shotcraft-library",
+      "relative_path": "skills/video-shotcraft-library/SKILL.md",
+      "trigger_description": "Dùng để chọn hiệu ứng từ thư viện shot cards Video ShotCraft, tạo bảng shot list và gợi ý motion cho video TikTok, YouTube, Facebook hoặc quảng cáo sản phẩm.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "video-shotcraft-vn",
+      "skill": "video-shotcraft-vn",
+      "relative_path": "skills/video-shotcraft-vn/SKILL.md",
+      "trigger_description": "Dùng khi người dùng muốn lên ý tưởng, storyboard, dựng video quảng cáo, tạo dự án Remotion hoặc sử dụng các quy trình từ repo Vincentwei1021/video-shotcraft bằng tiếng Việt.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "voxcpm-voice-vn",
+      "skill": "voxcpm-authorized-cloning-vn",
+      "relative_path": "skills/voxcpm-authorized-cloning-vn/SKILL.md",
+      "trigger_description": "Dùng khi người dùng muốn nhân bản giọng của chính họ hoặc một người đã cho phép bằng VoxCPM2, tạo voiceover từ file WAV tham chiếu, điều chỉnh cảm xúc và kiểm chứng nguồn âm thanh cho VIDEO AI.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "voxcpm-voice-vn",
+      "skill": "voxcpm-voice-design-vn",
+      "relative_path": "skills/voxcpm-voice-design-vn/SKILL.md",
+      "trigger_description": "Dùng khi người dùng muốn tạo giọng đọc AI tiếng Việt mới bằng VoxCPM2, chỉnh biểu cảm, tốc độ, kịch bản và lời thoại cho quảng cáo, Shorts, Reels, TikTok, YouTube hoặc VIDEO AI.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    },
+    {
+      "plugin": "voxcpm-voice-vn",
+      "skill": "voxcpm-windows-deploy-vn",
+      "relative_path": "skills/voxcpm-windows-deploy-vn/SKILL.md",
+      "trigger_description": "Dùng khi người dùng muốn cài và chạy VoxCPM2 thật trên Windows, kiểm tra GPU/Python/CUDA, tích hợp đầu ra WAV với HyperFrames, Herk Edit Kit, Video ShotCraft, Gemini CLI hoặc ChatGPT qua backend có xác thực.",
+      "status": "STATIC_FRONTMATTER_PARSED_ONLY"
+    }
+  ],
+  "cross_plugin_duplicate_names": {
+    "free-voiceover": [
+      "channel-growth-agent-vn",
+      "content-ai-vietnam"
+    ],
+    "voice-selection": [
+      "channel-growth-agent-vn",
+      "content-ai-vietnam"
+    ]
+  },
+  "host_activation_verified": false,
+  "static_metadata_only": true
+}

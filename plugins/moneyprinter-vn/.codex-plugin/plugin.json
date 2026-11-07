@@ -1,0 +1,30 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": "D\u00f9ng MoneyPrinter VN \u0111\u1ec3 l\u1eadp quy tr\u00ecnh t\u1ea1o video ng\u1eafn 9:16 ti\u1ebfng Vi\u1ec7t v\u1edbi ph\u1ee5 \u0111\u1ec1 \u0111\u1ed3ng b\u1ed9, nh\u1ea1c h\u1ee3p ph\u00e1p, ki\u1ec3m tra ngu\u1ed3n v\u00e0 ch\u1edd t\u00f4i duy\u1ec7t tr\u01b0\u1edbc khi \u0111\u0103ng.",
+    "developerName": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "displayName": "MoneyPrinter VN",
+    "longDescription": "H\u01b0\u1edbng d\u1eabn c\u00e0i \u0111\u1eb7t v\u00e0 d\u00f9ng MoneyPrinter (Ollama/Docker) v\u00e0 MoneyPrinterTurbo (Python, WebUI/API/CLI), chu\u1ea9n h\u00f3a storyboard v\u00e0 d\u1eef li\u1ec7u video AI b\u1eb1ng ti\u1ebfng Vi\u1ec7t. Kh\u00f4ng tr\u1ef1c ti\u1ebfp ch\u1ea1y ti\u1ebfn tr\u00ecnh Windows, d\u1ef1ng MP4 hay \u0111\u0103ng b\u00e0i khi ch\u01b0a k\u1ebft n\u1ed1i runtime.",
+    "shortDescription": "Quy tr\u00ecnh t\u1ea1o video AI"
+  },
+  "name": "moneyprinter-vn",
+  "version": "0.1.0",
+  "description": "B\u1ed9 h\u01b0\u1edbng d\u1eabn ti\u1ebfng Vi\u1ec7t cho MoneyPrinter v\u00e0 MoneyPrinterTurbo: t\u1ea1o k\u1ebf ho\u1ea1ch video, l\u1ef1a ch\u1ecdn nh\u00e0 cung c\u1ea5p, ki\u1ec3m tra ngu\u1ed3n v\u00e0 thi\u1ebft l\u1eadp quy tr\u00ecnh d\u1ef1ng MP4 an to\u00e0n. Plugin skills-only, kh\u00f4ng c\u00f3 backend d\u1ef1ng video ch\u1ea1y trong ChatGPT.",
+  "author": {
+    "name": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "email": "hoangphuongelectrical@gmail.com"
+  },
+  "keywords": [
+    "video",
+    "moneyprinter",
+    "moneyprinterturbo",
+    "workflow",
+    "vietnamese"
+  ],
+  "homepage": "https://github.com/FujiwaraChoki/MoneyPrinter",
+  "license": "MIT",
+  "skills": "./skills"
+}

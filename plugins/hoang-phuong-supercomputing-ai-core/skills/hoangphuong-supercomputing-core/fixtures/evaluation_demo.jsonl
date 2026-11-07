@@ -1,0 +1,4 @@
+{"id":"demo-1","expected":"Đã thiết kế","actual":"đã thiết kế","evidence":["references/VALIDATION_GATES.md"]}
+{"id":"demo-2","expected":"64 vai trò","actual":"64 vai trò","evidence":["references/ROLES_64.md"]}
+{"id":"demo-3","expected":"Có QPU thật","actual":"Chưa có QPU thật","evidence":[]}
+{"id":"demo-4","expected":"Không hứa 1M QPS","actual":"Không hứa 1M QPS","evidence":["references/VALIDATION_GATES.md"]}

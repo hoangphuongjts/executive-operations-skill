@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "hoangphuongelectrical@gmail.com",
+    "name": "Ho\u00e0ng Ph\u01b0\u01a1ng"
+  },
+  "description": "Th\u01b0 vi\u1ec7n ebook c\u00e1 nh\u00e2n an to\u00e0n, t\u00ecm Google Books, th\u1eed \u0111\u1ecdc metadata s\u00e1ch Play S\u00e1ch \u0111\u00e3 t\u1ea3i l\u00ean v\u00e0 h\u1ed7 tr\u1ee3 \u0111\u1ecdc EPUB/PDF c\u1ee5c b\u1ed9.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Ki\u1ec3m tra tr\u1ea1ng th\u00e1i th\u01b0 vi\u1ec7n ebook c\u1ee7a m\u00ecnh.",
+          "K\u1ebft n\u1ed1i Google Books \u0111\u1ec3 xem nh\u1eefng s\u00e1ch EPUB/PDF \u0111\u00e3 t\u1ea3i l\u00ean Play S\u00e1ch.",
+          "M\u1edf th\u01b0 vi\u1ec7n ebook v\u00e0 tr\u00ecnh \u0111\u1ecdc c\u1ee5c b\u1ed9."
+        ],
+        "developerName": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+        "displayName": "HO\u00c0NG PH\u01af\u01a0NG AI EBOOK LIBRARY",
+        "longDescription": "Tr\u1ee3 l\u00fd th\u01b0 vi\u1ec7n ebook c\u00e1 nh\u00e2n b\u1eb1ng ti\u1ebfng Vi\u1ec7t. Tra c\u1ee9u Google Books, li\u1ec7t k\u00ea metadata c\u1ee7a Uploads khi t\u00e0i kho\u1ea3n v\u00e0 API cho ph\u00e9p, \u0111\u1ecdc EPUB/PDF qua web reader c\u1ee5c b\u1ed9 v\u00e0 ghi ti\u1ebfn \u0111\u1ed9 \u0111\u1ecdc.",
+        "shortDescription": "Th\u01b0 vi\u1ec7n ebook ri\u00eang t\u01b0"
+      }
+    }
+  },
+  "keywords": [
+    "ebook",
+    "epub",
+    "pdf",
+    "google-books",
+    "play-books",
+    "thu-vien",
+    "viet-nam"
+  ],
+  "name": "hoang-phuong-ai-ebook-library",
+  "version": "1.0.0"
+}

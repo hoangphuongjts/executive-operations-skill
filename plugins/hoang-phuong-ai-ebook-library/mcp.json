@@ -1,0 +1,11 @@
+{
+  "$schema":"https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers":{
+    "hp-ebook-library":{
+      "type":"stdio",
+      "command":"python",
+      "args":["-u","${PLUGIN_ROOT}/server/mcp_server.py"],
+      "cwd":"${PLUGIN_ROOT}"
+    }
+  }
+}

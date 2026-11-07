@@ -1,0 +1,18 @@
+test_audit_chain (test_core.CoreTests.test_audit_chain) ... ok
+test_audit_does_not_store_task_text (test_core.CoreTests.test_audit_does_not_store_task_text) ... ok
+test_audit_tamper_detected (test_core.CoreTests.test_audit_tamper_detected) ... ok
+test_denies_all_sensitive_actions_even_with_approval (test_core.CoreTests.test_denies_all_sensitive_actions_even_with_approval) ... ok
+test_denies_empty_or_oversize (test_core.CoreTests.test_denies_empty_or_oversize) ... ok
+test_denies_high_cost (test_core.CoreTests.test_denies_high_cost) ... ok
+test_denies_unknown_action (test_core.CoreTests.test_denies_unknown_action) ... ok
+test_denies_unlisted_resource (test_core.CoreTests.test_denies_unlisted_resource) ... ok
+test_invalid_limits (test_core.CoreTests.test_invalid_limits) ... ok
+test_kill_switch_on_by_default (test_core.CoreTests.test_kill_switch_on_by_default) ... ok
+test_plan_with_explicit_opt_in (test_core.CoreTests.test_plan_with_explicit_opt_in) ... ok
+test_registry_requires_host_presence (test_core.CoreTests.test_registry_requires_host_presence) ... ok
+test_roles_are_bounded (test_core.CoreTests.test_roles_are_bounded) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.474s
+
+OK

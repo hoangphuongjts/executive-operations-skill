@@ -1,0 +1,26 @@
+{
+  "interface": {
+    "displayName": "Study108 Sync STAGING",
+    "category": "Productivity",
+    "capabilities": [],
+    "brandColor": "#236D72",
+    "brandColorDark": "#236D72",
+    "developerName": "Hoang Phuong",
+    "shortDescription": "Th\u1eed \u0111\u1ed3ng b\u1ed9 m\u00e3, kh\u00f4ng s\u1eeda Core",
+    "longDescription": "Isolated 108-code registry and approved extension code update tests.",
+    "defaultPrompt": "Ch\u1ec9 ch\u1ea1y b\u1ed9 \u0111\u1ecbnh tuy\u1ebfn study108-sync-router trong plugin staging. \u0110\u1ecdc danh s\u00e1ch 108 g\u1ed1c t\u1eeb references/STUDY_108_BASELINE.json v\u00e0 m\u00e3 m\u1edf r\u1ed9ng t\u1eeb references/CUSTOM_STUDY_CODES.json. Kh\u00f4ng t\u1ef1 kh\u1eb3ng \u0111\u1ecbnh m\u00e3 \u0111\u00e3 \u0111\u01b0\u1ee3c k\u00edch ho\u1ea1t \u1edf Core production, kh\u00f4ng s\u1eeda Core g\u1ed1c."
+  },
+  "name": "study108-auto-sync-staging-phuong",
+  "version": "0.1.3",
+  "description": "Private staging-only plugin to test 108 study code extension synchronization. No production updates.",
+  "author": {
+    "name": "Hoang Phuong"
+  },
+  "keywords": [
+    "study108",
+    "staging",
+    "approved-sync",
+    "education"
+  ],
+  "skills": "./skills"
+}

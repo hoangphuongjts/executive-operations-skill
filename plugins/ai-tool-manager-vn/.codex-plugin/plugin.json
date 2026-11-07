@@ -1,0 +1,33 @@
+{
+  "interface": {
+    "displayName": "Qu\u1ea3n Gia AI",
+    "shortDescription": "T\u00ecm, \u0111\u00f3ng g\u00f3i, t\u00edch h\u1ee3p AI",
+    "longDescription": "Agent \u0111i\u1ec1u ph\u1ed1i ri\u00eang t\u01b0 b\u1eb1ng ti\u1ebfng Vi\u1ec7t: t\u00ecm ngu\u1ed3n Skill, Plugin, AI Agent v\u00e0 Workflow; th\u1ea9m \u0111\u1ecbnh m\u1ee9c \u0111\u1ed9 an to\u00e0n; ki\u1ec3m tra tr\u00f9ng l\u1eb7p; y\u00eau c\u1ea7u k\u1ebft n\u1ed1i/c\u00e0i plugin ph\u00f9 h\u1ee3p; chuy\u1ec3n c\u00f4ng c\u1ee5, repository ho\u1eb7c \u00fd t\u01b0\u1edfng kh\u00e1c th\u00e0nh g\u00f3i ph\u00f9 h\u1ee3p v\u00e0 ki\u1ec3m tra sau tri\u1ec3n khai. Kh\u00f4ng t\u1ef1 c\u00e0i \u0111\u1eb7t ng\u1ea7m, kh\u00f4ng t\u1ef1 ch\u1ea1y m\u00e3 ngu\u1ed3n l\u1ea1 v\u00e0 kh\u00f4ng x\u00f3a hay thay th\u1ebf c\u00f4ng c\u1ee5 hi\u1ec7n c\u00f3.",
+    "developerName": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "D\u00f9ng Qu\u1ea3n Gia AI t\u00ecm, \u0111\u00e1nh gi\u00e1 v\u00e0 \u0111\u1ec1 xu\u1ea5t c\u00e0i \u0111\u1eb7t c\u00f4ng c\u1ee5 n\u00e0y: ",
+      "D\u00f9ng Qu\u1ea3n Gia AI ph\u00e2n lo\u1ea1i v\u00e0 \u0111\u00f3ng g\u00f3i c\u00f4ng c\u1ee5 sau \u0111\u1ec3 d\u00f9ng trong ChatGPT: ",
+      "D\u00f9ng Qu\u1ea3n Gia AI ki\u1ec3m tra c\u00e1c g\u00f3i hi\u1ec7n c\u00f3 v\u00e0 \u0111\u1ec1 xu\u1ea5t ph\u1ea7n c\u00f2n thi\u1ebfu."
+    ]
+  },
+  "name": "ai-tool-manager-vn",
+  "version": "1.0.1",
+  "description": "AI Agent ti\u1ebfng Vi\u1ec7t t\u00ecm, \u0111\u00e1nh gi\u00e1 v\u00e0 \u0111i\u1ec1u ph\u1ed1i c\u00e0i \u0111\u1eb7t Skill, Plugin, AI Agent, Workflow; ph\u00e2n lo\u1ea1i v\u00e0 \u0111\u00f3ng g\u00f3i c\u00f4ng c\u1ee5 kh\u00e1c th\u00e0nh d\u1ea1ng ph\u00f9 h\u1ee3p.",
+  "author": {
+    "name": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "email": "hoangphuongelectrical@gmail.com"
+  },
+  "keywords": [
+    "agent",
+    "skills",
+    "plugins",
+    "workflow",
+    "packaging",
+    "Vietnamese"
+  ],
+  "skills": "./skills"
+}

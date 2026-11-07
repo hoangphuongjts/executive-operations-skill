@@ -1,0 +1,15 @@
+{
+  "algorithm": "fnv1a64-utf16le-code-units",
+  "baseline_release": "13.0.0",
+  "hashes": {
+    "skills/hoangphuong/SKILL.md": "84690c72b1f286ec",
+    "skills/phattrienungdung/SKILL.md": "5da7d81bf10d1749",
+    "skills/sanxuatnoidung/SKILL.md": "6076fd84be49092b",
+    "skills/marketingtongluc/SKILL.md": "aba46ec5cab6d225",
+    "skills/trolydieuhanh/SKILL.md": "82d9e0d607d711a7",
+    "skills/tudonghethong/SKILL.md": "befe2c60fc3831e5",
+    "skills/phantichdautu/SKILL.md": "fbbc040fe9d188db",
+    "skills/hoangphuong-supercomputing-core/references/ROLES_64.md": "767114e103394da6"
+  },
+  "warning": "Noncryptographic comparison checksum; use a cryptographic signature for adversarial integrity"
+}

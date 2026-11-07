@@ -1,0 +1,89 @@
+{
+  "plugin": "hoang-phuong-supercomputing-ai-core",
+  "from": "16.0.13",
+  "to": "16.0.14",
+  "baseline_release": "pluginrel_6aebded8c8248191a7f5586dca2ea760",
+  "date": "2026-11-05",
+  "kind": "additive skill adapters (not upstream source installs)",
+  "repositories": [
+    {
+      "repository": "heygen-com/hyperframes",
+      "commit": "aace91b5ec0d937772f66ab06e63c5755e579646",
+      "license_metadata": "Apache-2.0",
+      "adapter": "hyperframes-core-adapter",
+      "source_review_level": "metadata, root README and install requirements; not full static source audit",
+      "runtime_installed": false,
+      "runtime_verified": false
+    },
+    {
+      "repository": "heygen-com/hyperframes-community-skills",
+      "commit": "ba7a0bb6d3567d124c51f6074625043bfe0b32eb",
+      "license_metadata": "Apache-2.0",
+      "adapter": "hyperframes-community-adapter",
+      "source_review_level": "metadata, root README and install requirements; not full static source audit",
+      "runtime_installed": false,
+      "runtime_verified": false
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "commit": "c7cb2fdcacd134fb2ccb9b7a44f9ffa44e467271",
+      "license_metadata": "unverified-for-skill-repository",
+      "adapter": "remotion-agent-skills-adapter",
+      "source_review_level": "metadata, root README and install requirements; not full static source audit",
+      "runtime_installed": false,
+      "runtime_verified": false
+    },
+    {
+      "repository": "anomalyco/opencode",
+      "commit": "2428952c954a761a427ea9ea095dba3ec7337031",
+      "license_metadata": "MIT",
+      "adapter": "opencode-agent-adapter",
+      "source_review_level": "metadata, root README and install requirements; not full static source audit",
+      "runtime_installed": false,
+      "runtime_verified": false
+    },
+    {
+      "repository": "calesthio/OpenMontage",
+      "commit": "d21f5d4eaa08422b09c7091757a05affcbabb35b",
+      "license_metadata": "AGPL-3.0",
+      "adapter": "openmontage-video-adapter",
+      "source_review_level": "metadata, root README and install requirements; not full static source audit",
+      "runtime_installed": false,
+      "runtime_verified": false
+    },
+    {
+      "repository": "frankxai/awesome-motion-design-agent-skills",
+      "commit": "b45d60fa5b0f7b7d07331572416b80e17dcfd203",
+      "license_metadata": "CC0-1.0",
+      "adapter": "motion-design-skills-adapter",
+      "source_review_level": "metadata, root README and install requirements; not full static source audit",
+      "runtime_installed": false,
+      "runtime_verified": false
+    },
+    {
+      "repository": "yihui-dev/awesome-opus5-5-videos",
+      "commit": "92aee2f586ac0715cb3cbcb6384834f98a33383d",
+      "license_metadata": "MIT-repository-only",
+      "adapter": "opus55-video-references-adapter",
+      "source_review_level": "metadata, root README and install requirements; not full static source audit",
+      "runtime_installed": false,
+      "runtime_verified": false
+    }
+  ],
+  "original_modules_deleted": 0,
+  "upstream_code_copied": false,
+  "api_services_deployed": false,
+  "checks": [
+    "7 distinct skill folder names",
+    "40-char commit pin",
+    "portable manifest and legacy overlay version synchronized",
+    "existing plugin files overlay preserved",
+    "no service, API tokens or installer in archive"
+  ],
+  "remaining": [
+    "security review each upstream dependency/skill before copying",
+    "install local runtime with authorized machine access",
+    "run media render smoke tests",
+    "verify runtime model/provider costs and commercial license"
+  ]
+}

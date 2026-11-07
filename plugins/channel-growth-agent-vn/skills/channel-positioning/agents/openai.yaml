@@ -1,0 +1,4 @@
+interface:
+  display_name: "Định vị và khởi tạo kênh"
+  short_description: "Xây kênh theo dữ liệu và nguồn lực thực tế"
+  default_prompt: "Dùng $channel-positioning để hoàn thành nhiệm vụ xây kênh của tôi."

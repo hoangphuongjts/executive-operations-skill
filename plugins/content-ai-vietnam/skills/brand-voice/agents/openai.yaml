@@ -1,0 +1,4 @@
+interface:
+  display_name: "Giọng thương hiệu tiếng Việt"
+  short_description: "Nội dung tiếng Việt có bằng chứng và mục tiêu rõ"
+  default_prompt: "Dùng $brand-voice để hoàn thành yêu cầu nội dung của tôi."

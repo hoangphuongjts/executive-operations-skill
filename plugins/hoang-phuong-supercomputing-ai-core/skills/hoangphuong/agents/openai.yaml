@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hoàng Phương - Supercomputing AI Core"
+  short_description: "Điều phối công việc và quản gia công cụ AI"
+  default_prompt: "Dùng $hoangphuong để điều phối và hoàn thành công việc của tôi."

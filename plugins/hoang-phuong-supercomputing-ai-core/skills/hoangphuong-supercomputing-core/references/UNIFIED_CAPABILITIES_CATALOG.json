@@ -1,0 +1,3657 @@
+{
+  "schema_version": "1.0.0",
+  "release": "14.4.0",
+  "snapshot_date": "2026-11-04",
+  "scope": "capabilities visible in current conversation/session; not a guarantee of all plugins on account or future sessions",
+  "integration_kind": "in_core_capability_registry_and_on_demand_host_tool_dispatch_without_vendor_code_migration",
+  "source_observation": {
+    "skills_tool": "skills__list",
+    "owned_plugins_tool": "Plugin_Creator.list_owned_personal_plugins",
+    "tools": "ALL_TOOLS namespace summary"
+  },
+  "core_plugin_id": "plugins_6ae9e94153ec8191ac27f530ca5a0fd3",
+  "core_owned_skills_excluded": 8,
+  "external_skill_count": 172,
+  "other_owned_plugin_count": 11,
+  "connector_namespace_count": 19,
+  "skill_sources": [
+    {
+      "uri": "skills://plugins/browser/control-browser",
+      "source_plugin": "browser",
+      "slug": "control-browser",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        11
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/google-drive/google-docs",
+      "source_plugin": "google-drive",
+      "slug": "google-docs",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        10
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/google-drive/google-drive",
+      "source_plugin": "google-drive",
+      "slug": "google-drive",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        10
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/google-drive/google-drive-comments",
+      "source_plugin": "google-drive",
+      "slug": "google-drive-comments",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        10
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/google-drive/google-sheets",
+      "source_plugin": "google-drive",
+      "slug": "google-sheets",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        10
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/google-drive/google-slides",
+      "source_plugin": "google-drive",
+      "slug": "google-slides",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        10
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/plugin-creator/create-plugin",
+      "source_plugin": "plugin-creator",
+      "slug": "create-plugin",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        11
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/plugin-creator/prepare-plugin-submission",
+      "source_plugin": "plugin-creator",
+      "slug": "prepare-plugin-submission",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        11
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/plugin-creator/update-plugin",
+      "source_plugin": "plugin-creator",
+      "slug": "update-plugin",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        11
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-api-and-interface-design",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-api-and-interface-design",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-browser-testing-with-devtools",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-browser-testing-with-devtools",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-ci-cd-and-automation",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-ci-cd-and-automation",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-code-review-and-quality",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-code-review-and-quality",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-code-simplification",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-code-simplification",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-constraint-driven-development",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-constraint-driven-development",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-context-engineering",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-context-engineering",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-debugging-and-error-recovery",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-debugging-and-error-recovery",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-deprecation-and-migration",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-deprecation-and-migration",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-documentation-and-adrs",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-documentation-and-adrs",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-doubt-driven-development",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-doubt-driven-development",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-frontend-ui-engineering",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-frontend-ui-engineering",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-git-workflow-and-versioning",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-git-workflow-and-versioning",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-idea-refine",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-idea-refine",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-incremental-implementation",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-incremental-implementation",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-interview-me",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-interview-me",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-observability-and-instrumentation",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-observability-and-instrumentation",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-performance-optimization",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-performance-optimization",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-planning-and-task-breakdown",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-planning-and-task-breakdown",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-security-and-hardening",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-security-and-hardening",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-shipping-and-launch",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-shipping-and-launch",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-source-driven-development",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-source-driven-development",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-spec-driven-development",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-spec-driven-development",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-test-driven-development",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-test-driven-development",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/addy-using-agent-skills",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "addy-using-agent-skills",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/agent-code-reviewer",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "agent-code-reviewer",
+      "kind": "agent_role_skill",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/agent-security-auditor",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "agent-security-auditor",
+      "kind": "agent_role_skill",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/agent-test-engineer",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "agent-test-engineer",
+      "kind": "agent_role_skill",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/agent-web-performance-auditor",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "agent-web-performance-auditor",
+      "kind": "agent_role_skill",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/ai-coding-router",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "ai-coding-router",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/ai-coding-setup",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "ai-coding-setup",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-brainstorming",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-brainstorming",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-diagnosing-superpowers",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-diagnosing-superpowers",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-dispatching-parallel-agents",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-dispatching-parallel-agents",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-executing-plans",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-executing-plans",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-finishing-a-development-branch",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-finishing-a-development-branch",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-receiving-code-review",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-receiving-code-review",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-requesting-code-review",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-requesting-code-review",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-subagent-driven-development",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-subagent-driven-development",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-systematic-debugging",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-systematic-debugging",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-test-driven-development",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-test-driven-development",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-using-git-worktrees",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-using-git-worktrees",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-using-superpowers",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-using-superpowers",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-verification-before-completion",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-verification-before-completion",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-writing-plans",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-writing-plans",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-coding-vietnamese-kit/super-writing-skills",
+      "source_plugin": "ai-coding-vietnamese-kit",
+      "slug": "super-writing-skills",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        16
+      ],
+      "source_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/video-shotcraft-vn/video-shotcraft-library",
+      "source_plugin": "video-shotcraft-vn",
+      "slug": "video-shotcraft-library",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": "plugins_6ae751a155ec81918c7828974c964b6a",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/video-shotcraft-vn/video-shotcraft-vn",
+      "source_plugin": "video-shotcraft-vn",
+      "slug": "video-shotcraft-vn",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": "plugins_6ae751a155ec81918c7828974c964b6a",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-channel-audit",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-channel-audit",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-comment-insights",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-comment-insights",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-competitor-watchlist",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-competitor-watchlist",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-get-started",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-get-started",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-new-upload-review",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-new-upload-review",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-next-video-planner",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-next-video-planner",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-packaging-studio",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-packaging-studio",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-retention-analysis",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-retention-analysis",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-shorts-inspiration",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-shorts-inspiration",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-trend-radar",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-trend-radar",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-video-breakdown",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-video-breakdown",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-video-ideas",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-video-ideas",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-video-metadata",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-video-metadata",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-69dd11f3e50c8191b1ca48d03cf7e2ad/vidiq-youtube-seo",
+      "source_plugin": "app-69dd11f3e50c8191b1ca48d03cf7e2ad",
+      "slug": "vidiq-youtube-seo",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/ad-creative",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "ad-creative",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/audience-research",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "audience-research",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/brand-voice",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "brand-voice",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/campaign-planning",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "campaign-planning",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/content-orchestrator",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "content-orchestrator",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/content-performance",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "content-performance",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/content-repurposing",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "content-repurposing",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/content-strategy",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "content-strategy",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/copy-editing",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "copy-editing",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/copywriting",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "copywriting",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/product-storytelling",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "product-storytelling",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/seo-audit",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "seo-audit",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/social",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "social",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/content-ai-vietnam/video",
+      "source_plugin": "content-ai-vietnam",
+      "slug": "video",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14,
+        16
+      ],
+      "source_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-6a3293e129088191abf0875820e839da/higgsfield",
+      "source_plugin": "app-6a3293e129088191abf0875820e839da",
+      "slug": "higgsfield",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        15
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/app-6a3293e129088191abf0875820e839da/website-builder",
+      "source_plugin": "app-6a3293e129088191abf0875820e839da",
+      "slug": "website-builder",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        15
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/hyperframes-vn-chatgpt/hyperframes-gemini-vn",
+      "source_plugin": "hyperframes-vn-chatgpt",
+      "slug": "hyperframes-gemini-vn",
+      "kind": "skill_reference",
+      "clusters": [
+        13,
+        15
+      ],
+      "source_id": "plugins_6ae8b5252a2c8191af79742aeb91ef21",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/hyperframes-vn-chatgpt/hyperframes-vn",
+      "source_plugin": "hyperframes-vn-chatgpt",
+      "slug": "hyperframes-vn",
+      "kind": "skill_reference",
+      "clusters": [
+        13,
+        15
+      ],
+      "source_id": "plugins_6ae8b5252a2c8191af79742aeb91ef21",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/moneyprinter-vn/moneyprinter-ai-video-vn",
+      "source_plugin": "moneyprinter-vn",
+      "slug": "moneyprinter-ai-video-vn",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": "plugins_6ae8dea3e48881918af559d18d4c0b0c",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/moneyprinter-vn/moneyprinter-local-vn",
+      "source_plugin": "moneyprinter-vn",
+      "slug": "moneyprinter-local-vn",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": "plugins_6ae8dea3e48881918af559d18d4c0b0c",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/moneyprinter-vn/moneyprinterturbo-vn",
+      "source_plugin": "moneyprinter-vn",
+      "slug": "moneyprinterturbo-vn",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": "plugins_6ae8dea3e48881918af559d18d4c0b0c",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/voxcpm-voice-vn/voxcpm-authorized-cloning-vn",
+      "source_plugin": "voxcpm-voice-vn",
+      "slug": "voxcpm-authorized-cloning-vn",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": "plugins_6ae8df76bb80819189acf5ba82a99be0",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/voxcpm-voice-vn/voxcpm-voice-design-vn",
+      "source_plugin": "voxcpm-voice-vn",
+      "slug": "voxcpm-voice-design-vn",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": "plugins_6ae8df76bb80819189acf5ba82a99be0",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/voxcpm-voice-vn/voxcpm-windows-deploy-vn",
+      "source_plugin": "voxcpm-voice-vn",
+      "slug": "voxcpm-windows-deploy-vn",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": "plugins_6ae8df76bb80819189acf5ba82a99be0",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/channel-growth-agent-vn/channel-analytics",
+      "source_plugin": "channel-growth-agent-vn",
+      "slug": "channel-analytics",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14
+      ],
+      "source_id": "plugins_6ae8f527100c8191a407b70d6f2632ea",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/channel-growth-agent-vn/channel-growth-agent",
+      "source_plugin": "channel-growth-agent-vn",
+      "slug": "channel-growth-agent",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14
+      ],
+      "source_id": "plugins_6ae8f527100c8191a407b70d6f2632ea",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/channel-growth-agent-vn/channel-monetization",
+      "source_plugin": "channel-growth-agent-vn",
+      "slug": "channel-monetization",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14
+      ],
+      "source_id": "plugins_6ae8f527100c8191a407b70d6f2632ea",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/channel-growth-agent-vn/channel-operations",
+      "source_plugin": "channel-growth-agent-vn",
+      "slug": "channel-operations",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14
+      ],
+      "source_id": "plugins_6ae8f527100c8191a407b70d6f2632ea",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/channel-growth-agent-vn/channel-packaging",
+      "source_plugin": "channel-growth-agent-vn",
+      "slug": "channel-packaging",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14
+      ],
+      "source_id": "plugins_6ae8f527100c8191a407b70d6f2632ea",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/channel-growth-agent-vn/channel-positioning",
+      "source_plugin": "channel-growth-agent-vn",
+      "slug": "channel-positioning",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14
+      ],
+      "source_id": "plugins_6ae8f527100c8191a407b70d6f2632ea",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/channel-growth-agent-vn/channel-research",
+      "source_plugin": "channel-growth-agent-vn",
+      "slug": "channel-research",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14
+      ],
+      "source_id": "plugins_6ae8f527100c8191a407b70d6f2632ea",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/channel-growth-agent-vn/channel-retention",
+      "source_plugin": "channel-growth-agent-vn",
+      "slug": "channel-retention",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14
+      ],
+      "source_id": "plugins_6ae8f527100c8191a407b70d6f2632ea",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/channel-growth-agent-vn/channel-video-production",
+      "source_plugin": "channel-growth-agent-vn",
+      "slug": "channel-video-production",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        13,
+        14
+      ],
+      "source_id": "plugins_6ae8f527100c8191a407b70d6f2632ea",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/ai-tool-manager-vn/ai-tool-manager",
+      "source_plugin": "ai-tool-manager-vn",
+      "slug": "ai-tool-manager",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        11
+      ],
+      "source_id": "plugins_6ae9aafb7a7c8191a00dfe0b350dbc13",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/software-rebuild-ai-vn/android-rebuild",
+      "source_plugin": "software-rebuild-ai-vn",
+      "slug": "android-rebuild",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        12
+      ],
+      "source_id": "plugins_6ae9b9134e0c8191b40179b343b719e4",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/software-rebuild-ai-vn/api-data-rebuild",
+      "source_plugin": "software-rebuild-ai-vn",
+      "slug": "api-data-rebuild",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        12
+      ],
+      "source_id": "plugins_6ae9b9134e0c8191b40179b343b719e4",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/software-rebuild-ai-vn/app-rebuild-router",
+      "source_plugin": "software-rebuild-ai-vn",
+      "slug": "app-rebuild-router",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        12
+      ],
+      "source_id": "plugins_6ae9b9134e0c8191b40179b343b719e4",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/software-rebuild-ai-vn/clean-room-build",
+      "source_plugin": "software-rebuild-ai-vn",
+      "slug": "clean-room-build",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        12
+      ],
+      "source_id": "plugins_6ae9b9134e0c8191b40179b343b719e4",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/software-rebuild-ai-vn/desktop-rebuild",
+      "source_plugin": "software-rebuild-ai-vn",
+      "slug": "desktop-rebuild",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        12
+      ],
+      "source_id": "plugins_6ae9b9134e0c8191b40179b343b719e4",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/software-rebuild-ai-vn/game-extension-rebuild",
+      "source_plugin": "software-rebuild-ai-vn",
+      "slug": "game-extension-rebuild",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        12
+      ],
+      "source_id": "plugins_6ae9b9134e0c8191b40179b343b719e4",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/software-rebuild-ai-vn/ios-rebuild",
+      "source_plugin": "software-rebuild-ai-vn",
+      "slug": "ios-rebuild",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        12
+      ],
+      "source_id": "plugins_6ae9b9134e0c8191b40179b343b719e4",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/software-rebuild-ai-vn/release-verification",
+      "source_plugin": "software-rebuild-ai-vn",
+      "slug": "release-verification",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        12
+      ],
+      "source_id": "plugins_6ae9b9134e0c8191b40179b343b719e4",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/software-rebuild-ai-vn/toolchain-guidance",
+      "source_plugin": "software-rebuild-ai-vn",
+      "slug": "toolchain-guidance",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        12
+      ],
+      "source_id": "plugins_6ae9b9134e0c8191b40179b343b719e4",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/software-rebuild-ai-vn/web-rebuild",
+      "source_plugin": "software-rebuild-ai-vn",
+      "slug": "web-rebuild",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        12
+      ],
+      "source_id": "plugins_6ae9b9134e0c8191b40179b343b719e4",
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/automated-content-creator",
+      "source_plugin": "heygen",
+      "slug": "automated-content-creator",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/captions",
+      "source_plugin": "heygen",
+      "slug": "captions",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/faceless-explainer",
+      "source_plugin": "heygen",
+      "slug": "faceless-explainer",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/general-video",
+      "source_plugin": "heygen",
+      "slug": "general-video",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/motion-graphics",
+      "source_plugin": "heygen",
+      "slug": "motion-graphics",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/narrator",
+      "source_plugin": "heygen",
+      "slug": "narrator",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/picture-video",
+      "source_plugin": "heygen",
+      "slug": "picture-video",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/script-writer",
+      "source_plugin": "heygen",
+      "slug": "script-writer",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/talking-head",
+      "source_plugin": "heygen",
+      "slug": "talking-head",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/ugc-product",
+      "source_plugin": "heygen",
+      "slug": "ugc-product",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/ugc-review",
+      "source_plugin": "heygen",
+      "slug": "ugc-review",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/ugc-try-on",
+      "source_plugin": "heygen",
+      "slug": "ugc-try-on",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/ugc-tutorial",
+      "source_plugin": "heygen",
+      "slug": "ugc-tutorial",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/ugc-unboxing",
+      "source_plugin": "heygen",
+      "slug": "ugc-unboxing",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/ugc-voiceless",
+      "source_plugin": "heygen",
+      "slug": "ugc-voiceless",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/ugc-website",
+      "source_plugin": "heygen",
+      "slug": "ugc-website",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/heygen/video-editing",
+      "source_plugin": "heygen",
+      "slug": "video-editing",
+      "kind": "skill_reference",
+      "clusters": [
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-analytics-dashboard",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-analytics-dashboard",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-business-review",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-business-review",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-design-report",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-design-report",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-experiment-analysis",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-experiment-analysis",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-financial-budget",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-financial-budget",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-investment-committee-memo",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-investment-committee-memo",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-legal-memorandum",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-legal-memorandum",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-market-trends-report",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-market-trends-report",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-minimal-letterhead",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-minimal-letterhead",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-operating-calendar",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-operating-calendar",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-operating-review",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-operating-review",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-project-kickoff",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-project-kickoff",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-project-tracker",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-project-tracker",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-sales-pipeline",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-sales-pipeline",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-simple-dark-mode",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-simple-dark-mode",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-simple-light-mode",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-simple-light-mode",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-strategy-memorandum",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-strategy-memorandum",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-system-design",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-system-design",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-team-alignment",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-team-alignment",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/openai-templates/artifact-template-three-statement-forecast",
+      "source_plugin": "openai-templates",
+      "slug": "artifact-template-three-statement-forecast",
+      "kind": "skill_reference",
+      "clusters": [
+        8,
+        9,
+        10,
+        14,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/template-creator/template-creator",
+      "source_plugin": "template-creator",
+      "slug": "template-creator",
+      "kind": "skill_reference",
+      "clusters": [
+        9,
+        10
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/presentations-router/presentation",
+      "source_plugin": "presentations-router",
+      "slug": "presentation",
+      "kind": "skill_reference",
+      "clusters": [
+        10,
+        13
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/pdf-router/pdf",
+      "source_plugin": "pdf-router",
+      "slug": "pdf",
+      "kind": "skill_reference",
+      "clusters": [
+        10
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/documents-router/document",
+      "source_plugin": "documents-router",
+      "slug": "document",
+      "kind": "skill_reference",
+      "clusters": [
+        10
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/spreadsheets-router/spreadsheet",
+      "source_plugin": "spreadsheets-router",
+      "slug": "spreadsheet",
+      "kind": "skill_reference",
+      "clusters": [
+        10,
+        14
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/brainstorming",
+      "source_plugin": "superpowers",
+      "slug": "brainstorming",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/diagnosing-superpowers",
+      "source_plugin": "superpowers",
+      "slug": "diagnosing-superpowers",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/dispatching-parallel-agents",
+      "source_plugin": "superpowers",
+      "slug": "dispatching-parallel-agents",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/executing-plans",
+      "source_plugin": "superpowers",
+      "slug": "executing-plans",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/finishing-a-development-branch",
+      "source_plugin": "superpowers",
+      "slug": "finishing-a-development-branch",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/receiving-code-review",
+      "source_plugin": "superpowers",
+      "slug": "receiving-code-review",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/requesting-code-review",
+      "source_plugin": "superpowers",
+      "slug": "requesting-code-review",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/subagent-driven-development",
+      "source_plugin": "superpowers",
+      "slug": "subagent-driven-development",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/systematic-debugging",
+      "source_plugin": "superpowers",
+      "slug": "systematic-debugging",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/test-driven-development",
+      "source_plugin": "superpowers",
+      "slug": "test-driven-development",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/using-git-worktrees",
+      "source_plugin": "superpowers",
+      "slug": "using-git-worktrees",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/using-superpowers",
+      "source_plugin": "superpowers",
+      "slug": "using-superpowers",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/verification-before-completion",
+      "source_plugin": "superpowers",
+      "slug": "verification-before-completion",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/writing-plans",
+      "source_plugin": "superpowers",
+      "slug": "writing-plans",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    },
+    {
+      "uri": "skills://plugins/superpowers/writing-skills",
+      "source_plugin": "superpowers",
+      "slug": "writing-skills",
+      "kind": "skill_reference",
+      "clusters": [
+        2,
+        3,
+        4,
+        8,
+        11,
+        16
+      ],
+      "source_id": null,
+      "status": "catalog_visible_only",
+      "tool_access": "check_at_invocation",
+      "copy_into_core": false,
+      "integration_mode": "read_original_skill_on_demand_via_host",
+      "source_preserved": true
+    }
+  ],
+  "owned_plugins": [
+    {
+      "name": "software-rebuild-ai-vn",
+      "plugin_id": "plugins_6ae9b9134e0c8191b40179b343b719e4",
+      "version_seen": "0.1.0",
+      "status": "owned_plugin_listed",
+      "action": "reference_only",
+      "skills_in_catalog": 10,
+      "preserve_original": true,
+      "not_merged_source": true,
+      "integration_mode": "namespaced_reference_and_host_dispatch",
+      "original_operates_independently": true
+    },
+    {
+      "name": "ai-tool-manager-vn",
+      "plugin_id": "plugins_6ae9aafb7a7c8191a00dfe0b350dbc13",
+      "version_seen": "1.0.1",
+      "status": "owned_plugin_listed",
+      "action": "reference_only",
+      "skills_in_catalog": 1,
+      "preserve_original": true,
+      "not_merged_source": true,
+      "integration_mode": "namespaced_reference_and_host_dispatch",
+      "original_operates_independently": true
+    },
+    {
+      "name": "channel-growth-agent-vn",
+      "plugin_id": "plugins_6ae8f527100c8191a407b70d6f2632ea",
+      "version_seen": "1.2.1",
+      "status": "owned_plugin_listed",
+      "action": "reference_only",
+      "skills_in_catalog": 9,
+      "preserve_original": true,
+      "not_merged_source": true,
+      "integration_mode": "namespaced_reference_and_host_dispatch",
+      "original_operates_independently": true
+    },
+    {
+      "name": "nango-gateway-vn",
+      "plugin_id": "plugins_6ae8e19ae92c8191b70c24cb9ab700d8",
+      "version_seen": "0.1.0",
+      "status": "owned_plugin_listed",
+      "action": "reference_only",
+      "skills_in_catalog": 0,
+      "preserve_original": true,
+      "not_merged_source": true,
+      "integration_mode": "namespaced_reference_and_host_dispatch",
+      "original_operates_independently": true
+    },
+    {
+      "name": "voxcpm-voice-vn",
+      "plugin_id": "plugins_6ae8df76bb80819189acf5ba82a99be0",
+      "version_seen": "0.1.0",
+      "status": "owned_plugin_listed",
+      "action": "reference_only",
+      "skills_in_catalog": 3,
+      "preserve_original": true,
+      "not_merged_source": true,
+      "integration_mode": "namespaced_reference_and_host_dispatch",
+      "original_operates_independently": true
+    },
+    {
+      "name": "moneyprinter-vn",
+      "plugin_id": "plugins_6ae8dea3e48881918af559d18d4c0b0c",
+      "version_seen": "0.1.0",
+      "status": "owned_plugin_listed",
+      "action": "reference_only",
+      "skills_in_catalog": 3,
+      "preserve_original": true,
+      "not_merged_source": true,
+      "integration_mode": "namespaced_reference_and_host_dispatch",
+      "original_operates_independently": true
+    },
+    {
+      "name": "hyperframes-vn-chatgpt",
+      "plugin_id": "plugins_6ae8b5252a2c8191af79742aeb91ef21",
+      "version_seen": "0.1.0",
+      "status": "owned_plugin_listed",
+      "action": "reference_only",
+      "skills_in_catalog": 2,
+      "preserve_original": true,
+      "not_merged_source": true,
+      "integration_mode": "namespaced_reference_and_host_dispatch",
+      "original_operates_independently": true
+    },
+    {
+      "name": "content-ai-vietnam",
+      "plugin_id": "plugins_6ae822899ea48191969cef108056f9df",
+      "version_seen": "0.2.1",
+      "status": "owned_plugin_listed",
+      "action": "reference_only",
+      "skills_in_catalog": 14,
+      "preserve_original": true,
+      "not_merged_source": true,
+      "integration_mode": "namespaced_reference_and_host_dispatch",
+      "original_operates_independently": true
+    },
+    {
+      "name": "video-shotcraft-vn",
+      "plugin_id": "plugins_6ae751a155ec81918c7828974c964b6a",
+      "version_seen": "1.0.0",
+      "status": "owned_plugin_listed",
+      "action": "reference_only",
+      "skills_in_catalog": 2,
+      "preserve_original": true,
+      "not_merged_source": true,
+      "integration_mode": "namespaced_reference_and_host_dispatch",
+      "original_operates_independently": true
+    },
+    {
+      "name": "ai-coding-vietnamese-kit",
+      "plugin_id": "plugins_6ae659d4c6a08191b46e95d0b698373f",
+      "version_seen": "1.0.0",
+      "status": "owned_plugin_listed",
+      "action": "reference_only",
+      "skills_in_catalog": 46,
+      "preserve_original": true,
+      "not_merged_source": true,
+      "integration_mode": "namespaced_reference_and_host_dispatch",
+      "original_operates_independently": true
+    },
+    {
+      "name": "dev-8e2c158c632881918d6f75b1f38a2f7d",
+      "plugin_id": "plugin_asdk_app_sites_8e2c158c632881918d6f75b1f38a2f7d",
+      "version_seen": "1.0.0",
+      "status": "owned_plugin_listed",
+      "action": "reference_only",
+      "skills_in_catalog": 0,
+      "preserve_original": true,
+      "not_merged_source": true,
+      "integration_mode": "namespaced_reference_and_host_dispatch",
+      "original_operates_independently": true
+    }
+  ],
+  "connector_namespaces": [
+    {
+      "namespace": "Google_Contacts",
+      "tool_count_exposed": 3,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        8,
+        10
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Google_Calendar",
+      "tool_count_exposed": 15,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        8
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Gmail",
+      "tool_count_exposed": 21,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        8,
+        10
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Canva",
+      "tool_count_exposed": 40,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        9,
+        13,
+        15
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "LlamaParse",
+      "tool_count_exposed": 27,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        10,
+        11
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Linear",
+      "tool_count_exposed": 91,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        8,
+        11
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Browser",
+      "tool_count_exposed": 2,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        8,
+        9,
+        11
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "GitHub",
+      "tool_count_exposed": 89,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        2,
+        3,
+        4,
+        11
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Google_Drive",
+      "tool_count_exposed": 45,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        8,
+        10
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": true,
+      "connection_probe_file": "skills/hoangphuong-supercomputing-core/references/FEDERATED_CONNECTION_PROBES.json",
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Google_AI_Tools_for_ChatGPT",
+      "tool_count_exposed": 10,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        7,
+        11,
+        13
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Plugin_Creator",
+      "tool_count_exposed": 9,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        11
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Runway",
+      "tool_count_exposed": 33,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        13
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Slack",
+      "tool_count_exposed": 38,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        8,
+        11
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "vidIQ",
+      "tool_count_exposed": 70,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        9,
+        13
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": true,
+      "connection_probe_file": "skills/hoangphuong-supercomputing-core/references/FEDERATED_CONNECTION_PROBES.json",
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Higgsfield",
+      "tool_count_exposed": 146,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        13,
+        15
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": true,
+      "connection_probe_file": "skills/hoangphuong-supercomputing-core/references/FEDERATED_CONNECTION_PROBES.json",
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Metricool",
+      "tool_count_exposed": 9,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        13,
+        14
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "HeyGen",
+      "tool_count_exposed": 110,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        13
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Automations",
+      "tool_count_exposed": 7,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        8,
+        11
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    },
+    {
+      "namespace": "Plugin_Management",
+      "tool_count_exposed": 6,
+      "status": "tool_namespace_exposed",
+      "not_a_connection_confirmation": true,
+      "cluster_ids": [
+        8,
+        11
+      ],
+      "execution_policy": "Use actual connected tool only when available and authorized; never infer status or bypass tool permissions",
+      "verified_read_in_session": false,
+      "connection_probe_file": null,
+      "local_code_or_credentials_copied": false
+    }
+  ],
+  "global_rules": {
+    "never_install_uninstall_move_or_change_other_plugins_automatically": true,
+    "do_not_duplicate_proprietary_skill_content": true,
+    "do_not_claim_3p_plugin_can_be_invoked_without_an_available_tool": true,
+    "external_plugin_connection_stays_external": true,
+    "third_party_skill_must_be_read_from_its_own_uri_before_using_if_available": true,
+    "external_tools_require_current_session_support_and_user_authorization": true,
+    "use_embedded_128_agents_by_default": true,
+    "no_vps_external_api_by_default": true
+  },
+  "verified_connection_probes": "skills/hoangphuong-supercomputing-core/references/FEDERATED_CONNECTION_PROBES.json",
+  "sync_strategy": "non_destructive_reference_mounts_original_plugins_remain_available",
+  "transfer_scope": {
+    "imported_into_core": [
+      "172 URI-backed Skill capability descriptors",
+      "11 other owned plugin backend ID references",
+      "19 tool namespace integration descriptors",
+      "22 source-family routing rules",
+      "3 read-only verified connector probes",
+      "4 read-only original Skill probes"
+    ],
+    "not_copied": [
+      "third party Skill/Plugin code",
+      "backend services",
+      "private user data",
+      "credentials/tokens",
+      "provider permissions",
+      "vendor proprietary runtimes"
+    ]
+  }
+}

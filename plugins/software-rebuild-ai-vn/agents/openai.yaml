@@ -1,0 +1,6 @@
+interface:
+  display_name: "Tái Tạo Phần Mềm AI"
+  short_description: "Điều phối phân tích, tái xây dựng app"
+  default_prompt: "Hãy phân loại phần mềm tôi cung cấp, xác minh quyền, rồi thiết kế kế hoạch tái xây dựng hợp pháp, có kiểm thử."
+policy:
+  allow_implicit_invocation: true

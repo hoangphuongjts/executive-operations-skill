@@ -1,0 +1,26 @@
+{
+  "schema": "hp-core-runtime-staging-v1",
+  "version": "16.0.41",
+  "runtime_execution_default": false,
+  "kill_switch_default": true,
+  "network_default": "deny",
+  "cost_limit_usd": 0,
+  "max_selected_specialists": 4,
+  "max_workflow_steps": 8,
+  "max_workflow_seconds": 60,
+  "write_policy": "host_approval_required",
+  "secrets": "none_in_package",
+  "provider_calls": "disabled",
+  "deployment": "not_deployed",
+  "zero_cost_mode": true,
+  "rollback": "restore_prior_release_by_explicit_approval_only",
+  "rules": {
+    "unknown_role": "block",
+    "unknown_skill": "block",
+    "missing_tool": "guidance_only",
+    "write_without_approval": "block",
+    "runtime_disabled": "guidance_only",
+    "paid_operation": "block",
+    "unsupported_mcp": "block"
+  }
+}

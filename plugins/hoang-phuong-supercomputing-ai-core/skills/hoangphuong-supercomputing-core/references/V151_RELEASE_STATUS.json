@@ -1,0 +1,77 @@
+{
+  "release": "15.1.3",
+  "date": "2026-11-04",
+  "origin_release": "14.7.0",
+  "milestones": {
+    "v14.8": {
+      "status": "packaged_offline_tested",
+      "implemented": [
+        "version metadata",
+        "action policy checks",
+        "108-command fail closed verifier",
+        "108 original study-code names and functions imported and source hash checked"
+      ],
+      "pending": [
+        "full external dependency audit",
+        "comparison to current Project instruction version if independently edited"
+      ]
+    },
+    "v14.9": {
+      "status": "packaged_offline_tested",
+      "implemented": [
+        "accent-aware router",
+        "abstention",
+        "synthetic 200 route smoke",
+        "unit tests"
+      ],
+      "pending": [
+        "independent blinded 200-case benchmark",
+        "production quality measurements"
+      ]
+    },
+    "v15.0": {
+      "status": "pilot_planner_only",
+      "implemented": [
+        "bounded 4-8 roles",
+        "kill switch on",
+        "no network by default",
+        "approval and budget gate"
+      ],
+      "pending": [
+        "infrastructure",
+        "credential security",
+        "approved live canary",
+        "external endpoint validation",
+        "load and pen tests"
+      ]
+    },
+    "v15.1": {
+      "status": "federated_planner_only",
+      "implemented": [
+        "host tool allowlist planner",
+        "source skill reference resolution",
+        "audit record helper"
+      ],
+      "pending": [
+        "real host orchestration trace",
+        "provider-specific rollback",
+        "live end-to-end verification"
+      ]
+    }
+  },
+  "recovery": [
+    "Prior plugin release retained in Plugin Creator",
+    "No deletion of original 7 skills, 128 profiles, or 15 adapters",
+    "Existing legacy gateway remains disabled by default"
+  ],
+  "full_500_repo_audit_complete": false,
+  "external_model_calls_executed": 0,
+  "claims_rule": "Do not call a packaged component deployed until service logs prove it.",
+  "patch_15_1_2": {
+    "scope": "Gemini-informed practical workflow and artifact verification",
+    "new_helper": "skills/hoangphuong/scripts/verify_artifacts.py",
+    "runtime_enabled": false,
+    "previous_evidence_preserved": true,
+    "qualification": "New workflow smoke evaluation applies to draft instructions, not a full host benchmark."
+  }
+}

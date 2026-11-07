@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "assertions": 1749,
+  "failed": 0,
+  "errors": [],
+  "scope": "OFFLINE_STATIC_ONLY",
+  "target_account_host_import": "NOT_TESTED",
+  "live_skill_invocation": "NOT_TESTED",
+  "oauth_mcp_network": "NOT_TESTED",
+  "production_mutations": 0
+}

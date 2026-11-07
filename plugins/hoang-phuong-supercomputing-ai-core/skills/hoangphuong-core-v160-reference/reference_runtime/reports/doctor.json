@@ -1,0 +1,8 @@
+{
+  "version": "16.0.0-prototype",
+  "status": "local-only",
+  "default_kill_switch": true,
+  "remote_runtime": "NOT_DEPLOYED",
+  "original_plugin_modified": false,
+  "original_registry_verified": false
+}

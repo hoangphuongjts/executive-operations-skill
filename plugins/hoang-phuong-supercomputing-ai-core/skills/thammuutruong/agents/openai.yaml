@@ -1,0 +1,5 @@
+interface:
+  display_name: "Tham Mưu Trưởng"
+  short_description: "Điều phối tác chiến và quản lý subagent dài hạn theo 2 tầng Chiến thuật - Chiến lược"
+policy:
+  allow_implicit_invocation: false

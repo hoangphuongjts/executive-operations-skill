@@ -1,0 +1,4 @@
+interface:
+  display_name: "hoangphuong-supercomputing-core"
+  short_description: "Supercomputing Core v15.1 — điều phối 128 vai trò, bảo mật và đánh giá có bằng chứng"
+  default_prompt: "Dùng $hoangphuong-supercomputing-core ở chế độ embedded_skills_only: chọn 1–4 chuyên môn phù hợp, kiểm tra an toàn và nguồn trước hành động, chỉ dùng plugin ngoài khi host cho phép; 128 agent độc lập và gateway vẫn chưa chạy mặc định."

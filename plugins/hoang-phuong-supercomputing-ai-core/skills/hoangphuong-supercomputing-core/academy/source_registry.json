@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "release": "14.3.0",
+  "no_external_content_downloaded": true,
+  "sources": [],
+  "policy": "human-validated provenance and purpose-specific rights before ingestion",
+  "allowed_uses": [
+    "quote",
+    "rag",
+    "training",
+    "redistribution",
+    "commercial"
+  ],
+  "default_decision": "deny_until_reviewed"
+}

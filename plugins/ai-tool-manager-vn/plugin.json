@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-tool-manager-vn",
+  "version": "1.0.1",
+  "description": "AI Agent tiếng Việt tìm, đánh giá và điều phối cài đặt Skill, Plugin, AI Agent, Workflow; phân loại và đóng gói công cụ khác thành dạng phù hợp.",
+  "author": {
+    "name": "Hoàng Phương",
+    "email": "hoangphuongelectrical@gmail.com"
+  },
+  "keywords": [
+    "agent",
+    "skills",
+    "plugins",
+    "workflow",
+    "packaging",
+    "Vietnamese"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Quản Gia AI",
+        "shortDescription": "Tìm, đóng gói, tích hợp AI",
+        "longDescription": "Agent điều phối riêng tư bằng tiếng Việt: tìm nguồn Skill, Plugin, AI Agent và Workflow; thẩm định mức độ an toàn; kiểm tra trùng lặp; yêu cầu kết nối/cài plugin phù hợp; chuyển công cụ, repository hoặc ý tưởng khác thành gói phù hợp và kiểm tra sau triển khai. Không tự cài đặt ngầm, không tự chạy mã nguồn lạ và không xóa hay thay thế công cụ hiện có.",
+        "developerName": "Hoàng Phương",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Dùng Quản Gia AI tìm, đánh giá và đề xuất cài đặt công cụ này: ",
+          "Dùng Quản Gia AI phân loại và đóng gói công cụ sau để dùng trong ChatGPT: ",
+          "Dùng Quản Gia AI kiểm tra các gói hiện có và đề xuất phần còn thiếu."
+        ]
+      }
+    }
+  }
+}

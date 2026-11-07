@@ -1,0 +1,226 @@
+{
+  "skills": [
+    {
+      "source": "addyosmani",
+      "name": "api-and-interface-design",
+      "path": "skills/addyosmani/api-and-interface-design/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "browser-testing-with-devtools",
+      "path": "skills/addyosmani/browser-testing-with-devtools/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "ci-cd-and-automation",
+      "path": "skills/addyosmani/ci-cd-and-automation/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "code-review-and-quality",
+      "path": "skills/addyosmani/code-review-and-quality/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "code-simplification",
+      "path": "skills/addyosmani/code-simplification/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "constraint-driven-development",
+      "path": "skills/addyosmani/constraint-driven-development/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "context-engineering",
+      "path": "skills/addyosmani/context-engineering/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "debugging-and-error-recovery",
+      "path": "skills/addyosmani/debugging-and-error-recovery/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "deprecation-and-migration",
+      "path": "skills/addyosmani/deprecation-and-migration/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "documentation-and-adrs",
+      "path": "skills/addyosmani/documentation-and-adrs/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "doubt-driven-development",
+      "path": "skills/addyosmani/doubt-driven-development/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "frontend-ui-engineering",
+      "path": "skills/addyosmani/frontend-ui-engineering/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "git-workflow-and-versioning",
+      "path": "skills/addyosmani/git-workflow-and-versioning/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "idea-refine",
+      "path": "skills/addyosmani/idea-refine/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "incremental-implementation",
+      "path": "skills/addyosmani/incremental-implementation/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "interview-me",
+      "path": "skills/addyosmani/interview-me/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "observability-and-instrumentation",
+      "path": "skills/addyosmani/observability-and-instrumentation/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "performance-optimization",
+      "path": "skills/addyosmani/performance-optimization/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "planning-and-task-breakdown",
+      "path": "skills/addyosmani/planning-and-task-breakdown/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "security-and-hardening",
+      "path": "skills/addyosmani/security-and-hardening/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "shipping-and-launch",
+      "path": "skills/addyosmani/shipping-and-launch/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "source-driven-development",
+      "path": "skills/addyosmani/source-driven-development/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "spec-driven-development",
+      "path": "skills/addyosmani/spec-driven-development/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "test-driven-development",
+      "path": "skills/addyosmani/test-driven-development/SKILL.md"
+    },
+    {
+      "source": "addyosmani",
+      "name": "using-agent-skills",
+      "path": "skills/addyosmani/using-agent-skills/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "brainstorming",
+      "path": "skills/superpowers/brainstorming/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "diagnosing-superpowers",
+      "path": "skills/superpowers/diagnosing-superpowers/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "dispatching-parallel-agents",
+      "path": "skills/superpowers/dispatching-parallel-agents/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "executing-plans",
+      "path": "skills/superpowers/executing-plans/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "finishing-a-development-branch",
+      "path": "skills/superpowers/finishing-a-development-branch/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "receiving-code-review",
+      "path": "skills/superpowers/receiving-code-review/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "requesting-code-review",
+      "path": "skills/superpowers/requesting-code-review/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "subagent-driven-development",
+      "path": "skills/superpowers/subagent-driven-development/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "systematic-debugging",
+      "path": "skills/superpowers/systematic-debugging/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "test-driven-development",
+      "path": "skills/superpowers/test-driven-development/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "using-git-worktrees",
+      "path": "skills/superpowers/using-git-worktrees/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "using-superpowers",
+      "path": "skills/superpowers/using-superpowers/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "verification-before-completion",
+      "path": "skills/superpowers/verification-before-completion/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "writing-plans",
+      "path": "skills/superpowers/writing-plans/SKILL.md"
+    },
+    {
+      "source": "superpowers",
+      "name": "writing-skills",
+      "path": "skills/superpowers/writing-skills/SKILL.md"
+    }
+  ],
+  "agents": [
+    {
+      "source": "addyosmani",
+      "name": "code-reviewer"
+    },
+    {
+      "source": "addyosmani",
+      "name": "security-auditor"
+    },
+    {
+      "source": "addyosmani",
+      "name": "test-engineer"
+    },
+    {
+      "source": "addyosmani",
+      "name": "web-performance-auditor"
+    }
+  ],
+  "runtimes": [
+    "mini-swe-agent",
+    "aider"
+  ]
+}

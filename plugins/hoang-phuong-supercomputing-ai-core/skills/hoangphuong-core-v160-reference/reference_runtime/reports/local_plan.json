@@ -1,0 +1,12 @@
+{
+  "allowed": true,
+  "reason": "local plan only; no external tool invoked",
+  "task_id": "343cecc6-5ffa-4da1-8783-13c71dfe841b",
+  "roles": [
+    "planner",
+    "critic",
+    "integrator",
+    "evaluator"
+  ],
+  "evidence": "OFFLINE_TESTED_LOCAL_PLAN"
+}

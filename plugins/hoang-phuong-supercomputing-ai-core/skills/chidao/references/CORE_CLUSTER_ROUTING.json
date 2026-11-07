@@ -1,0 +1,26 @@
+{
+  "schema": "hoangphuong-core-cluster-link/1.0",
+  "skill_id": "chidao",
+  "skill_path": "skills/chidao/SKILL.md",
+  "original_filename": "chidao\\SKILL.md",
+  "source_google_drive_file_id": "11BeM2GT2mW_8tgt4K7cOnDMyK_NBzdG1",
+  "source_archive_sha256": "5c5560b05338a77b30c70258c295ea366fbbe2b36c1b1175b3fd49b0366c06e2",
+  "original_skill_sha256": "3ec9dbc0599f8cfd0ae5fe3a1ae83facb538d6a4abe9c388f0abe1a74c67e668",
+  "primary_cluster": {
+    "id": 8,
+    "name": "Điều phối & vận hành"
+  },
+  "secondary_clusters": [
+    {
+      "id": 11,
+      "name": "Agent & công cụ"
+    }
+  ],
+  "kind": "core_skill_overlay",
+  "workflow": "parallel orchestration, task delegation, semantic anchors, quality gates",
+  "original_skill_unchanged": true,
+  "study_108_baseline_untouched": true,
+  "external_runtime_bundled": false,
+  "external_model_access_verified": false,
+  "source_policy_note": "This asset contains instructions for external multi-model routing. Packaging does not grant models, execution permissions, quotas, background workers, cost guarantees, or override host safety/approval requirements."
+}

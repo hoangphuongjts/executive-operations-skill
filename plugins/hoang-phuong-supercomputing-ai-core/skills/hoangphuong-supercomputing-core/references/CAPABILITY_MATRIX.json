@@ -1,0 +1,321 @@
+{
+  "schema_version": "2.0.0",
+  "release": "16.0.23",
+  "execution_mode": "embedded_skills_only",
+  "capability_status_semantics": {
+    "documented": "Instructions/docs, not runtime",
+    "bundled_testable": "Legacy scripts present, run only on authorized Python environment",
+    "research_only": "Hypothesis, no verified hardware or service",
+    "requires_external_runtime": "External service/credentials/hardware and separate authorization required",
+    "packaged": "Added to package, requires post-publish host verification",
+    "offline_tested": "Named local stdlib test cases have passed in patch workspace",
+    "not_performed": "Not audited or benchmarked; do not infer approval",
+    "requires_authoritative_registry": "Fail-closed until true source-of-truth is provided",
+    "pending_postpublish_verification": "Must re-read after publishing new plugin release"
+  },
+  "capabilities": [
+    {
+      "id": "architect_engineering",
+      "status": "documented",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "roles_64",
+      "status": "documented",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "original_7_skills",
+      "status": "documented",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "verification_harness",
+      "status": "bundled_testable",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "evaluation_harness",
+      "status": "bundled_testable",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "python_microbenchmark",
+      "status": "bundled_testable",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "jit_self_patching",
+      "status": "research_only",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "quantum_neural_fabric",
+      "status": "research_only",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "algorithm_discovery",
+      "status": "research_only",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "recursive_swarm",
+      "status": "requires_external_runtime",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "roles_128",
+      "status": "documented",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "swarm128_router",
+      "status": "bundled_testable",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "swarm128_api_adapter",
+      "status": "requires_external_runtime",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "agent_128_independent_runtime",
+      "status": "research_only",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "profiles_128_independent",
+      "status": "documented",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "external_agent_runtime_v14",
+      "status": "requires_external_runtime",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "agent_training_eval_v14",
+      "status": "bundled_testable",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "local_gateway_128_v141",
+      "status": "bundled_testable",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "cluster_debate_v141",
+      "status": "bundled_testable",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "knowledge_license_tracking_v141",
+      "status": "bundled_testable",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "live_cluster_agent_runtime_v141",
+      "status": "requires_external_runtime",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "embedded_128_skill_mode_v142",
+      "status": "documented",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "future_core_preservation_v142",
+      "status": "documented",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "academy_16_curricula_v143",
+      "status": "documented",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "academy_pilot_8_v143",
+      "status": "documented",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "academy_license_audit_v143",
+      "status": "bundled_testable",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "academy_review_report_v143",
+      "status": "bundled_testable",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "external_skills_federated_index_v144",
+      "status": "documented",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "external_skill_local_router_v144",
+      "status": "bundled_testable",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "external_plugin_execution_v144",
+      "status": "requires_external_runtime",
+      "origin": "v13-v14.4",
+      "evidence": "legacy source scripts/references retained",
+      "limitation": "Original legacy capability; status not promoted without real execution logs"
+    },
+    {
+      "id": "stable_manifest_parity_v148",
+      "status": "packaged",
+      "origin": "v14.8-v15.1",
+      "evidence": "scripts/core_v151.py, scripts/runtime_v150.py, scripts/capability_hub_v151.py, scripts/test_v151.py",
+      "limitation": "Offline code or release plan only; no external paid runtime deployed"
+    },
+    {
+      "id": "conservative_permission_policy_v148",
+      "status": "offline_tested",
+      "origin": "v14.8-v15.1",
+      "evidence": "scripts/core_v151.py, scripts/runtime_v150.py, scripts/capability_hub_v151.py, scripts/test_v151.py",
+      "limitation": "Offline code or release plan only; no external paid runtime deployed"
+    },
+    {
+      "id": "study_108_baseline_parity_v148",
+      "status": "offline_tested",
+      "origin": "v14.8-v15.1",
+      "evidence": "references/STUDY_108_BASELINE.json, references/STUDY_108_PROVENANCE.json, scripts/test_v151.py",
+      "limitation": "Source snapshot imported; current Project instruction parity requires separate candidate readback."
+    },
+    {
+      "id": "github500_full_security_audit_v148",
+      "status": "not_performed",
+      "origin": "v14.8-v15.1",
+      "evidence": "scripts/core_v151.py, scripts/runtime_v150.py, scripts/capability_hub_v151.py, scripts/test_v151.py",
+      "limitation": "Offline code or release plan only; no external paid runtime deployed"
+    },
+    {
+      "id": "unicode_router_v149",
+      "status": "offline_tested",
+      "origin": "v14.8-v15.1",
+      "evidence": "scripts/core_v151.py, scripts/runtime_v150.py, scripts/capability_hub_v151.py, scripts/test_v151.py",
+      "limitation": "Offline code or release plan only; no external paid runtime deployed"
+    },
+    {
+      "id": "synthetic_200_routing_smoke_v149",
+      "status": "offline_tested",
+      "origin": "v14.8-v15.1",
+      "evidence": "scripts/core_v151.py, scripts/runtime_v150.py, scripts/capability_hub_v151.py, scripts/test_v151.py",
+      "limitation": "Offline code or release plan only; no external paid runtime deployed"
+    },
+    {
+      "id": "independent_200_benchmark_v149",
+      "status": "not_performed",
+      "origin": "v14.8-v15.1",
+      "evidence": "scripts/core_v151.py, scripts/runtime_v150.py, scripts/capability_hub_v151.py, scripts/test_v151.py",
+      "limitation": "Offline code or release plan only; no external paid runtime deployed"
+    },
+    {
+      "id": "bounded_4_8_agent_pilot_v150",
+      "status": "offline_tested",
+      "origin": "v14.8-v15.1",
+      "evidence": "scripts/core_v151.py, scripts/runtime_v150.py, scripts/capability_hub_v151.py, scripts/test_v151.py",
+      "limitation": "Offline code or release plan only; no external paid runtime deployed"
+    },
+    {
+      "id": "live_agent_runtime_v150",
+      "status": "requires_external_runtime",
+      "origin": "v14.8-v15.1",
+      "evidence": "scripts/core_v151.py, scripts/runtime_v150.py, scripts/capability_hub_v151.py, scripts/test_v151.py",
+      "limitation": "Offline code or release plan only; no external paid runtime deployed"
+    },
+    {
+      "id": "current_host_capability_planner_v151",
+      "status": "offline_tested",
+      "origin": "v14.8-v15.1",
+      "evidence": "scripts/core_v151.py, scripts/runtime_v150.py, scripts/capability_hub_v151.py, scripts/test_v151.py",
+      "limitation": "Offline code or release plan only; no external paid runtime deployed"
+    },
+    {
+      "id": "provider_tool_bridge_live_v151",
+      "status": "requires_external_runtime",
+      "origin": "v14.8-v15.1",
+      "evidence": "scripts/core_v151.py, scripts/runtime_v150.py, scripts/capability_hub_v151.py, scripts/test_v151.py",
+      "limitation": "Offline code or release plan only; no external paid runtime deployed"
+    },
+    {
+      "id": "host_registration_v151",
+      "status": "pending_postpublish_verification",
+      "origin": "v14.8-v15.1",
+      "evidence": "scripts/core_v151.py, scripts/runtime_v150.py, scripts/capability_hub_v151.py, scripts/test_v151.py",
+      "limitation": "Offline code or release plan only; no external paid runtime deployed"
+    }
+  ],
+  "do_not_claim": [
+    "128 models running independently",
+    "500 GitHub repositories installed",
+    "all third-party GitHub dependencies audited",
+    "live API bridge running",
+    "independently measured 95% routing accuracy",
+    "current Project slash instructions synchronized without independent readback"
+  ],
+  "legacy_matrix_note": "Legacy capability rows preserved at same status as the v14.4 matrix; detailed source documentation remains in existing plugin references. New fields are evaluated separately."
+}

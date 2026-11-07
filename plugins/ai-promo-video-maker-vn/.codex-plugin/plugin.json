@@ -1,0 +1,18 @@
+{
+  "author": {
+    "email": "hoangphuongelectrical@gmail.com",
+    "name": "Hoàng Phương"
+  },
+  "description": "Skill hướng dẫn sản xuất video quảng bá sản phẩm bằng quy trình ai-promo-video-maker, Remotion và kiểm toán bản quyền; phối hợp với Hoangphuong Core, không chứa runtime.",
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "developerName": "Hoàng Phương",
+    "displayName": "AI Promo Video Maker VN",
+    "longDescription": "Adapter hướng dẫn tiếng Việt cho quy trình dựng promo video từ repo MIT của liyupi; kiểm soát license, quyền ảnh/nhạc, nguồn dữ kiện, storyboard, render và duyệt đăng. Upstream executable chưa tích hợp ChatGPT.",
+    "shortDescription": "Video quảng cáo • Remotion"
+  },
+  "name": "ai-promo-video-maker-vn",
+  "skills": "./skills",
+  "version": "0.1.0"
+}

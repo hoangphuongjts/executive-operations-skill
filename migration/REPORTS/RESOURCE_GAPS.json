@@ -1,0 +1,24 @@
+{
+  "original_source_release": "16.0.50",
+  "registry_embedded_source_version": "16.0.35",
+  "registry_note": "Embedded registry version may reflect historical baseline, not current package release.",
+  "missing_files": {
+    "hoang-phuong-supercomputing-ai-core": [
+      "skills/hoangphuong-core-v160-reference/reference_runtime/src/hpcore/__pycache__/__init__.cpython-313.pyc",
+      "skills/hoangphuong-core-v160-reference/reference_runtime/src/hpcore/__pycache__/core.cpython-313.pyc",
+      "skills/hoangphuong-core-v160-reference/reference_runtime/tests/__pycache__/test_core.cpython-313.pyc",
+      "skills/music-midi-arrangement-vn/scripts/__pycache__/score_export.cpython-313.pyc",
+      "skills/music-midi-arrangement-vn/tests/__pycache__/test_exports.cpython-313.pyc"
+    ],
+    "channel-growth-agent-vn": [
+      "skills/voice-selection/scripts/__pycache__/test_voice_select.cpython-312.pyc",
+      "skills/voice-selection/scripts/__pycache__/voice_select.cpython-312.pyc"
+    ]
+  },
+  "total_source_binary_cache_missing": 7,
+  "complete_byte_for_byte_backup": false,
+  "source_code_missing_from_known_gap": false,
+  "missing_resource_action": "No .pyc reconstruction: caches regenerate from Python source on a matching runtime; do not claim binary parity.",
+  "additional_gap": "Third-party installed plugins and external data/connections are not included in the 17 owned plugin archives.",
+  "site_backed_app": "App binding and source Site are account-scoped and cannot be recreated from two manifest files."
+}

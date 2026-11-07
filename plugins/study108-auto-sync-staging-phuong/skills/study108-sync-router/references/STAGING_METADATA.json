@@ -1,0 +1,7 @@
+{
+  "staging_only": true,
+  "version": "0.1.3",
+  "source_mode": "add",
+  "production_core_modified": false,
+  "chatgpt_behavior_verified": false
+}

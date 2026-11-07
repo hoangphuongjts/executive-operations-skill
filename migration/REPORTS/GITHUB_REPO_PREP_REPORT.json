@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "source_archive": "HoangPhuong_ChatGPT_Migration_STAGING_v2_2026-11-07.zip",
+  "source_sha256": "9acbf7c3866776f5a544ae008c251cc134ea5aa32d155c5296ef695833e58856",
+  "source_owned_plugins": 17,
+  "candidate_packages": 16,
+  "extracted_plugin_dirs": 16,
+  "source_packages_with_app_bound": 1,
+  "source_skill_count": 197,
+  "scan_regex_findings": [],
+  "scan_limit": "Pattern based; cannot guarantee absence of all sensitive material.",
+  "repo_visibility_required": "private",
+  "remote_created": false,
+  "host_import_tested": false,
+  "production_changed": false,
+  "github_actions_enabled": false,
+  "cost_usd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "interface": {
+    "developerName": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "displayName": "ai-coding-vietnamese-kit",
+    "shortDescription": "B\u1ed9 40 k\u1ef9 n\u0103ng k\u1ef9 thu\u1eadt ph\u1ea7n m\u1ec1m v\u00e0 4 vai tr\u00f2 ki\u1ec3m \u0111\u1ecbnh m\u00e3, b\u1ea3o m\u1eadt, ki\u1ec3m th\u1eed v\u00e0 hi\u1ec7u n\u0103ng, d\u00f9ng ti\u1ebfng Vi\u1ec7t; kh\u00f4ng t\u1ef1 ch\u1ea1y shell ho\u1eb7c thay \u0111\u1ed5i d\u1eef li\u1ec7u.",
+    "longDescription": "B\u1ed9 40 k\u1ef9 n\u0103ng k\u1ef9 thu\u1eadt ph\u1ea7n m\u1ec1m v\u00e0 4 vai tr\u00f2 ki\u1ec3m \u0111\u1ecbnh m\u00e3, b\u1ea3o m\u1eadt, ki\u1ec3m th\u1eed v\u00e0 hi\u1ec7u n\u0103ng, d\u00f9ng ti\u1ebfng Vi\u1ec7t; kh\u00f4ng t\u1ef1 ch\u1ea1y shell ho\u1eb7c thay \u0111\u1ed5i d\u1eef li\u1ec7u.",
+    "category": "Other",
+    "capabilities": [],
+    "defaultPrompt": null
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/ai-coding-setup/SKILL.md"
+    }
+  },
+  "name": "ai-coding-vietnamese-kit",
+  "version": "1.0.0",
+  "description": "B\u1ed9 40 k\u1ef9 n\u0103ng k\u1ef9 thu\u1eadt ph\u1ea7n m\u1ec1m v\u00e0 4 vai tr\u00f2 ki\u1ec3m \u0111\u1ecbnh m\u00e3, b\u1ea3o m\u1eadt, ki\u1ec3m th\u1eed v\u00e0 hi\u1ec7u n\u0103ng, d\u00f9ng ti\u1ebfng Vi\u1ec7t; kh\u00f4ng t\u1ef1 ch\u1ea1y shell ho\u1eb7c thay \u0111\u1ed5i d\u1eef li\u1ec7u.",
+  "author": {
+    "name": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "email": "hoangphuongelectrical@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

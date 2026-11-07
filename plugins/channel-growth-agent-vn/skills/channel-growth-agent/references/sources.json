@@ -1,0 +1,48 @@
+[
+  {
+    "repo": "Jakeschincariol/youtube-agent-skill",
+    "commit": "a2feb2104981a375ffd4f87ee04f4f5344ac43c6",
+    "license": "MIT",
+    "files": [
+      "skills/yt-script/SKILL.md",
+      "skills/yt-script/hooks.json",
+      "skills/yt-script/hookscore.py",
+      "skills/yt-package/SKILL.md",
+      "skills/yt-retention/SKILL.md"
+    ]
+  },
+  {
+    "repo": "AgriciDaniel/claude-youtube",
+    "commit": "84c3fa6805200632fadb4fe2795ef265511271c7",
+    "license": "MIT",
+    "files": [
+      "skills/claude-youtube/SKILL.md"
+    ]
+  },
+  {
+    "repo": "social-media-skills/skills",
+    "commit": "f28cef2b7067ec64e79c9d85421c022c06659e03",
+    "license": "MIT",
+    "files": [
+      "skills/youtube-long-form/SKILL.md",
+      "skills/youtube-shorts/SKILL.md",
+      "skills/instagram-growth/SKILL.md",
+      "skills/tiktok-growth/SKILL.md"
+    ]
+  },
+  {
+    "repo": "sergebulaev/tiktok-skills",
+    "commit": "2016087d14889213ffcc38d269ec7ddd01333450",
+    "license": "MIT",
+    "files": [
+      "skills/tt-hook-scripter/SKILL.md",
+      "references/hook-formulas.md"
+    ]
+  },
+  {
+    "repo": "sharbelxyz/nova-youtube-agent",
+    "commit": "221a7f802517607bcf7b98ea7604c410022a1add",
+    "license": "SKILL frontmatter says MIT; no standalone license found; no source copied",
+    "files": []
+  }
+]

@@ -1,0 +1,218 @@
+{
+  "version": "14.7.0",
+  "status": "packaged_not_yet_host_verified",
+  "parent_plugin": "hoang-phuong-supercomputing-ai-core",
+  "execution_mode": "embedded_skills_only",
+  "new_derived_skills": 12,
+  "previous_pilot_skills": 3,
+  "covered_source_repositories": [
+    "K-Dense-AI/scientific-agent-skills",
+    "coreyhaines31/marketingskills",
+    "github/awesome-copilot"
+  ],
+  "other_500_repositories_native_integrations": 0,
+  "safety": {
+    "auto_run_external_repos": false,
+    "auto_register_slash_commands": false,
+    "external_api_calls": false,
+    "original_108_code_names_changed": false,
+    "original_core_agent_ids_changed": false
+  },
+  "notes": "The 500 catalog remains discovery_only. These 12 guided, originally-authored adapters reuse documented methods, not original Python code or tool runtimes.",
+  "entries": [
+    {
+      "name": "github500-agent-governance",
+      "repo": "github/awesome-copilot",
+      "source_path": "skills/agent-governance/SKILL.md",
+      "source_sha1": "a3c2501676c11fd8433c802b7f1c21d174ff6721",
+      "license": "MIT",
+      "scope": "AI governance / security",
+      "skill_path": "skills/github500-agent-governance/SKILL.md",
+      "core_clusters": [
+        4,
+        8,
+        11,
+        16
+      ],
+      "kind": "new_vietnamese_skill_adaptation",
+      "host_registration": "pending_postpublish_verification"
+    },
+    {
+      "name": "github500-agent-evaluation",
+      "repo": "github/awesome-copilot",
+      "source_path": "skills/agentic-eval/SKILL.md",
+      "source_sha1": "3cb14203efaf62af98065bd599600ba808f0ef31",
+      "license": "MIT",
+      "scope": "AI evaluation / testing",
+      "skill_path": "skills/github500-agent-evaluation/SKILL.md",
+      "core_clusters": [
+        4,
+        7,
+        11,
+        16
+      ],
+      "kind": "new_vietnamese_skill_adaptation",
+      "host_registration": "pending_postpublish_verification"
+    },
+    {
+      "name": "github500-prompt-safety",
+      "repo": "github/awesome-copilot",
+      "source_path": "skills/ai-prompt-engineering-safety-review/SKILL.md",
+      "source_sha1": "86d8622d384e77056c4065cd616cb9285131d946",
+      "license": "MIT",
+      "scope": "Prompt / safety",
+      "skill_path": "skills/github500-prompt-safety/SKILL.md",
+      "core_clusters": [
+        4,
+        11,
+        16
+      ],
+      "kind": "new_vietnamese_skill_adaptation",
+      "host_registration": "pending_postpublish_verification"
+    },
+    {
+      "name": "github500-workflow-design",
+      "repo": "github/awesome-copilot",
+      "source_path": "skills/automate-this/SKILL.md",
+      "source_sha1": "3d0cac53fcf5723168916bbfbee6ef9d37b5813f",
+      "license": "MIT",
+      "scope": "Workflow / automation",
+      "skill_path": "skills/github500-workflow-design/SKILL.md",
+      "core_clusters": [
+        3,
+        8,
+        11
+      ],
+      "kind": "new_vietnamese_skill_adaptation",
+      "host_registration": "pending_postpublish_verification"
+    },
+    {
+      "name": "github500-prompt-refiner",
+      "repo": "github/awesome-copilot",
+      "source_path": "skills/boost-prompt/SKILL.md",
+      "source_sha1": "f5cd27ff3808c9a2c95f403f36f469b451fca186",
+      "license": "MIT",
+      "scope": "Prompt / commands",
+      "skill_path": "skills/github500-prompt-refiner/SKILL.md",
+      "core_clusters": [
+        8,
+        11,
+        16
+      ],
+      "kind": "new_vietnamese_skill_adaptation",
+      "host_registration": "pending_postpublish_verification"
+    },
+    {
+      "name": "github500-architecture-blueprint",
+      "repo": "github/awesome-copilot",
+      "source_path": "skills/architecture-blueprint-generator/SKILL.md",
+      "source_sha1": "a9a24b0e85fbd1d2e39851cc12ec266f3a55794d",
+      "license": "MIT",
+      "scope": "Software architecture",
+      "skill_path": "skills/github500-architecture-blueprint/SKILL.md",
+      "core_clusters": [
+        2,
+        3,
+        12
+      ],
+      "kind": "new_vietnamese_skill_adaptation",
+      "host_registration": "pending_postpublish_verification"
+    },
+    {
+      "name": "github500-hypothesis-research",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "source_path": "skills/hypothesis-generation/SKILL.md",
+      "source_sha1": "cac00e1e0980402f14722af084e9305fdf965a57",
+      "license": "MIT",
+      "scope": "Science / research",
+      "skill_path": "skills/github500-hypothesis-research/SKILL.md",
+      "core_clusters": [
+        1,
+        4,
+        16
+      ],
+      "kind": "new_vietnamese_skill_adaptation",
+      "host_registration": "pending_postpublish_verification"
+    },
+    {
+      "name": "github500-exploratory-data",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "source_path": "skills/exploratory-data-analysis/SKILL.md",
+      "source_sha1": "c461f99dea057872298ce6f04e7c090a83d80d01",
+      "license": "MIT",
+      "scope": "Data science / analytics",
+      "skill_path": "skills/github500-exploratory-data/SKILL.md",
+      "core_clusters": [
+        4,
+        9,
+        10
+      ],
+      "kind": "new_vietnamese_skill_adaptation",
+      "host_registration": "pending_postpublish_verification"
+    },
+    {
+      "name": "github500-citation-verification",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "source_path": "skills/citation-management/SKILL.md",
+      "source_sha1": "b63b589d4d423969a63e032e62c2b74969147c1c",
+      "license": "MIT",
+      "scope": "Citation / research sources",
+      "skill_path": "skills/github500-citation-verification/SKILL.md",
+      "core_clusters": [
+        1,
+        10,
+        16
+      ],
+      "kind": "new_vietnamese_skill_adaptation",
+      "host_registration": "pending_postpublish_verification"
+    },
+    {
+      "name": "github500-lab-cad-planning",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "source_path": "skills/lab-hardware-cad/SKILL.md",
+      "source_sha1": "1d925b978826579707c226ba3fff1e337f913443",
+      "license": "MIT",
+      "scope": "3D CAD / engineering",
+      "skill_path": "skills/github500-lab-cad-planning/SKILL.md",
+      "core_clusters": [
+        3,
+        12,
+        15
+      ],
+      "kind": "new_vietnamese_skill_adaptation",
+      "host_registration": "pending_postpublish_verification"
+    },
+    {
+      "name": "github500-competitor-analysis",
+      "repo": "coreyhaines31/marketingskills",
+      "source_path": "skills/competitor-profiling/SKILL.md",
+      "source_sha1": "eeffb37d90ee48776f078bb77bce6de4c516b21e",
+      "license": "MIT",
+      "scope": "Business / marketing",
+      "skill_path": "skills/github500-competitor-analysis/SKILL.md",
+      "core_clusters": [
+        13,
+        14,
+        16
+      ],
+      "kind": "new_vietnamese_skill_adaptation",
+      "host_registration": "pending_postpublish_verification"
+    },
+    {
+      "name": "github500-command-library",
+      "repo": "github/awesome-copilot",
+      "source_path": "skills/boost-prompt/SKILL.md",
+      "source_sha1": "f5cd27ff3808c9a2c95f403f36f469b451fca186",
+      "license": "MIT",
+      "scope": "Prompt / command routing",
+      "skill_path": "skills/github500-command-library/SKILL.md",
+      "core_clusters": [
+        8,
+        11,
+        16
+      ],
+      "kind": "new_vietnamese_skill_adaptation",
+      "host_registration": "pending_postpublish_verification"
+    }
+  ]
+}

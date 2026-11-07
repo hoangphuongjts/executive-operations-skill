@@ -1,0 +1,123 @@
+{
+  "plugin_target_version": "16.0.47",
+  "source_registry": "skills/hoangphuong-supercomputing-core/references/STUDY_108_BASELINE.json",
+  "registry_modified": false,
+  "original_chidao_modified": false,
+  "canonical_description_fingerprint_method": "Per-record FNV1a 32-bit, JS UTF-16 code units (matched source read-back)",
+  "code_function_pairs_match_source": 108,
+  "unique_codes": 108,
+  "group_counts": {
+    "Tư duy & ôn luyện": 13,
+    "Hình ảnh & ghi nhớ": 32,
+    "Game & mô phỏng": 20,
+    "Lập kế hoạch & luyện thi": 19,
+    "Giải thích & học theo môn": 24
+  },
+  "test_levels": {
+    "catalog_pair_fidelity": "PASS",
+    "prefix_parser_synthetic": "PASS",
+    "html_ui_browser_e2e": "PASS",
+    "runtime_real_model_subagents": "NOT_TESTED",
+    "host_mention_invocation": "NOT_TESTED",
+    "all_108_end_to_end": "NOT_TESTED"
+  },
+  "notes": [
+    "Bảng HTML hoàn toàn offline, không yêu cầu API key hoặc phí",
+    "Registry là nguồn chuẩn duy nhất, giao diện tạo bản xem từ 108 cặp mã/chức năng đã so khớp",
+    "108 phép thử route không có nghĩa là 108 engine AI hay công cụ tạo ảnh và game được chạy thật"
+  ],
+  "chromium_test": {
+    "executed_tests": 16,
+    "passed": 16,
+    "details": [
+      {
+        "test": "Browser không có pageerror",
+        "pass": true
+      },
+      {
+        "test": "Tất cả 108 thẻ hiển thị",
+        "pass": true
+      },
+      {
+        "test": "Registry có 108 mã",
+        "pass": true
+      },
+      {
+        "test": "Self test JS hoàn tất",
+        "pass": true
+      },
+      {
+        "test": "Lọc tiền tố /g",
+        "pass": true
+      },
+      {
+        "test": "Bộ lọc /flashcards không trùng /flashcardapp",
+        "pass": true
+      },
+      {
+        "test": "Tìm mô tả theo từ khóa tiếng Việt",
+        "pass": true
+      },
+      {
+        "test": "Tìm không dấu",
+        "pass": true
+      },
+      {
+        "test": "Lọc nhóm game 20 mã",
+        "pass": true
+      },
+      {
+        "test": "Chọn mã cập nhật trình soạn lệnh",
+        "pass": true
+      },
+      {
+        "test": "Dựng lời nhắc đúng mã, đúng văn bản",
+        "pass": true
+      },
+      {
+        "test": "Chuyển sang dạng danh sách",
+        "pass": true
+      },
+      {
+        "test": "Chuyển giao diện tối",
+        "pass": true
+      },
+      {
+        "test": "Mobile 108 mã hiển thị",
+        "pass": true
+      },
+      {
+        "test": "Mobile không tràn ngang",
+        "pass": true
+      },
+      {
+        "test": "Mobile không lỗi JavaScript",
+        "pass": true
+      }
+    ],
+    "browser": "Chromium headless",
+    "desktop_viewport": "1440x900",
+    "mobile_viewport": "390x844",
+    "screenshots": [
+      "CODE_HOC_TAP_108_desktop.png",
+      "CODE_HOC_TAP_108_mobile.png"
+    ]
+  },
+  "routing_samples": {
+    "exact_code_with_prompt": {
+      "total": 108,
+      "passed": 108,
+      "failed": 0,
+      "scope": "Browser JavaScript resolveStudyCode() parser, no model/backend calls"
+    },
+    "collision_checks": [
+      "/flashcards vs /flashcardapp",
+      "/mindmap vs /mindmapimage"
+    ],
+    "prefix_examples": [
+      "/g",
+      "/m"
+    ],
+    "unknown_code_handling": "Reject unknown code; /chidao is handled by Core separately"
+  }
+}

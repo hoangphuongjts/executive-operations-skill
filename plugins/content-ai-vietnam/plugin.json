@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "hoangphuongelectrical@gmail.com",
+    "name": "Hoàng Phương"
+  },
+  "description": "Bộ hướng dẫn Content AI bằng tiếng Việt cho chiến lược nội dung, mạng xã hội, viết bán hàng, video, quảng cáo, biên tập và SEO.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Creativity",
+        "defaultPrompt": "Tạo nội dung tiếng Việt theo mô-đun phù hợp; không bịa dữ kiện hoặc đăng thay tôi.",
+        "developerName": "Hoàng Phương",
+        "displayName": "Content AI Việt Nam",
+        "longDescription": "Bộ 14 skill tiếng Việt: giữ bảy chuyên môn nội dung hiện có, bổ sung điều phối, nghiên cứu khách hàng, giọng thương hiệu, chiến dịch, tái sử dụng, câu chuyện sản phẩm địa phương và đo lường. Có brief và sổ bằng chứng dùng chung. Plugin cung cấp hướng dẫn; không có backend, kết nối dữ liệu hoặc chức năng tự đăng.",
+        "shortDescription": "14 skill nội dung tiếng Việt"
+      }
+    }
+  },
+  "name": "content-ai-vietnam",
+  "version": "0.3.3"
+}

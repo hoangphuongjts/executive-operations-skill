@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nghiên cứu người xem và khách hàng"
+  short_description: "Nội dung tiếng Việt có bằng chứng và mục tiêu rõ"
+  default_prompt: "Dùng $audience-research để hoàn thành yêu cầu nội dung của tôi."

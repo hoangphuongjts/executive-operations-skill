@@ -1,0 +1,52 @@
+{
+  "schema": "HP_Candidates_Delta/1",
+  "source": "pinned GitHub tree and selected SKILL.md/license review",
+  "rows_modified": [
+    2,
+    4
+  ],
+  "records": [
+    {
+      "row": 2,
+      "cluster_id": 1,
+      "rank": 2,
+      "repo": "Tyche-MKR/scientific-agent-skills",
+      "default_branch": "main",
+      "pinned_commit": "4cdd606c79074c34322dd908caa03c26058e9c60",
+      "license": "MIT root; selected source copyright K-Dense Inc.",
+      "skill_format_confirmed": true,
+      "decision": "excluded_overlap_no_unique_science_skill",
+      "audit_note": "163 SKILL.md, 159 paths overlap pinned K-Dense-AI source; none of shared blobs identical but functions overlap. Four path-unique SKILL.md are docx/pdf/pptx/xlsx, unrelated to C1. Analytical-method-validation also exists in primary repo; no distinct acceptable C1 skill added.",
+      "url": "https://github.com/Tyche-MKR/scientific-agent-skills",
+      "source_code_audited": false,
+      "full_repository_security_audit": false,
+      "upstream_code_executed": false,
+      "installed": false,
+      "host_verified": false,
+      "release_version_planned": null,
+      "release_id": null
+    },
+    {
+      "row": 4,
+      "cluster_id": 1,
+      "rank": 4,
+      "repo": "google-deepmind/science-skills",
+      "default_branch": "main",
+      "pinned_commit": "4de6786171f1479026da5d3a00f110703c8ba35e",
+      "license": "Apache-2.0 code; CC-BY docs; SKILL_LICENSES.md references separate data terms",
+      "skill_format_confirmed": true,
+      "decision": "excluded_no_selected_cost_free_standalone_prompt_skill",
+      "audit_note": "40 SKILL.md; OpenAlex depends on CLI, API budgets/key and provider terms, Europe PMC on uv/scripts, predictingthepast on model/inference scripts and dataset acknowledgements. Root licensing does not grant rights to all data. No distinct standalone prompt-only candidate accepted for C1 under zero-cost/no runtime constraint.",
+      "url": "https://github.com/google-deepmind/science-skills",
+      "source_code_audited": false,
+      "full_repository_security_audit": false,
+      "upstream_code_executed": false,
+      "installed": false,
+      "host_verified": false,
+      "release_version_planned": null,
+      "release_id": null
+    }
+  ],
+  "no_upstream_code_executed": true,
+  "details": "Row 2 duplicates K-Dense scientific workflows; four uniquely named document skills are not C1. Row 4 reviewed 40 Google DeepMind skills; selected candidates rely on external services, associated data licenses and runtime; no prompt-only C1 adaptation selected."
+}

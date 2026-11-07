@@ -1,0 +1,39 @@
+{
+  "schema": "hoangphuong-core-cluster-link/1.0",
+  "skill_id": "sieunangluc",
+  "skill_path": "skills/sieunangluc/SKILL.md",
+  "source_zip": "sieunangluc.zip",
+  "source_zip_sha256": "65ab11dc7d385355c6bea1c2e35aa90e52c4836186c1c3414c94ae291ef6a011",
+  "source_skill_sha256": "352a63e10a3d8b681d95768a4bf2e04f32f753eaaabfc4d9cade80f82dc2519d",
+  "installed_skill_sha256": "03b91884100993a4e4d2d4e6e48b4f1be04feccf7b414ab17832b8370b0eaa96",
+  "normalization": "quoted description YAML scalar",
+  "primary_cluster": {
+    "id": 3,
+    "name": "Kỹ thuật phần mềm"
+  },
+  "secondary_clusters": [
+    {
+      "id": 4,
+      "name": "Kiểm thử & kiểm định"
+    },
+    {
+      "id": 16,
+      "name": "Đánh giá & chất lượng"
+    },
+    {
+      "id": 2,
+      "name": "Kiến trúc hệ thống"
+    }
+  ],
+  "kind": "core_skill_overlay",
+  "workflow": "TDD, gỡ lỗi, review, thiết kế và kiểm chứng kỹ thuật",
+  "external_runtime_bundled": false,
+  "user_content_source": true,
+  "host_activation_untested": false,
+  "baseline_108_unchanged": true,
+  "source_original_unchanged": false,
+  "host_visibility_verified": true,
+  "skill_read_verified": true,
+  "runtime_e2e_verified": false,
+  "observed_version": "16.0.49"
+}

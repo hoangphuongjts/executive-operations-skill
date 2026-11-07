@@ -1,0 +1,59 @@
+{
+  "inspection_date": "2026-11-07",
+  "source_release_version": "16.0.48",
+  "target_version": "16.0.49",
+  "user_archives": [
+    "ultra-thinking.zip",
+    "thammuutruong.zip",
+    "sieunangluc.zip"
+  ],
+  "source_file_count": 4,
+  "executable_payload_count": 0,
+  "install_hooks_found": false,
+  "network_calls_invoked": false,
+  "paid_api_calls_invoked": false,
+  "scope": "Static inspection of three ZIPs; YAML parse + content scan, not a full malware sandbox.",
+  "restrictions": "No child agent, filesystem Wiki, hidden reasoning export, or external model guaranteed by skill text. Respect host limits.",
+  "license": "No LICENSE supplied in ZIP; usage assumed user-authorized; third-party upstream rights not independently verified.",
+  "name_conflicts": false,
+  "semantic_overlaps": [
+    "chidao for coordination",
+    "AI Coding Vietnamese Kit / superpowers for software workflow"
+  ],
+  "results": [
+    {
+      "skill_id": "ultra-thinking",
+      "source_zip_sha256": "0e1694fb415079e26faf27b4b319a6fefe0170176db96519e01e0f77ff87f56f",
+      "source_skill_sha256": "cd401771726fd330ec2873dc3c445957d58b9a3ca6dda7689e94aa8aa814ef0f",
+      "installed_skill_sha256": "cd401771726fd330ec2873dc3c445957d58b9a3ca6dda7689e94aa8aa814ef0f",
+      "normalization": "none",
+      "primary_cluster": {
+        "id": 1,
+        "name": "Tri thức & phương pháp khoa học"
+      }
+    },
+    {
+      "skill_id": "thammuutruong",
+      "source_zip_sha256": "0595fbd666163f5c49293d07addd12e06b5789c45677c72736f7b30d0f36626a",
+      "source_skill_sha256": "854f9b9b0e53276a4d3ea13558b2accb620313556a12d48686d5fa21134a1169",
+      "installed_skill_sha256": "854f9b9b0e53276a4d3ea13558b2accb620313556a12d48686d5fa21134a1169",
+      "normalization": "none",
+      "primary_cluster": {
+        "id": 8,
+        "name": "Điều phối & vận hành"
+      }
+    },
+    {
+      "skill_id": "sieunangluc",
+      "source_zip_sha256": "65ab11dc7d385355c6bea1c2e35aa90e52c4836186c1c3414c94ae291ef6a011",
+      "source_skill_sha256": "352a63e10a3d8b681d95768a4bf2e04f32f753eaaabfc4d9cade80f82dc2519d",
+      "installed_skill_sha256": "03b91884100993a4e4d2d4e6e48b4f1be04feccf7b414ab17832b8370b0eaa96",
+      "normalization": "quoted description YAML scalar",
+      "primary_cluster": {
+        "id": 3,
+        "name": "Kỹ thuật phần mềm"
+      }
+    }
+  ],
+  "production_state": "NOT_DEPLOYED_UNTIL_PLUGIN_CREATOR_SUCCESS"
+}

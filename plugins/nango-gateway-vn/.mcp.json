@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "nango-management": {
+      "type": "streamable-http",
+      "url": "https://mcp.nango.dev/mcp",
+      "headers": {},
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "api_key",
+            "headerScheme": "bearer"
+          }
+        }
+      }
+    }
+  }
+}

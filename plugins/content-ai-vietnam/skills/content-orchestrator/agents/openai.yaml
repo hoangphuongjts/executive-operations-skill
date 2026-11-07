@@ -1,0 +1,4 @@
+interface:
+  display_name: "Điều phối Content AI Việt Nam"
+  short_description: "Nội dung tiếng Việt có bằng chứng và mục tiêu rõ"
+  default_prompt: "Dùng $content-orchestrator để hoàn thành yêu cầu nội dung của tôi."

@@ -1,0 +1,26 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Ph\u00e2n t\u00edch v\u00e0 l\u00ean k\u1ebf ho\u1ea1ch t\u00e1i x\u00e2y d\u1ef1ng \u1ee9ng d\u1ee5ng n\u00e0y t\u1eeb URL, \u1ea3nh ch\u1ee5p, source ho\u1eb7c t\u1ec7p t\u00f4i \u0111\u01b0\u1ee3c ph\u00e9p ph\u00e2n t\u00edch.",
+      "T\u01b0 v\u1ea5n c\u00f4ng c\u1ee5 \u0111\u1ec3 kh\u1ea3o s\u00e1t v\u00e0 t\u00e1i x\u00e2y d\u1ef1ng ph\u1ea7n m\u1ec1m Windows, Android, iOS ho\u1eb7c web c\u1ee7a t\u00f4i.",
+      "Thi\u1ebft k\u1ebf \u0111\u1eb7c t\u1ea3, ki\u1ebfn tr\u00fac, ki\u1ec3m th\u1eed v\u00e0 k\u1ebf ho\u1ea1ch clean-room cho \u1ee9ng d\u1ee5ng m\u1edbi."
+    ],
+    "developerName": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "displayName": "T\u00e1i T\u1ea1o Ph\u1ea7n M\u1ec1m AI",
+    "longDescription": "\u0110i\u1ec1u ph\u1ed1i ph\u00e2n t\u00edch c\u1ea5u tr\u00fac, lu\u1ed3ng UI/UX, ch\u1ee9c n\u0103ng, API, d\u1eef li\u1ec7u v\u00e0 quy tr\u00ecnh clean-room \u0111\u1ec3 x\u00e2y l\u1ea1i ph\u1ea7n m\u1ec1m tr\u00ean nhi\u1ec1u n\u1ec1n t\u1ea3ng, c\u00f3 ki\u1ec3m \u0111\u1ecbnh quy\u1ec1n, b\u1ea3o m\u1eadt v\u00e0 ch\u1ea5t l\u01b0\u1ee3ng. \u0110\u00e2y l\u00e0 plugin skills-only; c\u1ea7n m\u00f4i tr\u01b0\u1eddng Windows/macOS/Linux v\u00e0 quy\u1ec1n c\u00f4ng c\u1ee5 ph\u00f9 h\u1ee3p \u0111\u1ec3 d\u1ecbch ng\u01b0\u1ee3c ho\u1eb7c ch\u1ea1y th\u1eed ph\u1ea7n m\u1ec1m.",
+    "shortDescription": "Ph\u00e2n t\u00edch v\u00e0 vi\u1ebft l\u1ea1i \u1ee9ng d\u1ee5ng"
+  },
+  "name": "software-rebuild-ai-vn",
+  "version": "0.1.0",
+  "description": "B\u1ed9 AI Agent v\u00e0 Skill ti\u1ebfng Vi\u1ec7t \u0111\u1ec3 ph\u00e2n t\u00edch h\u1ee3p ph\u00e1p v\u00e0 t\u00e1i x\u00e2y d\u1ef1ng ph\u1ea7n m\u1ec1m web, Android, iOS, Windows, macOS, Linux, game, extension v\u00e0 API t\u1eeb ngu\u1ed3n ng\u01b0\u1eddi d\u00f9ng \u0111\u01b0\u1ee3c ph\u00e9p s\u1eed d\u1ee5ng; kh\u00f4ng t\u00edch h\u1ee3p runtime decompiler v\u00e0o ChatGPT.",
+  "author": {
+    "name": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "email": "hoangphuongelectrical@gmail.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

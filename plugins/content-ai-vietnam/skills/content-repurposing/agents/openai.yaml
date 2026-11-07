@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tái sử dụng nội dung đa kênh"
+  short_description: "Nội dung tiếng Việt có bằng chứng và mục tiêu rõ"
+  default_prompt: "Dùng $content-repurposing để hoàn thành yêu cầu nội dung của tôi."

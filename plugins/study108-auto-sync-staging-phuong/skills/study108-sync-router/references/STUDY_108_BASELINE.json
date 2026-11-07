@@ -1,0 +1,650 @@
+[
+  {
+    "code": "/visualstudyguide",
+    "function": "Thiết kế nguyên một trang ôn tập bằng hình ảnh trực quan cho tài liệu bạn đưa vào, thay vì trả lời bằng một đoạn chữ dài.",
+    "use_case": "Đụng phải tài liệu dài ngoằng và muốn nhìn một phát là nắm được mạch bài.",
+    "example": "/visualstudyguide [dán tài liệu dài bạn phải đọc]"
+  },
+  {
+    "code": "/mindmap",
+    "function": "Vẽ sơ đồ tư duy gom hết các ý đang rối rắm rồi nối lại với nhau cho ra hệ thống.",
+    "use_case": "Làm dự án hoặc học chương nặng, đầu đang quá tải vì quá nhiều ý rời.",
+    "example": "/mindmap [dán mớ ý tưởng hoặc chương đang học]"
+  },
+  {
+    "code": "/schematic",
+    "function": "Bóc tách một cơ chế hoạt động thành sơ đồ khối, rõ từng bước vận hành và thứ tự trước sau.",
+    "use_case": "Muốn hiểu một thứ chạy bằng cách nào, từ máy móc kỹ thuật tới quy trình trong công ty.",
+    "example": "/schematic [dán phần mô tả cơ chế bạn muốn hiểu]"
+  },
+  {
+    "code": "/quizme",
+    "function": "ChatGPT đóng vai thầy khó tính, quăng câu hỏi cho bạn trả lời từng câu một rồi chấm ngay.",
+    "use_case": "Học xong và muốn biết lỗ hổng kiến thức nằm ở chỗ nào để vá lại.",
+    "example": "/quizme [dán phần bạn vừa học xong]"
+  },
+  {
+    "code": "/8020",
+    "function": "Lọc ra đúng 20% kiến thức cốt lõi nhưng gánh tới 80% kết quả, bỏ qua phần râu ria.",
+    "use_case": "Sách dày, thời gian ít, cần biết học phần nào trước cho đáng công.",
+    "example": "/8020 [dán chương sách hoặc tài liệu dài]"
+  },
+  {
+    "code": "/feynman",
+    "function": "Bắt bạn giải thích ngược lại vấn đề bằng lời lẽ bình dân nhất, rồi chỉ ra chỗ bạn còn ấp úng.",
+    "use_case": "Muốn kiểm tra mình hiểu thật hay chỉ đang thuộc lòng câu chữ.",
+    "example": "/feynman [dán khái niệm bạn nghĩ là mình đã hiểu]"
+  },
+  {
+    "code": "/socrates",
+    "function": "Không mớm đáp án, chỉ liên tục hỏi vặn lại để bạn tự động não và tự tìm ra kết luận.",
+    "use_case": "Muốn hiểu sâu và nhớ lâu, chịu được cảm giác bị hỏi ngược.",
+    "example": "/socrates [dán vấn đề bạn muốn đào sâu]"
+  },
+  {
+    "code": "/firstprinciples",
+    "function": "Bóc tách vấn đề về tận nguyên lý gốc rồi dựng lại từ đó, thay vì đi theo lối mòn có sẵn.",
+    "use_case": "Bí ý tưởng, hoặc gặp bài toán hóc búa mà cách nghĩ thông thường không ra.",
+    "example": "/firstprinciples [dán vấn đề bạn đang bí]"
+  },
+  {
+    "code": "/generatehandwrittenimage",
+    "function": "Vẽ ra một trang ghi chép viết tay hoàn chỉnh về chủ đề bạn đưa, có tiêu đề, gạch chân, mũi tên, chữ nghiêng như vở của học sinh giỏi.",
+    "use_case": "Bạn học bằng mắt, thích đọc note viết tay hơn đọc chữ máy, hoặc muốn in ra dán vào vở.",
+    "example": "/generatehandwrittenimage [dán bài Quang hợp ở thực vật]"
+  },
+  {
+    "code": "/visualizelearning",
+    "function": "Biến một khái niệm chữ nghĩa thành sơ đồ trực quan gồm các khối, mũi tên, nhãn và quan hệ nhân quả.",
+    "use_case": "Đọc ba lần vẫn không hiểu vì chữ quá nhiều và không thấy các phần liên quan nhau thế nào.",
+    "example": "/visualizelearning [dán phần Cung và cầu]"
+  },
+  {
+    "code": "/makestickynotes",
+    "function": "Nén cả chương thành một loạt mẩu giấy nhớ ngắn, mỗi mẩu một ý, đúng kiểu dán lên tường.",
+    "use_case": "Sát ngày thi, cần bản cực gọn để nhìn lại trong năm phút.",
+    "example": "/makestickynotes [dán chương Lịch sử bài 12]"
+  },
+  {
+    "code": "/flashcards",
+    "function": "Biến tài liệu thành một bộ thẻ hỏi đáp, rồi cho bạn chạy từng thẻ ngay trong chat.",
+    "use_case": "Cần học thuộc định nghĩa, từ vựng, công thức, ngày tháng.",
+    "example": "/flashcards [dán 30 từ vựng Unit 5]"
+  },
+  {
+    "code": "/examme",
+    "function": "Dựng một đề luyện tập từ tài liệu của bạn rồi hỏi bạn như giám thị thật, chấm và giải thích từng câu.",
+    "use_case": "Học xong và muốn biết mình thật sự nhớ được bao nhiêu phần trăm.",
+    "example": "/examme [dán đề cương ôn tập giữa kỳ]"
+  },
+  {
+    "code": "/mindmapimage",
+    "function": "Vẽ một tấm sơ đồ tư duy cho cả chủ đề, có nhánh chính và nhánh con phân cấp rõ ràng.",
+    "use_case": "Mới mở một chương mới và muốn thấy toàn cảnh trước khi đi vào chi tiết.",
+    "example": "/mindmapimage [dán chương Sinh học bài 1]"
+  },
+  {
+    "code": "/infographicnotes",
+    "function": "Vẽ lại chương của bạn thành một tấm infographic gọn gàng, có số liệu, icon và khối màu phân vùng.",
+    "use_case": "Muốn một tấm ảnh duy nhất đủ để ôn lại cả chương, hoặc cần hình để làm bài thuyết trình.",
+    "example": "/infographicnotes [dán bài về Biến đổi khí hậu]"
+  },
+  {
+    "code": "/doodlenotes",
+    "function": "Vẽ một trang sketchnote kiểu tay, chữ viết tay pha hình vẽ nhỏ, mũi tên, khung viền.",
+    "use_case": "Bạn dễ nhớ hình hơn nhớ chữ, hoặc thấy note quá nghiêm trang thì buồn ngủ.",
+    "example": "/doodlenotes [dán bài Cấu tạo tế bào]"
+  },
+  {
+    "code": "/flowchartimage",
+    "function": "Vẽ một quy trình thành lưu đồ có điều kiện, nhánh đúng sai và thứ tự các bước.",
+    "use_case": "Bài học là một chuỗi bước hoặc có nhiều trường hợp rẽ nhánh, ví dụ giải toán hay quy trình pháp lý.",
+    "example": "/flowchartimage [dán quy trình giải bài toán tìm giới hạn]"
+  },
+  {
+    "code": "/conceptmap",
+    "function": "Vẽ bản đồ khái niệm, nối tất cả ý lại với nhau và ghi nhãn cho từng đường nối để thấy quan hệ.",
+    "use_case": "Chương có nhiều thuật ngữ và bạn hay lẫn cái nào thuộc cái nào.",
+    "example": "/conceptmap [dán bài Hệ tuần hoàn]"
+  },
+  {
+    "code": "/venndiagram",
+    "function": "Vẽ sơ đồ Venn so sánh hai chủ đề, phần giống nằm giữa, phần khác nằm hai bên.",
+    "use_case": "Đề thi hay hỏi so sánh, ví dụ nguyên phân và giảm phân, hay hai cuộc chiến tranh.",
+    "example": "/venndiagram [so sánh nguyên phân và giảm phân]"
+  },
+  {
+    "code": "/labeleddiagram",
+    "function": "Vẽ một hình có chú thích đầy đủ cho đúng thứ bạn đang học.",
+    "use_case": "Cần thuộc tên các bộ phận và vị trí của chúng, kiểu đề thi chỉ hình rồi hỏi tên.",
+    "example": "/labeleddiagram [dán bài về cấu tạo lá cây]"
+  },
+  {
+    "code": "/anatomydiagram",
+    "function": "Vẽ hình giải phẫu, tách rõ từng bộ phận và dán nhãn từng phần.",
+    "use_case": "Học Sinh học, Y, hoặc bất cứ môn nào phải nhớ tên bộ phận trong cơ thể.",
+    "example": "/anatomydiagram [dán bài về tim người]"
+  },
+  {
+    "code": "/cyclediagram",
+    "function": "Vẽ sơ đồ vòng tròn cho các chu trình, có mũi tên chỉ hướng và tên từng giai đoạn.",
+    "use_case": "Bài học là một vòng lặp, ví dụ vòng tuần hoàn nước, chu trình tế bào, vòng đời sản phẩm.",
+    "example": "/cyclediagram [dán bài Vòng tuần hoàn nước]"
+  },
+  {
+    "code": "/posternotes",
+    "function": "Tạo một tấm poster học tập đủ to và rõ để in ra dán lên tường phòng học.",
+    "use_case": "Muốn nhìn thấy kiến thức mỗi ngày mà không cần mở sách.",
+    "example": "/posternotes [dán 12 công thức đạo hàm]"
+  },
+  {
+    "code": "/comicstrip",
+    "function": "Giải thích khái niệm bằng truyện tranh nhiều khung, có nhân vật và lời thoại.",
+    "use_case": "Nội dung khô và trừu tượng, học kiểu thường thì vào một tai ra một tai.",
+    "example": "/comicstrip [dán bài về Định luật 3 Newton]"
+  },
+  {
+    "code": "/storyboardit",
+    "function": "Dàn các sự kiện chính thành một storyboard, mỗi ô một mốc, theo đúng thứ tự thời gian.",
+    "use_case": "Học Lịch sử, học cốt truyện tác phẩm văn học, hoặc các bước của một thí nghiệm.",
+    "example": "/storyboardit [dán diễn biến Cách mạng Tháng Tám]"
+  },
+  {
+    "code": "/illustratedstory",
+    "function": "Biến một mớ dữ kiện khô khan thành một câu chuyện có tranh minh họa.",
+    "use_case": "Cần nhớ nhiều chi tiết rời rạc mà học vo không vào.",
+    "example": "/illustratedstory [dán danh sách các triều đại phong kiến Việt Nam]"
+  },
+  {
+    "code": "/timelinegraphic",
+    "function": "Vẽ một trục thời gian có mốc năm, sự kiện và ghi chú ngắn cho từng mốc.",
+    "use_case": "Môn nào cũng dùng được khi thứ tự trước sau là điểm quan trọng.",
+    "example": "/timelinegraphic [dán các mốc Chiến tranh thế giới thứ hai]"
+  },
+  {
+    "code": "/mapit",
+    "function": "Vẽ một tấm bản đồ có chú thích cho chủ đề Địa lý hoặc Lịch sử.",
+    "use_case": "Đề bài hỏi vị trí, hướng di chuyển, vùng ảnh hưởng.",
+    "example": "/mapit [dán bài về các vùng kinh tế Việt Nam]"
+  },
+  {
+    "code": "/periodicstyle",
+    "function": "Sắp xếp dữ kiện của bạn thành một bảng kiểu bảng tuần hoàn, mỗi ô một mục có ký hiệu riêng.",
+    "use_case": "Có một danh sách dài cùng loại và muốn nhìn phát là thấy hết, ví dụ danh sách tác giả hay khoáng chất.",
+    "example": "/periodicstyle [dán 20 tác giả và tác phẩm chính]"
+  },
+  {
+    "code": "/iconsummary",
+    "function": "Rút mỗi ý chính thành một icon đơn giản kèm nhãn ngắn.",
+    "use_case": "Muốn một bản tóm tắt nhìn được trong mười giây trước khi vào phòng thi.",
+    "example": "/iconsummary [dán chương Kinh tế vi mô bài 3]"
+  },
+  {
+    "code": "/cheatsheetimage",
+    "function": "Tạo một tấm phao học tập một trang, gói hết công thức và định nghĩa cần nhớ.",
+    "use_case": "Sát ngày thi và bạn cần bản nén nhất có thể.",
+    "example": "/cheatsheetimage [dán toàn bộ công thức Vật lý chương Điện]"
+  },
+  {
+    "code": "/whiteboardexplain",
+    "function": "Vẽ một phần giải thích kiểu bảng trắng, chữ tay và mũi tên như thầy cô đang giảng trên lớp.",
+    "use_case": "Bạn hiểu nhanh khi có người vừa nói vừa vẽ ra.",
+    "example": "/whiteboardexplain [dán bài về phản ứng oxy hóa khử]"
+  },
+  {
+    "code": "/colorcodenotes",
+    "function": "Vẽ lại ghi chú và tô màu theo chủ đề, mỗi nhóm kiến thức một màu.",
+    "use_case": "Chương có nhiều nhóm nội dung dễ lẫn và bạn cần phân biệt bằng màu.",
+    "example": "/colorcodenotes [dán bài Ngữ pháp các thì tiếng Anh]"
+  },
+  {
+    "code": "/diagramthis",
+    "function": "Tự chọn loại sơ đồ phù hợp nhất với nội dung rồi vẽ luôn, bạn không phải nghĩ nên dùng kiểu gì.",
+    "use_case": "Bạn không biết nội dung này nên vẽ mind map, lưu đồ hay Venn.",
+    "example": "/diagramthis [dán đoạn bạn đang học]"
+  },
+  {
+    "code": "/visualsummary",
+    "function": "Gói cả chương vào một tấm ảnh duy nhất có chú thích các phần.",
+    "use_case": "Cần ôn lại nhanh cả chương mà không muốn đọc lại từ đầu.",
+    "example": "/visualsummary [dán chương Hóa hữu cơ bài 5]"
+  },
+  {
+    "code": "/sketchconcept",
+    "function": "Vẽ một hình phác nhanh có dán nhãn cho đúng một khái niệm.",
+    "use_case": "Chỉ vướng một chỗ nhỏ và muốn thấy nó ngay, không cần cả chương.",
+    "example": "/sketchconcept [dán định nghĩa lực ma sát]"
+  },
+  {
+    "code": "/graphit",
+    "function": "Biến số liệu của bạn thành một biểu đồ sạch, có nhãn trục và chú giải.",
+    "use_case": "Bài có bảng số liệu và đề hỏi xu hướng hoặc so sánh.",
+    "example": "/graphit [dán bảng dân số Việt Nam theo năm]"
+  },
+  {
+    "code": "/processposter",
+    "function": "Vẽ một quy trình từng bước thành poster trực quan, bước nào ra bước nào rõ ràng.",
+    "use_case": "Cần thuộc một quy trình dài và muốn dán trước bàn học.",
+    "example": "/processposter [dán quy trình làm thí nghiệm chuẩn độ]"
+  },
+  {
+    "code": "/memorypalaceimage",
+    "function": "Vẽ danh sách của bạn thành một khung cảnh cung điện ký ức, mỗi món đặt ở một vị trí dễ nhớ trong không gian.",
+    "use_case": "Phải học thuộc một danh sách dài và đúng thứ tự.",
+    "example": "/memorypalaceimage [dán 15 xương trong cơ thể người]"
+  },
+  {
+    "code": "/mnemonicart",
+    "function": "Tạo một tấm ảnh hơi vô lý và hài để khóa chặt một mẹo ghi nhớ vào đầu.",
+    "use_case": "Có một mẹo nhớ nhưng nhớ mẹo cũng khó, cần hình để bám vào.",
+    "example": "/mnemonicart [dán mẹo nhớ thứ tự các hành tinh]"
+  },
+  {
+    "code": "/picturemnemonics",
+    "function": "Ghép từng thuật ngữ với một hình ảnh liên tưởng riêng.",
+    "use_case": "Danh sách thuật ngữ khó, nghe lạ, đọc không vào.",
+    "example": "/picturemnemonics [dán 20 thuật ngữ Sinh học tế bào]"
+  },
+  {
+    "code": "/visualvocab",
+    "function": "Biến từ vựng thành thẻ ghi nhớ có hình, mỗi từ một tranh.",
+    "use_case": "Học ngoại ngữ và muốn nhớ từ qua hình thay vì qua bản dịch.",
+    "example": "/visualvocab [dán 30 từ vựng chủ đề Environment]"
+  },
+  {
+    "code": "/emojisummary",
+    "function": "Tóm tắt chủ đề bằng một chuỗi biểu tượng cảm xúc để làm mồi nhắc lại kiến thức.",
+    "use_case": "Cần một mẩu nhắc cực ngắn để nhớ lại cả mạch nội dung.",
+    "example": "/emojisummary [dán cốt truyện Chí Phèo]"
+  },
+  {
+    "code": "/memoryhooks",
+    "function": "Tạo một hình ảnh móc nhớ thật sống động cho từng dữ kiện.",
+    "use_case": "Có vài dữ kiện cứ học xong là quên, cần móc treo riêng cho từng cái.",
+    "example": "/memoryhooks [dán 10 mốc thời gian dễ lẫn]"
+  },
+  {
+    "code": "/rebus",
+    "function": "Giấu dữ kiện vào một câu đố hình rebus, bạn phải giải mới ra đáp án.",
+    "use_case": "Muốn ôn kiểu chơi cho đỡ nhàm, hoặc ôn cùng nhóm bạn.",
+    "example": "/rebus [dán 8 khái niệm cần nhớ]"
+  },
+  {
+    "code": "/quizgame",
+    "function": "Dựng một game trắc nghiệm bấm chọn được ngay trong chat, có tính điểm và phản hồi đúng sai.",
+    "use_case": "Muốn ôn kiểu chơi game thay vì đọc lại lần thứ năm.",
+    "example": "/quizgame [dán ghi chú Lịch sử của bạn]"
+  },
+  {
+    "code": "/flashcardapp",
+    "function": "Dựng một app thẻ ghi nhớ bấm để lật mặt sau, đi hết bộ thẻ như app thật.",
+    "use_case": "Muốn drill nhanh mà không phải tự làm thẻ giấy.",
+    "example": "/flashcardapp [dán danh sách định nghĩa chương 4]"
+  },
+  {
+    "code": "/matchinggame",
+    "function": "Dựng game kéo thả nối thuật ngữ với định nghĩa đúng.",
+    "use_case": "Hay lẫn thuật ngữ này với định nghĩa kia.",
+    "example": "/matchinggame [dán bảng thuật ngữ và nghĩa]"
+  },
+  {
+    "code": "/memorygame",
+    "function": "Dựng game lật thẻ tìm cặp giống nhau bằng chính thuật ngữ của bạn.",
+    "use_case": "Muốn ôn nhẹ đầu lúc mệt mà vẫn có tác dụng.",
+    "example": "/memorygame [dán 12 cặp từ và nghĩa]"
+  },
+  {
+    "code": "/millionaire",
+    "function": "Dựng một game kiểu Ai Là Triệu Phú, câu hỏi khó dần theo từng mốc.",
+    "use_case": "Ôn theo nhóm hoặc muốn có cảm giác áp lực nhẹ để nhớ lâu hơn.",
+    "example": "/millionaire [dán đề cương Địa lý]"
+  },
+  {
+    "code": "/jeopardy",
+    "function": "Dựng một bảng Jeopardy nhiều chủ đề và nhiều mức điểm từ tài liệu của bạn.",
+    "use_case": "Tổ chức buổi ôn thi cho cả nhóm học.",
+    "example": "/jeopardy [dán toàn bộ nội dung ôn cuối kỳ]"
+  },
+  {
+    "code": "/hangmanterms",
+    "function": "Dựng game đoán chữ bằng đúng bộ từ khóa bạn cần thuộc.",
+    "use_case": "Cần nhớ chính tả và mặt chữ của các thuật ngữ dài.",
+    "example": "/hangmanterms [dán 15 thuật ngữ Hóa học]"
+  },
+  {
+    "code": "/crosswordit",
+    "function": "Dựng một ô chữ từ các thuật ngữ của bạn, có gợi ý cho từng hàng cột.",
+    "use_case": "Muốn kiểm tra xem mình nhớ nghĩa đến mức tự bật ra được từ hay chưa.",
+    "example": "/crosswordit [dán bảng thuật ngữ chương 2]"
+  },
+  {
+    "code": "/wordsearch",
+    "function": "Dựng một bảng tìm từ với bộ từ vựng của bạn.",
+    "use_case": "Bước đầu làm quen từ mới, hoặc cho học sinh nhỏ.",
+    "example": "/wordsearch [dán 20 từ vựng Unit 3]"
+  },
+  {
+    "code": "/fillblankapp",
+    "function": "Dựng bài điền vào chỗ trống có kiểm tra đáp án ngay khi bạn gõ.",
+    "use_case": "Cần thuộc câu, định nghĩa hoặc công thức theo đúng từng chữ.",
+    "example": "/fillblankapp [dán các định nghĩa cần thuộc]"
+  },
+  {
+    "code": "/timedquiz",
+    "function": "Dựng bài trắc nghiệm có đồng hồ đếm ngược và tự chấm điểm khi hết giờ.",
+    "use_case": "Muốn tập làm bài dưới áp lực thời gian giống phòng thi.",
+    "example": "/timedquiz [dán đề 20 câu chương Điện học]"
+  },
+  {
+    "code": "/progresstracker",
+    "function": "Dựng một app danh sách kiểm tiến độ, tick xong từng phần và thấy phần trăm hoàn thành.",
+    "use_case": "Chương trình ôn dài và bạn hay mất dấu mình đã học tới đâu.",
+    "example": "/progresstracker [dán danh sách 12 chuyên đề cần ôn]"
+  },
+  {
+    "code": "/studytimer",
+    "function": "Dựng một đồng hồ tập trung có sẵn danh sách việc cần làm của bạn bên trong.",
+    "use_case": "Ngồi vào bàn là mở điện thoại, cần một cái đồng hồ giữ nhịp.",
+    "example": "/studytimer [dán việc cần làm tối nay]"
+  },
+  {
+    "code": "/conceptsim",
+    "function": "Dựng một mô phỏng tương tác cho khái niệm, kéo thanh trượt là thấy kết quả thay đổi.",
+    "use_case": "Học các thứ có biến số, ví dụ định luật Ohm, cung cầu, hàm số.",
+    "example": "/conceptsim [dán bài về định luật Ohm]"
+  },
+  {
+    "code": "/interactivetimeline",
+    "function": "Dựng một trục thời gian bấm được, mỗi mốc bung ra chi tiết riêng.",
+    "use_case": "Học Lịch sử với nhiều sự kiện và mỗi sự kiện có nhiều chi tiết.",
+    "example": "/interactivetimeline [dán các mốc Lịch sử Việt Nam 1945 tới 1975]"
+  },
+  {
+    "code": "/labeltheimage",
+    "function": "Dựng game kéo nhãn dán vào đúng vị trí trên hình.",
+    "use_case": "Đề thi có phần chỉ hình gọi tên bộ phận.",
+    "example": "/labeltheimage [dán bài về cấu tạo hoa]"
+  },
+  {
+    "code": "/sortinggame",
+    "function": "Dựng game phân loại, kéo từng mục vào đúng nhóm của nó.",
+    "use_case": "Bài học có nhiều nhóm và nhiều ví dụ dễ xếp lẫn.",
+    "example": "/sortinggame [dán danh sách động vật có xương và không xương sống]"
+  },
+  {
+    "code": "/decisiontree",
+    "function": "Dựng một cây quyết định bấm được, trả lời từng câu hỏi là đi tới kết luận.",
+    "use_case": "Nội dung là chuỗi câu hỏi phân loại, ví dụ nhận dạng loài hay chọn công thức.",
+    "example": "/decisiontree [dán tiêu chí phân loại thực vật]"
+  },
+  {
+    "code": "/formulaplayground",
+    "function": "Dựng một máy tính nhỏ riêng cho các công thức của môn bạn học, nhập số là ra kết quả kèm các bước.",
+    "use_case": "Muốn kiểm tra nhanh kết quả bài tập và hiểu công thức chạy thế nào.",
+    "example": "/formulaplayground [dán các công thức chuyển động thẳng biến đổi đều]"
+  },
+  {
+    "code": "/conceptquiz",
+    "function": "Dựng bài kiểm tra thích ứng, bạn làm đúng thì câu sau khó lên, sai thì dễ lại.",
+    "use_case": "Muốn biết trần kiến thức thật của mình ở đâu.",
+    "example": "/conceptquiz [dán chương bạn tự tin nhất]"
+  },
+  {
+    "code": "/studyguidemaker",
+    "function": "Soạn một sổ tay ôn tập đầy đủ và có bố cục cho cả chương, từ ý chính tới ví dụ và câu hỏi tự kiểm.",
+    "use_case": "Có tài liệu tùm lum và cần một bản duy nhất để ôn theo.",
+    "example": "/studyguidemaker [dán toàn bộ ghi chú chương 1 tới 3]"
+  },
+  {
+    "code": "/revisiontimetable",
+    "function": "Lập một thời khóa biểu ôn tập trực quan tính ngược từ ngày thi của bạn.",
+    "use_case": "Còn nhiều môn, ít ngày, và không biết nên học gì trước.",
+    "example": "/revisiontimetable [dán danh sách môn và ngày thi]"
+  },
+  {
+    "code": "/examcountdown",
+    "function": "Lập kế hoạch từng ngày đếm ngược tới hôm thi, ghi rõ hôm nay học phần nào.",
+    "use_case": "Muốn mở ra là biết việc của hôm nay, không phải tự nghĩ.",
+    "example": "/examcountdown [dán đề cương và ngày thi]"
+  },
+  {
+    "code": "/topicchecklist",
+    "function": "Tạo một danh sách kiểm độ thuần thục của từng chuyên đề nhỏ, in ra tick được.",
+    "use_case": "Cần biết chính xác còn bao nhiêu phần chưa vững.",
+    "example": "/topicchecklist [dán đề cương môn Toán học kỳ 1]"
+  },
+  {
+    "code": "/notetemplate",
+    "function": "Tạo một mẫu ghi chú tái sử dụng riêng cho lớp học đó, có sẵn các ô cần điền.",
+    "use_case": "Ghi chép mỗi buổi một kiểu nên lúc ôn tìm không ra.",
+    "example": "/notetemplate [dán mô tả môn học và cách thầy cô giảng]"
+  },
+  {
+    "code": "/lecturenotes",
+    "function": "Biến một mớ ghi chép loạn trong tiết học thành ghi chú sạch, có đề mục và thứ bậc.",
+    "use_case": "Vừa ra khỏi lớp với một trang toàn chữ tắt và câu cụt.",
+    "example": "/lecturenotes [dán ghi chép thô của bạn]"
+  },
+  {
+    "code": "/gapfinder",
+    "function": "Soi xem chuyên đề nào bạn còn thiếu hoặc còn hổng so với đề cương.",
+    "use_case": "Học khá nhiều rồi nhưng vẫn cảm giác chưa đủ mà không biết thiếu chỗ nào.",
+    "example": "/gapfinder [dán đề cương và ghi chú bạn đã có]"
+  },
+  {
+    "code": "/formulacard",
+    "function": "Tạo một tấm thẻ trực quan gom mọi công thức bạn cần cho kỳ thi.",
+    "use_case": "Môn tự nhiên có quá nhiều công thức rải rác khắp các chương.",
+    "example": "/formulacard [dán các chương Vật lý sẽ thi]"
+  },
+  {
+    "code": "/definitionwall",
+    "function": "Tạo một bảng thuật ngữ và định nghĩa để in ra dán lên tường.",
+    "use_case": "Môn nào phải thuộc nhiều định nghĩa chuẩn xác theo sách.",
+    "example": "/definitionwall [dán các thuật ngữ trong sách giáo khoa]"
+  },
+  {
+    "code": "/examrubric",
+    "function": "Dựng lại bảng thang điểm mà giám khảo có thể dùng, để bạn biết viết gì thì được điểm.",
+    "use_case": "Thi tự luận và bạn viết dài nhưng điểm vẫn thấp.",
+    "example": "/examrubric [dán dạng câu hỏi và môn thi]"
+  },
+  {
+    "code": "/pastpaper",
+    "function": "Dựng một đề thi thử đúng định dạng và đúng cấu trúc đề của kỳ thi bạn sắp làm.",
+    "use_case": "Muốn tập đúng dạng đề chứ không chỉ học nội dung.",
+    "example": "/pastpaper [dán tên kỳ thi, môn và đề cương]"
+  },
+  {
+    "code": "/markmypaper",
+    "function": "Chấm bài viết của bạn như một giám khảo thật, chỉ ra mất điểm ở đâu và vì sao.",
+    "use_case": "Đã viết xong một câu tự luận và muốn biết nó được mấy điểm.",
+    "example": "/markmypaper [dán bài làm của bạn kèm câu hỏi]"
+  },
+  {
+    "code": "/modelanswer",
+    "function": "Viết một đáp án đạt điểm tối đa để bạn so với bài của mình.",
+    "use_case": "Muốn biết một bài điểm cao thật ra trông như thế nào.",
+    "example": "/modelanswer [dán câu hỏi và biểu điểm]"
+  },
+  {
+    "code": "/examplequestions",
+    "function": "Tạo các câu hỏi sát đề thật cho chủ đề bạn đưa.",
+    "use_case": "Học xong một phần và muốn luyện ngay bằng câu hỏi cùng dạng.",
+    "example": "/examplequestions [dán chuyên đề Hàm số]"
+  },
+  {
+    "code": "/oralexam",
+    "function": "Hỏi bạn theo kiểu vấn đáp, hỏi tiếp và hỏi sâu như hội đồng.",
+    "use_case": "Chuẩn bị bảo vệ đồ án, thi nói, hoặc phỏng vấn học bổng.",
+    "example": "/oralexam [dán chủ đề bảo vệ của bạn]"
+  },
+  {
+    "code": "/essaymarker",
+    "function": "Chấm bài luận của bạn theo đúng tiêu chí của kỳ thi, cho điểm từng tiêu chí.",
+    "use_case": "Viết luận Văn hoặc IELTS Writing và cần biết điểm yếu ở tiêu chí nào.",
+    "example": "/essaymarker [dán bài luận và đề bài]"
+  },
+  {
+    "code": "/mistakelog",
+    "function": "Biến các câu bạn làm sai thành một bộ ôn riêng để học lại đúng chỗ yếu.",
+    "use_case": "Làm nhiều đề nhưng cứ sai lại những lỗi cũ.",
+    "example": "/mistakelog [dán các câu bạn làm sai]"
+  },
+  {
+    "code": "/predictpaper",
+    "function": "Dự đoán phần nào có khả năng cao ra thi nhất, dựa trên đề cương và đề các năm trước.",
+    "use_case": "Sát ngày thi, thời gian ít, cần biết học phần nào trước.",
+    "example": "/predictpaper [dán đề cương và đề thi năm trước]"
+  },
+  {
+    "code": "/timedessay",
+    "function": "Giao cho bạn một bài luận có giới hạn thời gian, hết giờ thì nhận xét và chấm.",
+    "use_case": "Viết ở nhà thì tốt nhưng vào phòng thi là không kịp giờ.",
+    "example": "/timedessay [dán đề luận và số phút bạn có]"
+  },
+  {
+    "code": "/explainwithpictures",
+    "function": "Giải thích khái niệm bằng các hình được vẽ ra kèm theo lời giảng.",
+    "use_case": "Đọc chữ không hiểu nhưng thấy hình là thông.",
+    "example": "/explainwithpictures [dán phần bạn đang tắc]"
+  },
+  {
+    "code": "/realexample",
+    "function": "Cho một ví dụ đời thật cụ thể, thứ bạn gặp hằng ngày, để khái niệm bớt trừu tượng.",
+    "use_case": "Học mà không hiểu cái này dùng vào việc gì trong đời.",
+    "example": "/realexample [dán khái niệm lạm phát]"
+  },
+  {
+    "code": "/commonwrong",
+    "function": "Liệt kê các lỗi học sinh hay mắc ở phần này và cách tránh từng lỗi.",
+    "use_case": "Trước khi vào phòng thi, muốn biết bẫy nằm ở đâu.",
+    "example": "/commonwrong [dán chuyên đề bạn sắp thi]"
+  },
+  {
+    "code": "/connectit",
+    "function": "Nối ý mới với những thứ bạn đã biết để kiến thức có chỗ bám.",
+    "use_case": "Học một phần mới mà cảm giác nó lơ lửng, không liên quan gì tới phần trước.",
+    "example": "/connectit [dán phần mới và phần bạn đã học]"
+  },
+  {
+    "code": "/walkmethrough",
+    "function": "Dẫn bạn đi qua quy trình từng bước một, mỗi lần một bước, không nhảy tắt.",
+    "use_case": "Biết công thức nhưng vào bài tập là không biết bắt đầu từ đâu.",
+    "example": "/walkmethrough [dán bài toán bạn đang làm]"
+  },
+  {
+    "code": "/workedexample",
+    "function": "Giải trọn một bài mẫu và giải thích lý do của từng bước, không chỉ ra đáp án.",
+    "use_case": "Cần thấy một bài làm đúng chuẩn trước khi tự làm.",
+    "example": "/workedexample [dán một bài tập dạng cần học]"
+  },
+  {
+    "code": "/twinexample",
+    "function": "Giải một bài mẫu rồi giao cho bạn một bài sinh đôi cùng dạng để tự làm và được chấm.",
+    "use_case": "Muốn luyện tới mức tự làm được chứ không chỉ đọc hiểu.",
+    "example": "/twinexample [dán bài tập mẫu]"
+  },
+  {
+    "code": "/whatsonthetest",
+    "function": "Chỉ rõ phần nào thật sự quan trọng cho kỳ thi và phần nào chỉ là nội dung phụ.",
+    "use_case": "Tài liệu dày quá và bạn không đủ thời gian học hết.",
+    "example": "/whatsonthetest [dán đề cương môn học]"
+  },
+  {
+    "code": "/storyexplain",
+    "function": "Kể khái niệm thành một câu chuyện ngắn dễ nhớ, có nhân vật và tình huống.",
+    "use_case": "Khái niệm khô và bạn nhớ chuyện giỏi hơn nhớ định nghĩa.",
+    "example": "/storyexplain [dán khái niệm entropy]"
+  },
+  {
+    "code": "/solveandshow",
+    "function": "Giải một bài Toán và bày ra từng bước, kèm lý do chọn cách đó.",
+    "use_case": "Có đáp án rồi nhưng không hiểu người ta làm sao ra được.",
+    "example": "/solveandshow [dán đề bài Toán]"
+  },
+  {
+    "code": "/checkmymath",
+    "function": "Soi lại bài giải của bạn và chỉ đúng chỗ bị sai.",
+    "use_case": "Làm ra kết quả khác đáp án và không tìm ra mình lệch từ dòng nào.",
+    "example": "/checkmymath [dán bài giải của bạn]"
+  },
+  {
+    "code": "/practiceset",
+    "function": "Tạo một bộ bài tập luyện kèm đáp án riêng ở cuối để bạn tự đối chiếu.",
+    "use_case": "Cần luyện nhiều bài cùng dạng cho thật nhuyễn.",
+    "example": "/practiceset [dán dạng bài phương trình bậc hai]"
+  },
+  {
+    "code": "/provethis",
+    "function": "Trình bày một phép chứng minh sạch sẽ theo từng bước có căn cứ.",
+    "use_case": "Học Toán chứng minh hoặc Hình học và cần thấy cách trình bày chuẩn.",
+    "example": "/provethis [dán định lý cần chứng minh]"
+  },
+  {
+    "code": "/balanceit",
+    "function": "Cân bằng một phương trình Hóa học và giải thích tại sao ra hệ số đó.",
+    "use_case": "Cân bằng phương trình mãi không ra hoặc ra mà không hiểu.",
+    "example": "/balanceit [dán phương trình chưa cân bằng]"
+  },
+  {
+    "code": "/labreport",
+    "function": "Sắp dữ liệu thí nghiệm của bạn thành một báo cáo đúng cấu trúc, đủ mục từ mục tiêu tới kết luận.",
+    "use_case": "Vừa làm thí nghiệm xong, có số liệu thô và phải nộp báo cáo.",
+    "example": "/labreport [dán số liệu và mô tả thí nghiệm]"
+  },
+  {
+    "code": "/conjugatetable",
+    "function": "Vẽ ra một bảng chia động từ đầy đủ dưới dạng hình để dễ nhìn và dễ nhớ.",
+    "use_case": "Học tiếng Pháp, Tây Ban Nha, Đức hoặc bất cứ ngôn ngữ có chia động từ.",
+    "example": "/conjugatetable [dán động từ cần chia]"
+  },
+  {
+    "code": "/languagedrill",
+    "function": "Dựng một bài luyện ngôn ngữ tương tác, có câu hỏi và phản hồi ngay.",
+    "use_case": "Muốn luyện phản xạ ngữ pháp và từ vựng mỗi ngày mười phút.",
+    "example": "/languagedrill [dán điểm ngữ pháp cần luyện]"
+  },
+  {
+    "code": "/translategloss",
+    "function": "Dịch đoạn văn và giải thích nghĩa của từng từ để bạn học luôn trong lúc đọc.",
+    "use_case": "Đọc tài liệu ngoại ngữ và muốn hiểu sâu chứ không chỉ hiểu đại ý.",
+    "example": "/translategloss [dán đoạn văn tiếng Anh]"
+  },
+  {
+    "code": "/readingguide",
+    "function": "Tạo bộ câu hỏi đọc hiểu cho một văn bản bạn phải học.",
+    "use_case": "Phải đọc một tác phẩm và muốn biết nên chú ý những gì.",
+    "example": "/readingguide [dán đoạn trích tác phẩm]"
+  },
+  {
+    "code": "/quotebank",
+    "function": "Gom các câu trích quan trọng kèm phân tích cho tác phẩm văn học.",
+    "use_case": "Thi Văn cần dẫn chứng và phải biết phân tích dẫn chứng đó.",
+    "example": "/quotebank [dán tên tác phẩm và đoạn trích]"
+  },
+  {
+    "code": "/essayplanner",
+    "function": "Vẽ một dàn ý luận trực quan gồm luận điểm chính, các ý và dẫn chứng cho từng ý.",
+    "use_case": "Có đề luận mà không biết mở bài xong thì viết gì tiếp.",
+    "example": "/essayplanner [dán đề bài luận]"
+  },
+  {
+    "code": "/sourceanalysis",
+    "function": "Bóc tách một tư liệu Lịch sử theo đúng kiểu câu hỏi trong đề thi, từ xuất xứ tới độ tin cậy.",
+    "use_case": "Đề Lịch sử cho một đoạn tư liệu và hỏi nhận xét.",
+    "example": "/sourceanalysis [dán đoạn tư liệu]"
+  },
+  {
+    "code": "/grammarfix",
+    "function": "Sửa câu của bạn và dạy luôn quy tắc phía sau lỗi đó.",
+    "use_case": "Viết hay bị sửa mà không hiểu vì sao sai.",
+    "example": "/grammarfix [dán câu bạn viết]"
+  },
+  {
+    "code": "/speechpractice",
+    "function": "Biến ghi chú thành một bài nói để bạn tập thuyết trình, có mở đầu, thân bài và chốt.",
+    "use_case": "Sắp phải thuyết trình hoặc trả bài miệng trước lớp.",
+    "example": "/speechpractice [dán ghi chú chủ đề thuyết trình]"
+  }
+]

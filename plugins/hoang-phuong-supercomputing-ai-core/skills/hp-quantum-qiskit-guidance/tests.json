@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "frontmatter",
+    "primary_cluster",
+    "source_commit",
+    "no_auto_execution",
+    "original_skill_name_unique"
+  ]
+}

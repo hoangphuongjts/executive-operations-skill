@@ -1,0 +1,18 @@
+{
+  "author": {
+    "email": "hoangphuongelectrical@gmail.com",
+    "name": "Hoàng Phương"
+  },
+  "description": "Skill huong dan Anything2Explainer bang tieng Viet, phoi hop voi Hoangphuong Core; chi dung quy trinh, khong chua engine PolyForm Noncommercial.",
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "developerName": "Hoàng Phương",
+    "displayName": "Anything2Explainer VN",
+    "longDescription": "Independent Vietnamese workflow skill for explainer videos. Upstream code is PolyForm Noncommercial; commercial use of the upstream toolkit requires prior authorization. No upstream runtime included.",
+    "shortDescription": "Explainer video • Quyền dùng"
+  },
+  "name": "anything2explainer-vn-guidance",
+  "skills": "./skills",
+  "version": "0.1.0"
+}

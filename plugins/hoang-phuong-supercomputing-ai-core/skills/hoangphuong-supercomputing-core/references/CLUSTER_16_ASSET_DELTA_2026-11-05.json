@@ -1,0 +1,29 @@
+{
+  "schema": "HP_Cluster_Asset_Delta/1",
+  "baseline_asset_registry_core_skills": 46,
+  "additions": [
+    {
+      "id": "architecture-technology-evaluation-vn",
+      "primary_cluster": 2,
+      "source": "Haaaiawd/ANWS",
+      "verified_release": "16.0.33",
+      "path": "skills/architecture-technology-evaluation-vn/SKILL.md"
+    },
+    {
+      "id": "web-technique-skill-extraction-vn",
+      "primary_cluster": 3,
+      "source": "MengTo/Skills",
+      "verified_release": "16.0.35",
+      "path": "skills/web-technique-skill-extraction-vn/SKILL.md"
+    },
+    {
+      "id": "api-contract-compatibility-testing-vn",
+      "primary_cluster": 3,
+      "source": "sickn33/agentic-awesome-skills",
+      "verified_release": "16.0.35",
+      "path": "skills/api-contract-compatibility-testing-vn/SKILL.md"
+    }
+  ],
+  "coverage_expected_total": 49,
+  "note": "Do not count 16 generic overlay skills, agent profiles, or separately installed plugin skills. Preserve baseline 46 and add each verified new skill once."
+}

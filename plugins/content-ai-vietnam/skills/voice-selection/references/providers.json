@@ -1,0 +1,139 @@
+{
+  "vieneu": {
+    "languages": [
+      "vi",
+      "en"
+    ],
+    "role": "Vietnamese CPU first",
+    "integration": "local_python_adapter",
+    "source": "https://github.com/pnnbao97/VieNeu-TTS",
+    "license": "Apache-2.0"
+  },
+  "voxcpm": {
+    "languages": [
+      "vi",
+      "en",
+      "multilingual"
+    ],
+    "role": "multilingual and voice design",
+    "integration": "local_python_adapter",
+    "source": "https://github.com/OpenBMB/VoxCPM",
+    "license": "Apache-2.0"
+  },
+  "chatterbox": {
+    "languages": [
+      "vi",
+      "en",
+      "multilingual"
+    ],
+    "role": "A/B candidate, validate Vietnamese pronunciation",
+    "integration": "upstream_runtime_guide",
+    "source": "https://github.com/resemble-ai/chatterbox",
+    "license": "MIT"
+  },
+  "openvoice": {
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "zh",
+      "ja",
+      "ko"
+    ],
+    "role": "tone conversion after base TTS; vi needs external base and validation",
+    "integration": "upstream_runtime_guide",
+    "source": "https://github.com/myshell-ai/OpenVoice",
+    "license": "MIT"
+  },
+  "qwen3-tts": {
+    "languages": [
+      "zh",
+      "en",
+      "ja",
+      "ko",
+      "de",
+      "fr",
+      "ru",
+      "pt",
+      "es",
+      "it"
+    ],
+    "role": "English and supported-language cloning; not native vi",
+    "integration": "upstream_runtime_guide",
+    "source": "https://github.com/QwenLM/Qwen3-TTS",
+    "license": "Apache-2.0"
+  },
+  "f5-tts": {
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "role": "research only with official pretrained weights",
+    "integration": "upstream_runtime_guide",
+    "source": "https://github.com/SWivid/F5-TTS",
+    "license": "MIT code / CC-BY-NC pretrained",
+    "commercial_default": false
+  },
+  "vidiq-adam": {
+    "languages": [
+      "vi"
+    ],
+    "role": "previously used Tò Mò Lab brand voice; verify exact catalog entry and quota before synthesis",
+    "integration": "connected_catalog_voice",
+    "voice_id": "pNInz6obpgDQGcFmaJgB",
+    "voice_name": "Adam - Dominant, Firm",
+    "source": "vidIQ Voiceover public voice catalog",
+    "commercial_rights": "verify current provider terms"
+  },
+  "brand_voice_profiles": {
+    "tomo-lab-adam": {
+      "name": "Adam - Dominant, Firm",
+      "canonical_provider": "vidIQ Voiceover",
+      "canonical_voice_id": "pNInz6obpgDQGcFmaJgB",
+      "checked_on": "2026-11-04",
+      "routes": {
+        "vidiq": {
+          "status": "exact_catalog_match",
+          "voice_id": "pNInz6obpgDQGcFmaJgB"
+        },
+        "runway": {
+          "status": "exact_id_not_found",
+          "notes": "Search by exact ID returned none; other Adam voices have different IDs/voice descriptions/languages."
+        },
+        "heygen": {
+          "status": "exact_id_not_found",
+          "notes": "Vietnamese Adam query returned none; English Adam entries have different IDs."
+        },
+        "higgsfield": {
+          "status": "not_in_checked_catalog",
+          "notes": "No Adam name among 114 listed presets."
+        },
+        "vieneu": {
+          "status": "different_voice_space",
+          "notes": "Preset named Adam, if available, is not vidIQ Adam."
+        },
+        "voxcpm": {
+          "status": "requires_authorized_reference",
+          "notes": "A new voice/reference workflow is not the same preset; do not clone vidIQ preview."
+        },
+        "chatterbox": {
+          "status": "requires_authorized_reference",
+          "notes": "Separate model voice; do not clone vidIQ preview."
+        },
+        "openvoice": {
+          "status": "requires_authorized_reference",
+          "notes": "Tone conversion needs a lawful target reference; not the same ID."
+        },
+        "qwen3-tts": {
+          "status": "requires_authorized_reference",
+          "notes": "Separate model voice; do not clone vidIQ preview."
+        },
+        "f5-tts": {
+          "status": "requires_authorized_reference",
+          "notes": "Separate model voice; pretrained-weight terms still apply."
+        }
+      },
+      "fallback_policy": "Do not substitute same-name voices. Ask user to approve a different voice or defer voiceover."
+    }
+  }
+}

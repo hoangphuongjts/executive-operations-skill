@@ -1,0 +1,43 @@
+{
+  "schema": "hoangphuong-core-cluster-link/1.0",
+  "skill_id": "ultra-thinking",
+  "skill_path": "skills/ultra-thinking/SKILL.md",
+  "source_zip": "ultra-thinking.zip",
+  "source_zip_sha256": "0e1694fb415079e26faf27b4b319a6fefe0170176db96519e01e0f77ff87f56f",
+  "source_skill_sha256": "cd401771726fd330ec2873dc3c445957d58b9a3ca6dda7689e94aa8aa814ef0f",
+  "installed_skill_sha256": "cd401771726fd330ec2873dc3c445957d58b9a3ca6dda7689e94aa8aa814ef0f",
+  "normalization": "none",
+  "primary_cluster": {
+    "id": 1,
+    "name": "Tri thức & phương pháp khoa học"
+  },
+  "secondary_clusters": [
+    {
+      "id": 2,
+      "name": "Kiến trúc hệ thống"
+    },
+    {
+      "id": 7,
+      "name": "AI & thuật toán"
+    },
+    {
+      "id": 14,
+      "name": "Tài chính & quyết định"
+    },
+    {
+      "id": 16,
+      "name": "Đánh giá & chất lượng"
+    }
+  ],
+  "kind": "core_skill_overlay",
+  "workflow": "Tư duy nguyên lý thứ nhất, phản biện, nhiều phương án và kiểm chứng",
+  "external_runtime_bundled": false,
+  "user_content_source": true,
+  "host_activation_untested": false,
+  "baseline_108_unchanged": true,
+  "source_original_unchanged": true,
+  "host_visibility_verified": true,
+  "skill_read_verified": true,
+  "runtime_e2e_verified": false,
+  "observed_version": "16.0.49"
+}

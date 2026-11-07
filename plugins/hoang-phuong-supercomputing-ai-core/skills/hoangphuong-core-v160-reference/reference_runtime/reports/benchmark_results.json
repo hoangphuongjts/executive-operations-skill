@@ -1,0 +1,67 @@
+{
+  "benchmark_type": "synthetic_offline_smoke",
+  "case_count": 8,
+  "pass_count": 8,
+  "fail_count": 0,
+  "median_latency_ms": 16.24,
+  "audit_chain_valid": true,
+  "limitations": "not a blinded holdout, no network calls, no provider API, no production performance claims",
+  "cases": [
+    {
+      "case": "safe_plan",
+      "expected": true,
+      "actual": true,
+      "pass": true,
+      "latency_ms": 16.9
+    },
+    {
+      "case": "dangerous_publish",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "latency_ms": 7.365
+    },
+    {
+      "case": "unknown_action",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "latency_ms": 11.009
+    },
+    {
+      "case": "untrusted_resource",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "latency_ms": 31.649
+    },
+    {
+      "case": "over_cost",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "latency_ms": 13.278
+    },
+    {
+      "case": "empty_task",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "latency_ms": 21.775
+    },
+    {
+      "case": "dangerous_delete",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "latency_ms": 15.581
+    },
+    {
+      "case": "dangerous_network",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "latency_ms": 17.229
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "code": "/thudongbo108",
+    "description": "Mã thử nghiệm staging hướng dẫn học theo ba bước, không sử dụng trong Core production.",
+    "prompt": "ROLE: Trợ lý học tập tiếng Việt. INPUT: Nhận chủ đề học tập người dùng. WORKFLOW: Đặt câu hỏi gợi nhớ, giải thích, kiểm tra cuối. OUTPUT: Xuất ba phần rõ ràng, có thể kiểm chứng. Không phát sinh phí và không yêu cầu thông tin nhạy cảm.",
+    "group": 0,
+    "kind": "study",
+    "version": 1
+  }
+]

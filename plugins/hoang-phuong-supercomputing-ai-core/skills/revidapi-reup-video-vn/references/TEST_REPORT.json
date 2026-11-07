@@ -1,0 +1,50 @@
+{
+  "project": "revidapi-reup-video staging adapter",
+  "upstream_repository": "https://github.com/Revidapi-com/revidapi-reup-video",
+  "upstream_commit_reviewed": "9e2cc61e58fdad71194ce0f1e1b5452b777c4853",
+  "scope": "independent staging adapter and synthetic end-to-end render, not upstream installed",
+  "runtime": {
+    "python": "3.13.5",
+    "ffmpeg": "/usr/bin/ffmpeg",
+    "ffprobe": "/usr/bin/ffprobe"
+  },
+  "tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "returncode": 0,
+    "passed": 5,
+    "failed": 0,
+    "notes": "A non-test spreadsheet warmup warning appeared in stderr despite unittest success."
+  },
+  "render": {
+    "path": "/mnt/data/revidapi-reup-video-staging/evidence/offline_smoke_1080x1920_30fps.mp4",
+    "bytes": 36217,
+    "codec": "h264",
+    "audio_codec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "network_calls": 0,
+    "api_calls": 0,
+    "render_kind": "synthetic smoke test"
+  },
+  "network": {
+    "revidapi_key_used": false,
+    "revidapi_calls": 0,
+    "network_calls_by_our_test_code": 0,
+    "egress_firewall_tested": false
+  },
+  "integration": {
+    "core_modified": false,
+    "production_modified": false,
+    "plugin_host_integrated": false,
+    "upstream_code_patched": false,
+    "patcher_tested_against_synthetic_fixture": true
+  },
+  "remaining": [
+    "Audit installed dependency versions/CVEs in an isolated authorized environment",
+    "Clone and pin upstream commit, test patch against real source",
+    "Test upstream renderer with fully local, approved inputs",
+    "Configure OS-level network deny and check egress",
+    "Review and approve plugin release separately"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema": "1.0",
+  "date": "2026-11-07",
+  "base_core_release": "16.0.47",
+  "target_core_release": "16.0.48",
+  "mode": "additive_overlay_no_existing_registry_rewrite",
+  "classification_source": "CLUSTER_16_ASSET_REGISTRY.json",
+  "cluster_13_name": "Nội dung & đa phương thức",
+  "cluster_08_name": "Điều phối & vận hành",
+  "cluster_16_name": "Đánh giá & chất lượng",
+  "assets": [
+    {
+      "id": "music-songwriting-vn",
+      "kind": "core_skill",
+      "primary_cluster": 13,
+      "secondary_clusters": [],
+      "status": "packaged",
+      "installed_in_core": true
+    },
+    {
+      "id": "music-midi-arrangement-vn",
+      "kind": "core_skill",
+      "primary_cluster": 13,
+      "secondary_clusters": [],
+      "status": "packaged",
+      "installed_in_core": true
+    },
+    {
+      "id": "music-ai-render-bridge-vn",
+      "kind": "core_skill",
+      "primary_cluster": 13,
+      "secondary_clusters": [
+        8
+      ],
+      "status": "packaged",
+      "installed_in_core": true
+    },
+    {
+      "id": "music-quality-audit-vn",
+      "kind": "core_skill",
+      "primary_cluster": 13,
+      "secondary_clusters": [
+        16
+      ],
+      "status": "packaged",
+      "installed_in_core": true
+    }
+  ],
+  "external_providers": [
+    {
+      "name": "Runway",
+      "tool": "generate_music",
+      "mode": "host_tool_only",
+      "auto_call": false,
+      "cost_gate": "explicit_credit_approval",
+      "status": "tool_seen_in_2026-11-07_session_not_run"
+    },
+    {
+      "name": "Suno",
+      "mode": "external_optional",
+      "status": "not_connected_in_current_session"
+    },
+    {
+      "name": "Udio",
+      "mode": "external_optional",
+      "status": "not_connected_in_current_session"
+    },
+    {
+      "name": "MuseScore",
+      "mode": "MusicXML_interchange",
+      "status": "local_app_not_verified"
+    }
+  ],
+  "not_claimed": [
+    "Suno API integration",
+    "Udio API integration",
+    "rendered MP3",
+    "deployed DAW",
+    "paid Runway call"
+  ]
+}

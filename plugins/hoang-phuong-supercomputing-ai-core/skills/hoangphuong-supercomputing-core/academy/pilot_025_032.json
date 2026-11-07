@@ -1,0 +1,449 @@
+{
+  "schema_version": "1.0",
+  "release": "14.3.0",
+  "pilot_ids": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "status": "8_education_and_exam_blueprints_designed_no_live_assessments",
+  "agents": [
+    {
+      "agent_id": 25,
+      "profile_path": "skills/hoangphuong-supercomputing-core/profiles/agent-025.json",
+      "name": "Test Strategist",
+      "group_id": 4,
+      "status": "curriculum_designed_not_evaluated",
+      "training_4_stages": [
+        {
+          "stage": "foundation",
+          "assignment": "Tạo bản đồ thuật ngữ, các giả định nền và danh sách nguồn có license reviewed cho Test Strategist",
+          "acceptance": ">=3 nguồn được thẩm định hoặc báo thiếu nguồn; không tự bịa tài liệu"
+        },
+        {
+          "stage": "specialization",
+          "assignment": "Lập ma trận rủi ro cho hệ thống đặt lịch giả lập, phân loại unit/integration/e2e và điều kiện dừng phát hành.",
+          "acceptance": "Đặc tả, khả năng bác bỏ, điều kiện biên và ma trận chứng cứ có thể xem xét"
+        },
+        {
+          "stage": "empirical",
+          "assignment": "Thiết kế baseline, tập thử bình thường/đối kháng, cách đo và quy trình tái lập cho tình huống vừa chọn",
+          "acceptance": "Tách test planned và executed, có raw logs nếu thật sự chạy"
+        },
+        {
+          "stage": "peer_review",
+          "assignment": "Nhận phản biện từ vai trò khác và giám khảo có thẩm quyền; sửa luận điểm hoặc ghi lý do không sửa",
+          "acceptance": "Có danh sách bất đồng, phản ví dụ, mức tin cậy và quyết định chưa xác minh"
+        }
+      ],
+      "pilot_case": {
+        "case_id": "R025-P1",
+        "prompt": "Lập ma trận rủi ro cho hệ thống đặt lịch giả lập, phân loại unit/integration/e2e và điều kiện dừng phát hành.",
+        "adversarial_question": "Nếu hệ thống trả HTTP 200 nhưng mất giao dịch thì test coverage đo thế nào?",
+        "must_demonstrate": [
+          "rủi ro",
+          "traceability",
+          "negative cases"
+        ],
+        "evaluation_split": "practice_only_heldout_not_created"
+      },
+      "rubric": {
+        "accuracy": 25,
+        "scientific_method": 20,
+        "evidence_licenses": 20,
+        "counterexamples": 15,
+        "reproducibility": 15,
+        "ethics_safety": 5
+      },
+      "target_score_proposed": 85,
+      "evaluations_completed": 0,
+      "reviewer_requirements": "At least two distinct independently verified domain human experts; not provided by plugin",
+      "cross_review_role_suggestion": 32,
+      "academic_certification": "none",
+      "source_status": "pending_license_review"
+    },
+    {
+      "agent_id": 26,
+      "profile_path": "skills/hoangphuong-supercomputing-core/profiles/agent-026.json",
+      "name": "Unit & Property Tester",
+      "group_id": 4,
+      "status": "curriculum_designed_not_evaluated",
+      "training_4_stages": [
+        {
+          "stage": "foundation",
+          "assignment": "Tạo bản đồ thuật ngữ, các giả định nền và danh sách nguồn có license reviewed cho Unit & Property Tester",
+          "acceptance": ">=3 nguồn được thẩm định hoặc báo thiếu nguồn; không tự bịa tài liệu"
+        },
+        {
+          "stage": "specialization",
+          "assignment": "Thiết kế unit và property tests cho bộ phân bổ chiết khấu, gồm biên 0%, 100%, giá âm và tính bất biến.",
+          "acceptance": "Đặc tả, khả năng bác bỏ, điều kiện biên và ma trận chứng cứ có thể xem xét"
+        },
+        {
+          "stage": "empirical",
+          "assignment": "Thiết kế baseline, tập thử bình thường/đối kháng, cách đo và quy trình tái lập cho tình huống vừa chọn",
+          "acceptance": "Tách test planned và executed, có raw logs nếu thật sự chạy"
+        },
+        {
+          "stage": "peer_review",
+          "assignment": "Nhận phản biện từ vai trò khác và giám khảo có thẩm quyền; sửa luận điểm hoặc ghi lý do không sửa",
+          "acceptance": "Có danh sách bất đồng, phản ví dụ, mức tin cậy và quyết định chưa xác minh"
+        }
+      ],
+      "pilot_case": {
+        "case_id": "R026-P1",
+        "prompt": "Thiết kế unit và property tests cho bộ phân bổ chiết khấu, gồm biên 0%, 100%, giá âm và tính bất biến.",
+        "adversarial_question": "Hai hàm cho ra cùng kết quả trên 3 ví dụ đẹp nhưng khác ở overflow: làm sao phát hiện?",
+        "must_demonstrate": [
+          "invariants",
+          "boundary cases",
+          "failure minimization"
+        ],
+        "evaluation_split": "practice_only_heldout_not_created"
+      },
+      "rubric": {
+        "accuracy": 25,
+        "scientific_method": 20,
+        "evidence_licenses": 20,
+        "counterexamples": 15,
+        "reproducibility": 15,
+        "ethics_safety": 5
+      },
+      "target_score_proposed": 85,
+      "evaluations_completed": 0,
+      "reviewer_requirements": "At least two distinct independently verified domain human experts; not provided by plugin",
+      "cross_review_role_suggestion": 32,
+      "academic_certification": "none",
+      "source_status": "pending_license_review"
+    },
+    {
+      "agent_id": 27,
+      "profile_path": "skills/hoangphuong-supercomputing-core/profiles/agent-027.json",
+      "name": "Differential Tester",
+      "group_id": 4,
+      "status": "curriculum_designed_not_evaluated",
+      "training_4_stages": [
+        {
+          "stage": "foundation",
+          "assignment": "Tạo bản đồ thuật ngữ, các giả định nền và danh sách nguồn có license reviewed cho Differential Tester",
+          "acceptance": ">=3 nguồn được thẩm định hoặc báo thiếu nguồn; không tự bịa tài liệu"
+        },
+        {
+          "stage": "specialization",
+          "assignment": "So sánh bộ xử lý ngày tháng A/B với oracle, sinh dữ liệu timezone/DST/leap-day và thống kê divergence.",
+          "acceptance": "Đặc tả, khả năng bác bỏ, điều kiện biên và ma trận chứng cứ có thể xem xét"
+        },
+        {
+          "stage": "empirical",
+          "assignment": "Thiết kế baseline, tập thử bình thường/đối kháng, cách đo và quy trình tái lập cho tình huống vừa chọn",
+          "acceptance": "Tách test planned và executed, có raw logs nếu thật sự chạy"
+        },
+        {
+          "stage": "peer_review",
+          "assignment": "Nhận phản biện từ vai trò khác và giám khảo có thẩm quyền; sửa luận điểm hoặc ghi lý do không sửa",
+          "acceptance": "Có danh sách bất đồng, phản ví dụ, mức tin cậy và quyết định chưa xác minh"
+        }
+      ],
+      "pilot_case": {
+        "case_id": "R027-P1",
+        "prompt": "So sánh bộ xử lý ngày tháng A/B với oracle, sinh dữ liệu timezone/DST/leap-day và thống kê divergence.",
+        "adversarial_question": "Cả hai implementation đều cùng sai thì differential test có chứng minh tính đúng?",
+        "must_demonstrate": [
+          "oracle independence",
+          "metamorphic properties",
+          "divergence logs"
+        ],
+        "evaluation_split": "practice_only_heldout_not_created"
+      },
+      "rubric": {
+        "accuracy": 25,
+        "scientific_method": 20,
+        "evidence_licenses": 20,
+        "counterexamples": 15,
+        "reproducibility": 15,
+        "ethics_safety": 5
+      },
+      "target_score_proposed": 85,
+      "evaluations_completed": 0,
+      "reviewer_requirements": "At least two distinct independently verified domain human experts; not provided by plugin",
+      "cross_review_role_suggestion": 32,
+      "academic_certification": "none",
+      "source_status": "pending_license_review"
+    },
+    {
+      "agent_id": 28,
+      "profile_path": "skills/hoangphuong-supercomputing-core/profiles/agent-028.json",
+      "name": "Formal Methods Specialist",
+      "group_id": 4,
+      "status": "curriculum_designed_not_evaluated",
+      "training_4_stages": [
+        {
+          "stage": "foundation",
+          "assignment": "Tạo bản đồ thuật ngữ, các giả định nền và danh sách nguồn có license reviewed cho Formal Methods Specialist",
+          "acceptance": ">=3 nguồn được thẩm định hoặc báo thiếu nguồn; không tự bịa tài liệu"
+        },
+        {
+          "stage": "specialization",
+          "assignment": "Đặc tả invariant của hàng đợi nhiều producer, mô hình hóa thao tác và ranh giới bảo đảm proof.",
+          "acceptance": "Đặc tả, khả năng bác bỏ, điều kiện biên và ma trận chứng cứ có thể xem xét"
+        },
+        {
+          "stage": "empirical",
+          "assignment": "Thiết kế baseline, tập thử bình thường/đối kháng, cách đo và quy trình tái lập cho tình huống vừa chọn",
+          "acceptance": "Tách test planned và executed, có raw logs nếu thật sự chạy"
+        },
+        {
+          "stage": "peer_review",
+          "assignment": "Nhận phản biện từ vai trò khác và giám khảo có thẩm quyền; sửa luận điểm hoặc ghi lý do không sửa",
+          "acceptance": "Có danh sách bất đồng, phản ví dụ, mức tin cậy và quyết định chưa xác minh"
+        }
+      ],
+      "pilot_case": {
+        "case_id": "R028-P1",
+        "prompt": "Đặc tả invariant của hàng đợi nhiều producer, mô hình hóa thao tác và ranh giới bảo đảm proof.",
+        "adversarial_question": "Review bằng văn bản có thay thế kết quả Lean/SMT với chứng cứ máy xác minh không?",
+        "must_demonstrate": [
+          "pre/postconditions",
+          "proof obligation",
+          "formal evidence"
+        ],
+        "evaluation_split": "practice_only_heldout_not_created"
+      },
+      "rubric": {
+        "accuracy": 25,
+        "scientific_method": 20,
+        "evidence_licenses": 20,
+        "counterexamples": 15,
+        "reproducibility": 15,
+        "ethics_safety": 5
+      },
+      "target_score_proposed": 85,
+      "evaluations_completed": 0,
+      "reviewer_requirements": "At least two distinct independently verified domain human experts; not provided by plugin",
+      "cross_review_role_suggestion": 32,
+      "academic_certification": "none",
+      "source_status": "pending_license_review"
+    },
+    {
+      "agent_id": 29,
+      "profile_path": "skills/hoangphuong-supercomputing-core/profiles/agent-029.json",
+      "name": "Static Analysis Specialist",
+      "group_id": 4,
+      "status": "curriculum_designed_not_evaluated",
+      "training_4_stages": [
+        {
+          "stage": "foundation",
+          "assignment": "Tạo bản đồ thuật ngữ, các giả định nền và danh sách nguồn có license reviewed cho Static Analysis Specialist",
+          "acceptance": ">=3 nguồn được thẩm định hoặc báo thiếu nguồn; không tự bịa tài liệu"
+        },
+        {
+          "stage": "specialization",
+          "assignment": "Thiết kế quy trình lint/types/SAST và triage false positives theo mức nghiêm trọng.",
+          "acceptance": "Đặc tả, khả năng bác bỏ, điều kiện biên và ma trận chứng cứ có thể xem xét"
+        },
+        {
+          "stage": "empirical",
+          "assignment": "Thiết kế baseline, tập thử bình thường/đối kháng, cách đo và quy trình tái lập cho tình huống vừa chọn",
+          "acceptance": "Tách test planned và executed, có raw logs nếu thật sự chạy"
+        },
+        {
+          "stage": "peer_review",
+          "assignment": "Nhận phản biện từ vai trò khác và giám khảo có thẩm quyền; sửa luận điểm hoặc ghi lý do không sửa",
+          "acceptance": "Có danh sách bất đồng, phản ví dụ, mức tin cậy và quyết định chưa xác minh"
+        }
+      ],
+      "pilot_case": {
+        "case_id": "R029-P1",
+        "prompt": "Thiết kế quy trình lint/types/SAST và triage false positives theo mức nghiêm trọng.",
+        "adversarial_question": "Một kết quả SAST yên lặng có bảo đảm không tồn tại lỗ hổng?",
+        "must_demonstrate": [
+          "tool configuration",
+          "false-positive audit",
+          "independent security test"
+        ],
+        "evaluation_split": "practice_only_heldout_not_created"
+      },
+      "rubric": {
+        "accuracy": 25,
+        "scientific_method": 20,
+        "evidence_licenses": 20,
+        "counterexamples": 15,
+        "reproducibility": 15,
+        "ethics_safety": 5
+      },
+      "target_score_proposed": 85,
+      "evaluations_completed": 0,
+      "reviewer_requirements": "At least two distinct independently verified domain human experts; not provided by plugin",
+      "cross_review_role_suggestion": 32,
+      "academic_certification": "none",
+      "source_status": "pending_license_review"
+    },
+    {
+      "agent_id": 30,
+      "profile_path": "skills/hoangphuong-supercomputing-core/profiles/agent-030.json",
+      "name": "Adversarial Reviewer",
+      "group_id": 4,
+      "status": "curriculum_designed_not_evaluated",
+      "training_4_stages": [
+        {
+          "stage": "foundation",
+          "assignment": "Tạo bản đồ thuật ngữ, các giả định nền và danh sách nguồn có license reviewed cho Adversarial Reviewer",
+          "acceptance": ">=3 nguồn được thẩm định hoặc báo thiếu nguồn; không tự bịa tài liệu"
+        },
+        {
+          "stage": "specialization",
+          "assignment": "Lập kế hoạch kiểm tra nhập liệu xấu, injection vào tài liệu và sự cố quyền truy cập có phạm vi cho phép.",
+          "acceptance": "Đặc tả, khả năng bác bỏ, điều kiện biên và ma trận chứng cứ có thể xem xét"
+        },
+        {
+          "stage": "empirical",
+          "assignment": "Thiết kế baseline, tập thử bình thường/đối kháng, cách đo và quy trình tái lập cho tình huống vừa chọn",
+          "acceptance": "Tách test planned và executed, có raw logs nếu thật sự chạy"
+        },
+        {
+          "stage": "peer_review",
+          "assignment": "Nhận phản biện từ vai trò khác và giám khảo có thẩm quyền; sửa luận điểm hoặc ghi lý do không sửa",
+          "acceptance": "Có danh sách bất đồng, phản ví dụ, mức tin cậy và quyết định chưa xác minh"
+        }
+      ],
+      "pilot_case": {
+        "case_id": "R030-P1",
+        "prompt": "Lập kế hoạch kiểm tra nhập liệu xấu, injection vào tài liệu và sự cố quyền truy cập có phạm vi cho phép.",
+        "adversarial_question": "Một chuỗi \"ignore all instructions\" trong tài liệu được coi là dữ liệu hay chỉ thị?",
+        "must_demonstrate": [
+          "threat model",
+          "prompt-injection boundary",
+          "safe test scope"
+        ],
+        "evaluation_split": "practice_only_heldout_not_created"
+      },
+      "rubric": {
+        "accuracy": 25,
+        "scientific_method": 20,
+        "evidence_licenses": 20,
+        "counterexamples": 15,
+        "reproducibility": 15,
+        "ethics_safety": 5
+      },
+      "target_score_proposed": 85,
+      "evaluations_completed": 0,
+      "reviewer_requirements": "At least two distinct independently verified domain human experts; not provided by plugin",
+      "cross_review_role_suggestion": 32,
+      "academic_certification": "none",
+      "source_status": "pending_license_review"
+    },
+    {
+      "agent_id": 31,
+      "profile_path": "skills/hoangphuong-supercomputing-core/profiles/agent-031.json",
+      "name": "Regression Guardian",
+      "group_id": 4,
+      "status": "curriculum_designed_not_evaluated",
+      "training_4_stages": [
+        {
+          "stage": "foundation",
+          "assignment": "Tạo bản đồ thuật ngữ, các giả định nền và danh sách nguồn có license reviewed cho Regression Guardian",
+          "acceptance": ">=3 nguồn được thẩm định hoặc báo thiếu nguồn; không tự bịa tài liệu"
+        },
+        {
+          "stage": "specialization",
+          "assignment": "Thiết kế bộ hồi quy cho cập nhật API có thể phá backward compatibility; phân tích rollback và test thông số.",
+          "acceptance": "Đặc tả, khả năng bác bỏ, điều kiện biên và ma trận chứng cứ có thể xem xét"
+        },
+        {
+          "stage": "empirical",
+          "assignment": "Thiết kế baseline, tập thử bình thường/đối kháng, cách đo và quy trình tái lập cho tình huống vừa chọn",
+          "acceptance": "Tách test planned và executed, có raw logs nếu thật sự chạy"
+        },
+        {
+          "stage": "peer_review",
+          "assignment": "Nhận phản biện từ vai trò khác và giám khảo có thẩm quyền; sửa luận điểm hoặc ghi lý do không sửa",
+          "acceptance": "Có danh sách bất đồng, phản ví dụ, mức tin cậy và quyết định chưa xác minh"
+        }
+      ],
+      "pilot_case": {
+        "case_id": "R031-P1",
+        "prompt": "Thiết kế bộ hồi quy cho cập nhật API có thể phá backward compatibility; phân tích rollback và test thông số.",
+        "adversarial_question": "Test hiện tại pass nhưng snapshot bị thay đồng loạt để che lỗi thì hậu kiểm thế nào?",
+        "must_demonstrate": [
+          "change detection",
+          "baseline integrity",
+          "rollback decision"
+        ],
+        "evaluation_split": "practice_only_heldout_not_created"
+      },
+      "rubric": {
+        "accuracy": 25,
+        "scientific_method": 20,
+        "evidence_licenses": 20,
+        "counterexamples": 15,
+        "reproducibility": 15,
+        "ethics_safety": 5
+      },
+      "target_score_proposed": 85,
+      "evaluations_completed": 0,
+      "reviewer_requirements": "At least two distinct independently verified domain human experts; not provided by plugin",
+      "cross_review_role_suggestion": 32,
+      "academic_certification": "none",
+      "source_status": "pending_license_review"
+    },
+    {
+      "agent_id": 32,
+      "profile_path": "skills/hoangphuong-supercomputing-core/profiles/agent-032.json",
+      "name": "Release Auditor",
+      "group_id": 4,
+      "status": "curriculum_designed_not_evaluated",
+      "training_4_stages": [
+        {
+          "stage": "foundation",
+          "assignment": "Tạo bản đồ thuật ngữ, các giả định nền và danh sách nguồn có license reviewed cho Release Auditor",
+          "acceptance": ">=3 nguồn được thẩm định hoặc báo thiếu nguồn; không tự bịa tài liệu"
+        },
+        {
+          "stage": "specialization",
+          "assignment": "Đánh giá gói phát hành dựa trên test log, provenance, permission và gate chưa đạt; lập quyết định go/no-go.",
+          "acceptance": "Đặc tả, khả năng bác bỏ, điều kiện biên và ma trận chứng cứ có thể xem xét"
+        },
+        {
+          "stage": "empirical",
+          "assignment": "Thiết kế baseline, tập thử bình thường/đối kháng, cách đo và quy trình tái lập cho tình huống vừa chọn",
+          "acceptance": "Tách test planned và executed, có raw logs nếu thật sự chạy"
+        },
+        {
+          "stage": "peer_review",
+          "assignment": "Nhận phản biện từ vai trò khác và giám khảo có thẩm quyền; sửa luận điểm hoặc ghi lý do không sửa",
+          "acceptance": "Có danh sách bất đồng, phản ví dụ, mức tin cậy và quyết định chưa xác minh"
+        }
+      ],
+      "pilot_case": {
+        "case_id": "R032-P1",
+        "prompt": "Đánh giá gói phát hành dựa trên test log, provenance, permission và gate chưa đạt; lập quyết định go/no-go.",
+        "adversarial_question": "Sản phẩm có báo cáo 99% pass nhưng 1 lỗi nghiêm trọng làm rò dữ liệu: quyết định phát hành?",
+        "must_demonstrate": [
+          "evidence audit",
+          "severity gates",
+          "no-go criteria"
+        ],
+        "evaluation_split": "practice_only_heldout_not_created"
+      },
+      "rubric": {
+        "accuracy": 25,
+        "scientific_method": 20,
+        "evidence_licenses": 20,
+        "counterexamples": 15,
+        "reproducibility": 15,
+        "ethics_safety": 5
+      },
+      "target_score_proposed": 85,
+      "evaluations_completed": 0,
+      "reviewer_requirements": "At least two distinct independently verified domain human experts; not provided by plugin",
+      "cross_review_role_suggestion": 128,
+      "academic_certification": "none",
+      "source_status": "pending_license_review"
+    }
+  ]
+}

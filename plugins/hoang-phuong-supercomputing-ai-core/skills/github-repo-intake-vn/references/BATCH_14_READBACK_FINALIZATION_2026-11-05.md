@@ -1,0 +1,9 @@
+# Batch 14 readback finalization — 2026-11-05
+
+An intervening release advanced the plugin to `16.0.35`, release `pluginrel_6aec1fb739a881918429c4d4e422bbce` before this batch could publish an alternative draft. Its 459-file inventory included TWO new skills `web-technique-skill-extraction-vn` (row 51 MengTo/Skills) and `api-contract-compatibility-testing-vn` (row 52 sickn33/agentic-awesome-skills); root and overlay manifests were version 16.0.35. Existing 16 clusters, 128 Agent profiles and 108 study codes were retained.
+
+**Reconciliation:** keep two accepted skills and existing source audit report unchanged; do **not** package a second skill for row 51 or overwrite Batch14 SKILL.md. Read back row 52's upstream `skills/api-contract-testing/SKILL.md` pinned tree: `source: self`, `license: MIT`; root repo does have mixed third-party licensing elsewhere. It is accepted only as this scoped MIT prompt-only method, never as a bulk repository approval. Rows 49/50 remain excluded duplicates. Pending rows 2/4 resolved as excluded with evidence in separate delta.
+
+Current reconciled metrics (after source readback, before release 16.0.36): 16/384 `host_verified`, 36 excluded, 332 undecided; 49/384 distinct specialist skill slots filled. 197 ANWS textual artifacts read statically and six binary assets inventoried; full repo-wide security certification stays 0.
+
+**Important:** `GITHUB_16x24_CANDIDATES.json` and 63kB `CLUSTER_16_ASSET_REGISTRY.json` remain intact and unmodified as original snapshots. This patch synchronizes auxiliary status, Batch14 delta, old pending resolution and coverage delta. The exact master 384-row registry must still be read as a complete file and merged losslessly before marking the merge task complete; the plugin text reader exposes content, but source archive bytes could not be mounted in the local workspace. No claim of master merge is made.

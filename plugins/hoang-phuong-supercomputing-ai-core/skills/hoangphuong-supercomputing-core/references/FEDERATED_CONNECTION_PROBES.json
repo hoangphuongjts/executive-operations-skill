@@ -1,0 +1,51 @@
+{
+  "release": "14.4.0",
+  "probe_date": "2026-11-04",
+  "scope": "read_only_this_session",
+  "method": "Host tool calls and skill reads (not calls originating in a backend installed in Core)",
+  "skill_read_checks": [
+    {
+      "uri": "skills://plugins/content-ai-vietnam/content-strategy/skill.md",
+      "status": "skill_read_succeeded"
+    },
+    {
+      "uri": "skills://plugins/channel-growth-agent-vn/channel-growth-agent/skill.md",
+      "status": "skill_read_succeeded"
+    },
+    {
+      "uri": "skills://plugins/ai-tool-manager-vn/ai-tool-manager/skill.md",
+      "status": "skill_read_succeeded"
+    },
+    {
+      "uri": "skills://plugins/software-rebuild-ai-vn/app-rebuild-router/skill.md",
+      "status": "skill_read_succeeded"
+    }
+  ],
+  "connector_read_checks": [
+    {
+      "namespace": "Google_Drive",
+      "operation": "get_profile",
+      "status": "read_succeeded",
+      "records_exposed": false
+    },
+    {
+      "namespace": "vidIQ",
+      "operation": "vidiq_user_channels",
+      "status": "read_succeeded",
+      "records_exposed": false
+    },
+    {
+      "namespace": "Higgsfield",
+      "operation": "get_profile",
+      "status": "read_succeeded",
+      "records_exposed": false
+    }
+  ],
+  "other_connector_status": "interface_visible_only_not_verified",
+  "limitations": [
+    "Proof applies to this chat session only and may not persist across accounts or future sessions.",
+    "Reading a plugin Skill or connecting to a provider does not move its code or authentication.",
+    "The Core skill cannot arbitrarily execute tools not exposed to ChatGPT at the time of task.",
+    "No user data, API keys, tokens, or account identifiers are included."
+  ]
+}

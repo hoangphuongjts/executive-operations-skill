@@ -1,0 +1,52 @@
+{
+  "source_package_sha256": "b8efc43e0ad33399f8ae468465252317f6aeb1c1791b2f804d2d233d5d7f2a79",
+  "source_plugin_count": 17,
+  "staging_install_archives": 16,
+  "portable_skill_count": 197,
+  "agent_profiles": 128,
+  "study_commands": 108,
+  "clusters": 16,
+  "YAML_validation_errors_after_staging_patch": [],
+  "duplicate_skill_names_across_plugins": {
+    "free-voiceover": [
+      "channel-growth-agent-vn",
+      "content-ai-vietnam"
+    ],
+    "voice-selection": [
+      "channel-growth-agent-vn",
+      "content-ai-vietnam"
+    ]
+  },
+  "compatibility_changes_staging_only": {
+    "root_manifest_added": [
+      "ai-promo-video-maker-vn",
+      "anything2explainer-vn-guidance",
+      "opus-video-skills-vn"
+    ],
+    "YAML_quoted": [
+      "skills/revidapi-reup-video-vn/SKILL.md"
+    ]
+  },
+  "byte_identical_original_plugin_archive_downloaded": false,
+  "missing_only_compiled_python_cache_files": 7,
+  "host_install_tested": false,
+  "oauth_mcp_reauthorized": false,
+  "api_calls_paid": 0,
+  "production_changes": 0,
+  "offline_qa": {
+    "status": "PASS",
+    "assertions": 1749,
+    "failed": 0,
+    "errors": [],
+    "scope": "OFFLINE_STATIC_ONLY",
+    "target_account_host_import": "NOT_TESTED",
+    "live_skill_invocation": "NOT_TESTED",
+    "oauth_mcp_network": "NOT_TESTED",
+    "production_mutations": 0
+  },
+  "source_host_registered_skills": 193,
+  "source_host_core_registered_skills": 92,
+  "source_host_sample_skill_readbacks": 3,
+  "source_host_unavailable_skills": 4,
+  "source_host_activation_inference": "NONE; registration not equal to execution"
+}

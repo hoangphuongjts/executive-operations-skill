@@ -1,0 +1,66 @@
+{
+  "policy": {
+    "install_requires_target_account_user_action": true,
+    "no_secrets_exported": true,
+    "no_payment": true,
+    "write_operations_require_approval": true
+  },
+  "scenarios": [
+    {
+      "service": "ChatGPT private Plugin Creator",
+      "plugins": "16 standalone candidates",
+      "auth": "Sign in to target ChatGPT and check import capability",
+      "do_not_copy": "old plugin IDs, authenticated sessions",
+      "host_test": "import one at a time, verify readback"
+    },
+    {
+      "service": "Nango Management MCP",
+      "plugins": [
+        "nango-gateway-vn"
+      ],
+      "auth": "api_key/bearer as specified in mcp.json; enter only through official connection UI",
+      "endpoint_verified_in_package": "https://mcp.nango.dev/mcp",
+      "host_test": "read-only health/tool discovery after account authorization",
+      "status": "NEEDS_NEW_AUTH"
+    },
+    {
+      "service": "Ebook Library local MCP",
+      "plugins": [
+        "hoang-phuong-ai-ebook-library"
+      ],
+      "auth": "local stdio python; requires authorized local runtime and filesystem access",
+      "endpoint_verified_in_package": null,
+      "host_test": "Windows-local runtime, verified path and Python dependencies; ChatGPT cloud does not run Windows server from ZIP",
+      "status": "LOCAL_RUNTIME_BLOCKED_UNTIL_HOST_CONFIGURATION"
+    },
+    {
+      "service": "Google AI Tools App/Site",
+      "plugins": [
+        "dev-8e2c158c632881918d6f75b1f38a2f7d"
+      ],
+      "auth": "Site/App ownership, sharing or redeployment and new OAuth grants in target account",
+      "host_test": "Site + App available separately; verify app tools after permission",
+      "status": "NOT_PORTABLE_AS_STANDALONE_ZIP"
+    },
+    {
+      "service": "Google Drive / Gmail / Calendar / other provider connectors",
+      "plugins": "External provider plugins are not part of the 17-owned plugin source packages",
+      "auth": "Install via target account Plugin Directory and authorize OAuth manually",
+      "host_test": "Least privilege, read-only first, test correct Google account",
+      "status": "RECONNECT_REQUIRED"
+    },
+    {
+      "service": "External media engines",
+      "plugins": [
+        "hyperframes-vn-chatgpt",
+        "video-shotcraft-vn",
+        "moneyprinter-vn",
+        "opus-video-skills-vn",
+        "channel-growth-agent-vn"
+      ],
+      "auth": "Depends on separate installed runtime and API or service accounts, if any",
+      "host_test": "Only test after runtime installation and explicit consent; no automatic rendering/credit spend",
+      "status": "GUIDANCE_ONLY_OR_ENVIRONMENT_DEPENDENT"
+    }
+  ]
+}

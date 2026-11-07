@@ -1,0 +1,86 @@
+{
+  "reference_version": "16.0.0-prototype",
+  "legacy_plugin_touched": false,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "f5d68a621dfce6ab898448a3ef7d0d66b8b4a1a4cd62d387976f2b2a4d438b75",
+      "bytes": 2413
+    },
+    {
+      "path": "benchmarks/run_benchmark.py",
+      "sha256": "f56ab85e3c0a9ec7838e64b59356f76d76297ac084aa2b4477a834fc99b5088d",
+      "bytes": 2064
+    },
+    {
+      "path": "configs/runtime.example.json",
+      "sha256": "cc96f83c6828bb0990ad45d2dce336e9c1b22c581f65cc847937f00c31fade0d",
+      "bytes": 266
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "2493e796f14a3285a325acced865f4175605539bf53cceb5735de27e7a50b1dc",
+      "bytes": 4307
+    },
+    {
+      "path": "docs/SECURITY_AUDIT.md",
+      "sha256": "5898794ac67e5a9b3d0caca3c65f9950f3feb856088db96fb0709d2369a391b9",
+      "bytes": 2880
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "651a2b7889b6b0ecd66e114fa93eb1bf291788f5270e803192fb6a1cacc5e969",
+      "bytes": 371
+    },
+    {
+      "path": "reports/audit_verification.json",
+      "sha256": "a3400a6fb70fedde440a573ad2d9da97d1e20296644148cb35120e718fb7568c",
+      "bytes": 97
+    },
+    {
+      "path": "reports/benchmark_results.json",
+      "sha256": "5a5f6066675c4cc7ccdfe881e8605e63f6ee1044182d1d2db10f0e6ce51918b8",
+      "bytes": 1406
+    },
+    {
+      "path": "reports/demo_audit.sqlite3",
+      "sha256": "d92eb314b3cb89ed53df09df8920e9db9433a0a506057923dc52c94407d531fd",
+      "bytes": 12288
+    },
+    {
+      "path": "reports/doctor.json",
+      "sha256": "c2995f174fc76a2281c5d17b569d70967875d36e8709cddc142055c6db575b3d",
+      "bytes": 205
+    },
+    {
+      "path": "reports/local_plan.json",
+      "sha256": "5e7b48f5e615dbe23ee678e89ddfa048184c0d7c47caa71532a7d5d634234835",
+      "bytes": 256
+    },
+    {
+      "path": "reports/unit_tests.log",
+      "sha256": "c0fa7b35f486ba9a1c68502cf89cc82b7c4d4e342294520eb1ee8df6afb325d6",
+      "bytes": 1244
+    },
+    {
+      "path": "src/hpcore/__init__.py",
+      "sha256": "a64ee7ace7056d0b95fa73f104920ae7b9f8541f370293568e2c90bb915fddf7",
+      "bytes": 118
+    },
+    {
+      "path": "src/hpcore/cli.py",
+      "sha256": "1fe672477faeb0bd79e8ce89d907acc7e0cc9a1f11d0f28418c5cfa79292e74d",
+      "bytes": 1321
+    },
+    {
+      "path": "src/hpcore/core.py",
+      "sha256": "2a115c322264d0ffef558afba886dd18ff9d1297ab0c4996f70333dfc503fac7",
+      "bytes": 7567
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "0840cd4876ebdf273175c6483d314830e66dd08b2b16a5a62049f41eeab94faf",
+      "bytes": 3339
+    }
+  ]
+}

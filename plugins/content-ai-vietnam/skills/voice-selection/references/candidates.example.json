@@ -1,0 +1,20 @@
+{
+  "script_sha256": "REPLACE_WITH_REAL_SHA256",
+  "candidates": [
+    {
+      "id": "A",
+      "file": "A.wav",
+      "engine": "REPLACE",
+      "rights_verified": false,
+      "is_clone": false,
+      "speaker_consent": false,
+      "script_sha256": "REPLACE_WITH_REAL_SHA256",
+      "listening_review": {
+        "reviewer": null,
+        "full_listen": false,
+        "critical_errors": null,
+        "scores": {}
+      }
+    }
+  ]
+}

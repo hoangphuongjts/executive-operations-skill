@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hoàng Phương Core v16 — Architect + Engineering"
+  short_description: "Kiến trúc, lập trình, phản biện, kiểm chứng"
+  default_prompt: "Dùng $hoangphuong-v16-active để giải quyết yêu cầu của tôi; giữ nguyên các Skill và profile cũ."

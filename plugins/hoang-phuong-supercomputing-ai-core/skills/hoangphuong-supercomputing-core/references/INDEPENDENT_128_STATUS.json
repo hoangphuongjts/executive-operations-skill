@@ -1,0 +1,16 @@
+{
+  "version": "14.0.0",
+  "agent_count": 128,
+  "profile_schema_version": "1.0.0",
+  "legacy_registry": "skills/hoangphuong-supercomputing-core/references/AGENTS_128.json",
+  "profiles_directory": "skills/hoangphuong-supercomputing-core/profiles",
+  "domain_count": 16,
+  "explicitly_not_claimed": [
+    "128 model weights trained",
+    "128 running cloud instances",
+    "PhD/doctorate credentials"
+  ],
+  "deployment": "not_deployed",
+  "training": "curricula_ready; real model fine-tuning not performed",
+  "model_execution": "API adapter requires explicit user configuration and execution"
+}

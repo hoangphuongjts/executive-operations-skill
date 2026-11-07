@@ -1,0 +1,4 @@
+interface:
+  display_name: "Đo lường và cải tiến nội dung"
+  short_description: "Nội dung tiếng Việt có bằng chứng và mục tiêu rõ"
+  default_prompt: "Dùng $content-performance để hoàn thành yêu cầu nội dung của tôi."

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "opus-video-skills-vn",
+  "version": "0.2.1",
+  "description": "Ba Skill huong dan Opus video, bao gom ClaudeAnimationBase VN; engine render can cai rieng tren may Windows.",
+  "author": {
+    "name": "Hoangphuong"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Opus Video Skills VN",
+        "category": "Productivity",
+        "shortDescription": "3 Skill hoạt hình video",
+        "longDescription": "Huong dan tieng Viet de lap storyboard, scene p5.brush, kiem tra contact sheet, xuat MP4 bang ClaudeAnimationBase; engine khong chay trong ChatGPT.",
+        "developerName": "Hoangphuong",
+        "defaultPrompt": [
+          "Dùng painted-animation-vn tạo storyboard cho phim hoạt hình 2D.",
+          "Dùng kinetic-reel-vn dựng kế hoạch video motion graphics.",
+          "Dung claude-animation-base-vn huong dan tao phim hoat hinh ve tay va quy trinh xuat MP4."
+        ],
+        "capabilities": []
+      }
+    }
+  },
+  "keywords": [
+    "opus-video-skills",
+    "painted-animation",
+    "kinetic-reel",
+    "video",
+    "animation",
+    "hoangphuong",
+    "claude-animation-base"
+  ]
+}

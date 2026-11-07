@@ -1,0 +1,71 @@
+{
+  "schema": "hoangphuong-core-cluster-addendum/1.0",
+  "source_core_version": "16.0.48",
+  "target_plugin_version": "16.0.50",
+  "canonical_registry_path": "skills/hoangphuong-supercomputing-core/references/CLUSTER_16_ASSET_REGISTRY.json",
+  "mode": "synced_to_canonical_additive_only",
+  "items": [
+    {
+      "id": "ultra-thinking",
+      "kind": "core_skill_overlay",
+      "primary_cluster": 1,
+      "secondary_clusters": [
+        2,
+        7,
+        14,
+        16
+      ],
+      "status": "host_visible_skill_loaded",
+      "reorganize_mode": "additive_overlay",
+      "installed_in_core": true,
+      "origin": "user_uploaded_zip_2026_11_07",
+      "skill_path": "skills/ultra-thinking/SKILL.md",
+      "host_visibility_verified": true,
+      "host_skill_read_verified": true,
+      "runtime_e2e_verified": false,
+      "verified_host_release": "16.0.49",
+      "verified_date": "2026-11-07"
+    },
+    {
+      "id": "thammuutruong",
+      "kind": "core_skill_overlay",
+      "primary_cluster": 8,
+      "secondary_clusters": [
+        11,
+        10,
+        14
+      ],
+      "status": "host_visible_skill_loaded",
+      "reorganize_mode": "additive_overlay",
+      "installed_in_core": true,
+      "origin": "user_uploaded_zip_2026_11_07",
+      "skill_path": "skills/thammuutruong/SKILL.md",
+      "host_visibility_verified": true,
+      "host_skill_read_verified": true,
+      "runtime_e2e_verified": false,
+      "verified_host_release": "16.0.49",
+      "verified_date": "2026-11-07"
+    },
+    {
+      "id": "sieunangluc",
+      "kind": "core_skill_overlay",
+      "primary_cluster": 3,
+      "secondary_clusters": [
+        4,
+        16,
+        2
+      ],
+      "status": "host_visible_skill_loaded",
+      "reorganize_mode": "additive_overlay",
+      "installed_in_core": true,
+      "origin": "user_uploaded_zip_2026_11_07",
+      "skill_path": "skills/sieunangluc/SKILL.md",
+      "host_visibility_verified": true,
+      "host_skill_read_verified": true,
+      "runtime_e2e_verified": false,
+      "verified_host_release": "16.0.49",
+      "verified_date": "2026-11-07"
+    }
+  ],
+  "note": "Synced to canonical registry with host visibility/read evidence from v16.0.49. E2E runtime is unverified; do not claim external agents executed."
+}

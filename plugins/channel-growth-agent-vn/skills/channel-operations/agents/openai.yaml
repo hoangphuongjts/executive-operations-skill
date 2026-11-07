@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vận hành và phản hồi cộng đồng"
+  short_description: "Xây kênh theo dữ liệu và nguồn lực thực tế"
+  default_prompt: "Dùng $channel-operations để hoàn thành nhiệm vụ xây kênh của tôi."

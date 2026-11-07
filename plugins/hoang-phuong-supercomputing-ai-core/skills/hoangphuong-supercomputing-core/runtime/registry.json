@@ -1,0 +1,1390 @@
+{
+  "schema_version": "1.0.0",
+  "release": "13.2.0",
+  "total_roles": 128,
+  "legacy_roles_file": "skills/hoangphuong-supercomputing-core/references/ROLES_64.md",
+  "legacy_sha256": "a29c7f8daedab50b73e2f1ad0539cbf808449d83a7ee412c6f0f1f855bcb704d",
+  "new_roles_file": "skills/hoangphuong-supercomputing-core/references/ROLES_65_128.md",
+  "notes": "Danh mục gồm 128 vai trò có thể định tuyến; chỉ gọi mô hình thực khi runtime bên ngoài được cấu hình và chủ động thực thi.",
+  "groups": [
+    {
+      "id": 9,
+      "title": "IX. SẢN PHẨM & TRẢI NGHIỆM NGƯỜI DÙNG"
+    },
+    {
+      "id": 10,
+      "title": "X. DỮ LIỆU & TRI THỨC"
+    },
+    {
+      "id": 11,
+      "title": "XI. HỆ THỐNG TÁC TỬ & CÔNG CỤ"
+    },
+    {
+      "id": 12,
+      "title": "XII. AN NINH & TÍNH BỀN VỮNG HỆ THỐNG"
+    },
+    {
+      "id": 13,
+      "title": "XIII. NỘI DUNG & ĐA PHƯƠNG THỨC"
+    },
+    {
+      "id": 14,
+      "title": "XIV. TÀI CHÍNH & KHOA HỌC QUYẾT ĐỊNH"
+    },
+    {
+      "id": 15,
+      "title": "XV. 3D, THIẾT BỊ & THẾ GIỚI VẬT LÝ"
+    },
+    {
+      "id": 16,
+      "title": "XVI. ĐÁNH GIÁ & BẢO ĐẢM VẬN HÀNH"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "Lead Co-Scientist",
+      "mission": "xác định giả thuyết và vấn đề",
+      "group": 1,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 2,
+      "name": "First Principles Analyst",
+      "mission": "phân rã giả định nền",
+      "group": 1,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 3,
+      "name": "Socratic Challenger",
+      "mission": "chất vấn các bước suy luận",
+      "group": 1,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 4,
+      "name": "Popperian Falsifier",
+      "mission": "thiết kế phép thử bác bỏ",
+      "group": 1,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 5,
+      "name": "Evidence Librarian",
+      "mission": "truy vết nguồn và mức tin cậy",
+      "group": 1,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 6,
+      "name": "Literature Reviewer",
+      "mission": "đánh giá nghiên cứu liên quan",
+      "group": 1,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 7,
+      "name": "Research Reproducer",
+      "mission": "tái lập thí nghiệm",
+      "group": 1,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 8,
+      "name": "Ethics & Research Integrity Reviewer",
+      "mission": "kiểm tra tính liêm chính",
+      "group": 1,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 9,
+      "name": "Systems Architect",
+      "mission": "kiến trúc tổng thể",
+      "group": 2,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 10,
+      "name": "API Contract Architect",
+      "mission": "hợp đồng API và tương thích",
+      "group": 2,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 11,
+      "name": "Distributed Systems Architect",
+      "mission": "tính nhất quán và phân tán",
+      "group": 2,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 12,
+      "name": "Data Architect",
+      "mission": "mô hình dữ liệu và dòng dữ liệu",
+      "group": 2,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 13,
+      "name": "Event Topology Architect",
+      "mission": "sự kiện, hàng đợi, DAG",
+      "group": 2,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 14,
+      "name": "Security Architect",
+      "mission": "threat model và phân quyền",
+      "group": 2,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 15,
+      "name": "Reliability Architect",
+      "mission": "SLO, tính chịu lỗi",
+      "group": 2,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 16,
+      "name": "Cost & Capacity Architect",
+      "mission": "khả năng mở rộng và chi phí",
+      "group": 2,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 17,
+      "name": "Implementation Engineer",
+      "mission": "mã nguồn hoàn chỉnh",
+      "group": 3,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 18,
+      "name": "Systems Programming Engineer",
+      "mission": "C/C++/Rust và syscall",
+      "group": 3,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 19,
+      "name": "Compiler & JIT Engineer",
+      "mission": "compiler IR/JIT guard",
+      "group": 3,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 20,
+      "name": "SIMD Optimization Engineer",
+      "mission": "vector hóa khi khả thi",
+      "group": 3,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 21,
+      "name": "Concurrency Engineer",
+      "mission": "lock-free và memory ordering",
+      "group": 3,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 22,
+      "name": "Database Engineer",
+      "mission": "transaction/query/index",
+      "group": 3,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 23,
+      "name": "Integration Engineer",
+      "mission": "kết nối dịch vụ được cấp quyền",
+      "group": 3,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 24,
+      "name": "Developer Experience Engineer",
+      "mission": "toolchain/README và onboarding",
+      "group": 3,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 25,
+      "name": "Test Strategist",
+      "mission": "chiến lược test",
+      "group": 4,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 26,
+      "name": "Unit & Property Tester",
+      "mission": "unit/property tests",
+      "group": 4,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 27,
+      "name": "Differential Tester",
+      "mission": "so sánh bản tham chiếu",
+      "group": 4,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 28,
+      "name": "Formal Methods Specialist",
+      "mission": "proof obligations",
+      "group": 4,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 29,
+      "name": "Static Analysis Specialist",
+      "mission": "lint/types/SAST",
+      "group": 4,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 30,
+      "name": "Adversarial Reviewer",
+      "mission": "edge cases và red team hợp lệ",
+      "group": 4,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 31,
+      "name": "Regression Guardian",
+      "mission": "hồi quy và tính tương thích",
+      "group": 4,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 32,
+      "name": "Release Auditor",
+      "mission": "tiêu chí chấp nhận và truy vết",
+      "group": 4,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 33,
+      "name": "Performance Profiler",
+      "mission": "đo baseline và bottleneck",
+      "group": 5,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 34,
+      "name": "CPU Microarchitecture Analyst",
+      "mission": "cache/branch/NUMA",
+      "group": 5,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 35,
+      "name": "Lock-Free Data Structure Analyst",
+      "mission": "ABA/ordering",
+      "group": 5,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 36,
+      "name": "Latency Engineer",
+      "mission": "đo p50/p95/p99",
+      "group": 5,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 37,
+      "name": "Throughput Engineer",
+      "mission": "QPS, saturation, backpressure",
+      "group": 5,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 38,
+      "name": "Memory Engineer",
+      "mission": "memory footprint và allocation",
+      "group": 5,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 39,
+      "name": "Benchmark Reproducibility Auditor",
+      "mission": "cấu hình đo",
+      "group": 5,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 40,
+      "name": "Capacity Planner",
+      "mission": "sizing/scale-out",
+      "group": 5,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 41,
+      "name": "Quantum Circuit Researcher",
+      "mission": "thiết kế mạch mô phỏng",
+      "group": 6,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 42,
+      "name": "Noise Modeling Scientist",
+      "mission": "noise/fidelity",
+      "group": 6,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 43,
+      "name": "Quantum Error Correction Analyst",
+      "mission": "QEC giả định",
+      "group": 6,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 44,
+      "name": "Topological Quantum Researcher",
+      "mission": "mô hình Anyon",
+      "group": 6,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 45,
+      "name": "Majorana Braiding Critic",
+      "mission": "giới hạn chứng cứ thực nghiệm",
+      "group": 6,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 46,
+      "name": "Cryptography Engineer",
+      "mission": "mật mã hiện hành",
+      "group": 6,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 47,
+      "name": "Homomorphic Encryption Analyst",
+      "mission": "HE trade-off",
+      "group": 6,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 48,
+      "name": "P2P Network Analyst",
+      "mission": "node discovery, security, topology",
+      "group": 6,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 49,
+      "name": "Algorithm Designer",
+      "mission": "thuật toán ứng viên",
+      "group": 7,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 50,
+      "name": "Complexity Theorist",
+      "mission": "chứng minh cận",
+      "group": 7,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 51,
+      "name": "Lower-Bound Skeptic",
+      "mission": "kiểm tra tính khả thi O(log* n)",
+      "group": 7,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 52,
+      "name": "Search & Synthesis Engineer",
+      "mission": "sinh và lọc phương án",
+      "group": 7,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 53,
+      "name": "ML Evaluator",
+      "mission": "chia tập/eval leakage",
+      "group": 7,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 54,
+      "name": "Meta-Learning Researcher",
+      "mission": "chiến lược học trong phiên",
+      "group": 7,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 55,
+      "name": "Prompt & Context Engineer",
+      "mission": "nén và quản lý ngữ cảnh",
+      "group": 7,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 56,
+      "name": "Model Risk Analyst",
+      "mission": "hallucination và drift",
+      "group": 7,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 57,
+      "name": "Task Decomposition Planner",
+      "mission": "phân rã DAG",
+      "group": 8,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 58,
+      "name": "Swarm Coordinator",
+      "mission": "phân vai logic/runtime",
+      "group": 8,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 59,
+      "name": "Tool Capability Verifier",
+      "mission": "xác minh tool thật",
+      "group": 8,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 60,
+      "name": "Observability Engineer",
+      "mission": "logs/metrics/traces",
+      "group": 8,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 61,
+      "name": "Incident Response Engineer",
+      "mission": "triage/rollback",
+      "group": 8,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 62,
+      "name": "Change Management Guardian",
+      "mission": "quyền sửa, phê duyệt",
+      "group": 8,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 63,
+      "name": "Documentation Curator",
+      "mission": "tài liệu hóa",
+      "group": 8,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 64,
+      "name": "Delivery Integrator",
+      "mission": "hợp nhất và chứng cứ bàn giao",
+      "group": 8,
+      "origin": "v13.0",
+      "tags": []
+    },
+    {
+      "id": 65,
+      "name": "Product Discovery Researcher",
+      "mission": "kiểm chứng nhu cầu và phân khúc sản phẩm",
+      "group": 9,
+      "origin": "v13.2",
+      "tags": [
+        "product",
+        "discovery",
+        "customer",
+        "khách hàng",
+        "sản phẩm"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "UX Journey Analyst",
+      "mission": "xác định hành trình và điểm nghẽn người dùng",
+      "group": 9,
+      "origin": "v13.2",
+      "tags": [
+        "ux",
+        "hành trình",
+        "người dùng",
+        "website",
+        "web",
+        "app"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Accessibility Specialist",
+      "mission": "đánh giá khả năng tiếp cận và WCAG",
+      "group": 9,
+      "origin": "v13.2",
+      "tags": [
+        "accessibility",
+        "wcag",
+        "a11y",
+        "tiếp cận"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Human Factors Researcher",
+      "mission": "đánh giá tính dễ dùng, tải nhận thức",
+      "group": 9,
+      "origin": "v13.2",
+      "tags": [
+        "usability",
+        "nhân trắc",
+        "dễ dùng",
+        "người dùng"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Interaction Prototype Designer",
+      "mission": "phát triển prototype và tương tác thử nghiệm",
+      "group": 9,
+      "origin": "v13.2",
+      "tags": [
+        "prototype",
+        "thiết kế giao diện",
+        "ui",
+        "interaction"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Experiment Design Strategist",
+      "mission": "thiết kế thí nghiệm A/B và định lượng ảnh hưởng",
+      "group": 9,
+      "origin": "v13.2",
+      "tags": [
+        "ab test",
+        "ab testing",
+        "thử nghiệm",
+        "a/b"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Product Metrics Analyst",
+      "mission": "định nghĩa retention, activation, funnel",
+      "group": 9,
+      "origin": "v13.2",
+      "tags": [
+        "metrics",
+        "funnel",
+        "retention",
+        "activation",
+        "sản phẩm"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Release Adoption Analyst",
+      "mission": "theo dõi tiếp nhận tính năng và feedback",
+      "group": 9,
+      "origin": "v13.2",
+      "tags": [
+        "feedback",
+        "ra mắt",
+        "adoption",
+        "product release"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Dataset Curator",
+      "mission": "chuẩn hóa nguồn dữ liệu và metadata",
+      "group": 10,
+      "origin": "v13.2",
+      "tags": [
+        "dataset",
+        "dữ liệu",
+        "nguồn",
+        "metadata"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Data Quality Auditor",
+      "mission": "đo trùng lặp, thiếu, drift và dữ liệu bất thường",
+      "group": 10,
+      "origin": "v13.2",
+      "tags": [
+        "data quality",
+        "làm sạch dữ liệu",
+        "độ sạch",
+        "dữ liệu"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "ETL Pipeline Designer",
+      "mission": "thiết kế extract-transform-load có kiểm chứng",
+      "group": 10,
+      "origin": "v13.2",
+      "tags": [
+        "etl",
+        "pipeline",
+        "xử lý dữ liệu",
+        "đồng bộ"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Retrieval Architect",
+      "mission": "thiết kế hệ thống tìm kiếm RAG và xếp hạng",
+      "group": 10,
+      "origin": "v13.2",
+      "tags": [
+        "rag",
+        "retrieval",
+        "vector",
+        "search",
+        "tìm kiếm"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Knowledge Graph Modeler",
+      "mission": "mô hình đồ thị tri thức và ontology",
+      "group": 10,
+      "origin": "v13.2",
+      "tags": [
+        "knowledge graph",
+        "đồ thị tri thức",
+        "ontology"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Statistical Validity Reviewer",
+      "mission": "đánh giá sampling, bias và kiểm định thống kê",
+      "group": 10,
+      "origin": "v13.2",
+      "tags": [
+        "thống kê",
+        "sampling",
+        "bias",
+        "kiểm định"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Causal Inference Researcher",
+      "mission": "phân biệt tương quan và quan hệ nhân quả",
+      "group": 10,
+      "origin": "v13.2",
+      "tags": [
+        "causal",
+        "nhân quả",
+        "causality"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Data Privacy Steward",
+      "mission": "quản trị vòng đời dữ liệu cá nhân và tối thiểu hóa",
+      "group": 10,
+      "origin": "v13.2",
+      "tags": [
+        "privacy",
+        "riêng tư",
+        "gdpr",
+        "dữ liệu cá nhân"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Agent Runtime Architect",
+      "mission": "thiết kế runtime agent có ngân sách và deadline",
+      "group": 11,
+      "origin": "v13.2",
+      "tags": [
+        "agent",
+        "ai agent",
+        "runtime",
+        "tác tử"
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Agent Router Engineer",
+      "mission": "chọn tác tử theo kỹ năng và đo độ chính xác định tuyến",
+      "group": 11,
+      "origin": "v13.2",
+      "tags": [
+        "routing",
+        "định tuyến",
+        "chọn tác tử",
+        "agent"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Tool Permission Auditor",
+      "mission": "kiểm tra quyền gọi tool và phạm vi ủy quyền",
+      "group": 11,
+      "origin": "v13.2",
+      "tags": [
+        "tool",
+        "permission",
+        "quyền",
+        "plugin"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Agent Communication Engineer",
+      "mission": "chuẩn hóa giao thức trao đổi và schema thông điệp",
+      "group": 11,
+      "origin": "v13.2",
+      "tags": [
+        "agent",
+        "multi agent",
+        "protocol",
+        "thông điệp"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Agent Memory Architect",
+      "mission": "thiết kế bộ nhớ giới hạn và retention policy",
+      "group": 11,
+      "origin": "v13.2",
+      "tags": [
+        "memory",
+        "bộ nhớ",
+        "ngữ cảnh"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Multi-Agent Conflict Resolver",
+      "mission": "xử lý mâu thuẫn giữa khuyến nghị tác tử",
+      "group": 11,
+      "origin": "v13.2",
+      "tags": [
+        "multi agent",
+        "conflict",
+        "phản biện",
+        "tác tử"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Agent Budget Controller",
+      "mission": "giám sát token, lượt gọi, thời gian và chi phí",
+      "group": 11,
+      "origin": "v13.2",
+      "tags": [
+        "token",
+        "chi phí",
+        "quota",
+        "ngân sách",
+        "agent"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Agent Trace Auditor",
+      "mission": "đối chiếu trace, kết quả và từng lần gọi agent",
+      "group": 11,
+      "origin": "v13.2",
+      "tags": [
+        "traces",
+        "observability",
+        "agent",
+        "log",
+        "giám sát"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Prompt Injection Defender",
+      "mission": "đánh giá ranh giới tin cậy và nội dung đầu vào độc hại",
+      "group": 12,
+      "origin": "v13.2",
+      "tags": [
+        "prompt injection",
+        "bảo mật",
+        "prompt",
+        "security"
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Secrets Lifecycle Auditor",
+      "mission": "kiểm tra API keys, rotation và lưu giữ bí mật",
+      "group": 12,
+      "origin": "v13.2",
+      "tags": [
+        "secret",
+        "api key",
+        "khóa",
+        "credential"
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Identity Access Reviewer",
+      "mission": "đánh giá IAM, phân quyền tối thiểu và xác thực",
+      "group": 12,
+      "origin": "v13.2",
+      "tags": [
+        "iam",
+        "oauth",
+        "đăng nhập",
+        "phân quyền"
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Supply Chain Security Analyst",
+      "mission": "rà soát phụ thuộc phần mềm và SBOM",
+      "group": 12,
+      "origin": "v13.2",
+      "tags": [
+        "sbom",
+        "dependency",
+        "security",
+        "thư viện"
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Backup Restore Engineer",
+      "mission": "thiết kế backup, khôi phục và kiểm tra dữ liệu",
+      "group": 12,
+      "origin": "v13.2",
+      "tags": [
+        "backup",
+        "restore",
+        "khôi phục",
+        "sao lưu"
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Chaos Testing Designer",
+      "mission": "xây bài kiểm tra lỗi mạng, disk, service",
+      "group": 12,
+      "origin": "v13.2",
+      "tags": [
+        "chaos",
+        "thử lỗi",
+        "chịu lỗi",
+        "resilience"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Privacy Threat Modeler",
+      "mission": "xây threat model cho dữ liệu cá nhân",
+      "group": 12,
+      "origin": "v13.2",
+      "tags": [
+        "riêng tư",
+        "privacy",
+        "threat model",
+        "bảo mật"
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Compliance Evidence Reviewer",
+      "mission": "kiểm tra dấu vết tuân thủ và chứng cứ",
+      "group": 12,
+      "origin": "v13.2",
+      "tags": [
+        "compliance",
+        "tuân thủ",
+        "kiểm toán",
+        "bằng chứng"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Scientific Script Editor",
+      "mission": "biên tập kịch bản khoa học có nguồn kiểm chứng",
+      "group": 13,
+      "origin": "v13.2",
+      "tags": [
+        "kịch bản",
+        "khoa học",
+        "script",
+        "video"
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Storyboard Director",
+      "mission": "thiết kế shot list, nhịp kể và storyboard",
+      "group": 13,
+      "origin": "v13.2",
+      "tags": [
+        "storyboard",
+        "shot",
+        "video",
+        "dựng video"
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Video Quality Inspector",
+      "mission": "soát thời lượng, hình/tiếng, tỷ lệ và lỗi dựng",
+      "group": 13,
+      "origin": "v13.2",
+      "tags": [
+        "video",
+        "mp4",
+        "quality",
+        "reels",
+        "shorts"
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Voice Synchronization Specialist",
+      "mission": "đối chiếu voiceover, timeline và phụ đề",
+      "group": 13,
+      "origin": "v13.2",
+      "tags": [
+        "giọng đọc",
+        "phụ đề",
+        "subtitles",
+        "voice"
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Music Rights Reviewer",
+      "mission": "kiểm tra quyền nhạc, giấy phép và bằng chứng sử dụng",
+      "group": 13,
+      "origin": "v13.2",
+      "tags": [
+        "music",
+        "bản quyền",
+        "nhạc",
+        "license"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Multilingual Localization Editor",
+      "mission": "bản địa hóa thông điệp và ngôn ngữ",
+      "group": 13,
+      "origin": "v13.2",
+      "tags": [
+        "dịch thuật",
+        "translation",
+        "localization",
+        "ngôn ngữ"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Creative Originality Auditor",
+      "mission": "đánh giá tính nguyên gốc, sao chép và quyền dùng",
+      "group": 13,
+      "origin": "v13.2",
+      "tags": [
+        "bản quyền",
+        "originality",
+        "sáng tạo",
+        "content"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Channel Performance Analyst",
+      "mission": "đánh giá analytics và thử nghiệm nội dung",
+      "group": 13,
+      "origin": "v13.2",
+      "tags": [
+        "youtube",
+        "tiktok",
+        "kênh",
+        "analytics",
+        "social"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Scenario Modeling Analyst",
+      "mission": "dựng mô hình bull/base/bear có giả định",
+      "group": 14,
+      "origin": "v13.2",
+      "tags": [
+        "kịch bản",
+        "tài chính",
+        "scenario",
+        "đầu tư"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Risk Budget Analyst",
+      "mission": "đánh giá rủi ro theo kịch bản và danh mục",
+      "group": 14,
+      "origin": "v13.2",
+      "tags": [
+        "risk",
+        "rủi ro",
+        "danh mục",
+        "portfolio"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Sensitivity Analysis Specialist",
+      "mission": "đánh giá biến động đầu ra theo đầu vào",
+      "group": 14,
+      "origin": "v13.2",
+      "tags": [
+        "sensitivity",
+        "độ nhạy",
+        "giả định",
+        "chi phí"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Cash Flow Modeler",
+      "mission": "dự báo dòng tiền và kiểm tra đơn vị",
+      "group": 14,
+      "origin": "v13.2",
+      "tags": [
+        "cashflow",
+        "dòng tiền",
+        "ngân sách",
+        "vốn"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Pricing Economics Analyst",
+      "mission": "phân tích định giá, biên lợi nhuận và cạnh tranh",
+      "group": 14,
+      "origin": "v13.2",
+      "tags": [
+        "pricing",
+        "định giá",
+        "lợi nhuận",
+        "giá bán"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Decision Quality Auditor",
+      "mission": "kiểm tra thiên lệch quyết định và xác suất",
+      "group": 14,
+      "origin": "v13.2",
+      "tags": [
+        "decision",
+        "quyết định",
+        "phản biện",
+        "probability"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Market Evidence Researcher",
+      "mission": "thu thập bằng chứng thị trường có nguồn",
+      "group": 14,
+      "origin": "v13.2",
+      "tags": [
+        "thị trường",
+        "market",
+        "đối thủ",
+        "nghiên cứu"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Financial Assumptions Reviewer",
+      "mission": "đối chiếu giả định và mức độ tin cậy",
+      "group": 14,
+      "origin": "v13.2",
+      "tags": [
+        "tài chính",
+        "financial",
+        "giả định",
+        "đầu tư"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Parametric CAD Designer",
+      "mission": "thiết kế mô hình CAD kích thước tham số",
+      "group": 15,
+      "origin": "v13.2",
+      "tags": [
+        "cad",
+        "3d",
+        "thiết kế",
+        "solidworks"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "FDM Printability Engineer",
+      "mission": "kiểm tra hướng in, overhang, tolerance",
+      "group": 15,
+      "origin": "v13.2",
+      "tags": [
+        "3mf",
+        "stl",
+        "fdm",
+        "in 3d",
+        "bambu"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Manufacturing Cost Estimator",
+      "mission": "ước tính vật liệu, thời gian và hao hụt",
+      "group": 15,
+      "origin": "v13.2",
+      "tags": [
+        "vật liệu",
+        "cost",
+        "máy in",
+        "3d"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Geometry Validation Analyst",
+      "mission": "kiểm tra manifold, collision và kích thước",
+      "group": 15,
+      "origin": "v13.2",
+      "tags": [
+        "mesh",
+        "stl",
+        "hình học",
+        "geometry"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "IoT Systems Architect",
+      "mission": "thiết kế cảm biến, truyền nhận và dữ liệu",
+      "group": 15,
+      "origin": "v13.2",
+      "tags": [
+        "iot",
+        "cảm biến",
+        "esp32",
+        "thiết bị"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Physical Experiment Planner",
+      "mission": "thiết kế đo lường và kiểm soát biến vật lý",
+      "group": 15,
+      "origin": "v13.2",
+      "tags": [
+        "thí nghiệm",
+        "đo lường",
+        "vật lý"
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Hardware Safety Reviewer",
+      "mission": "đánh giá rủi ro điện/nhiệt/cơ khí",
+      "group": 15,
+      "origin": "v13.2",
+      "tags": [
+        "an toàn",
+        "điện",
+        "nhiệt",
+        "hardware"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Simulation Accuracy Auditor",
+      "mission": "so khớp mô phỏng với thí nghiệm thực tế",
+      "group": 15,
+      "origin": "v13.2",
+      "tags": [
+        "simulation",
+        "mô phỏng",
+        "phần cứng"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Evaluation Dataset Architect",
+      "mission": "xây bộ eval có nhãn và chia tập minh bạch",
+      "group": 16,
+      "origin": "v13.2",
+      "tags": [
+        "eval",
+        "đánh giá",
+        "test dataset"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Hallucination Claim Auditor",
+      "mission": "phát hiện khẳng định thiếu nguồn hay vượt chứng cứ",
+      "group": 16,
+      "origin": "v13.2",
+      "tags": [
+        "hallucination",
+        "ảo giác",
+        "bằng chứng"
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Benchmark Protocol Designer",
+      "mission": "định nghĩa benchmark tái lập có baseline",
+      "group": 16,
+      "origin": "v13.2",
+      "tags": [
+        "benchmark",
+        "hiệu năng",
+        "performance"
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Drift Monitoring Analyst",
+      "mission": "theo dõi lệch chất lượng giữa các bản phát hành",
+      "group": 16,
+      "origin": "v13.2",
+      "tags": [
+        "drift",
+        "monitor",
+        "giám sát",
+        "chất lượng"
+      ]
+    },
+    {
+      "id": 125,
+      "name": "SLO Acceptance Reviewer",
+      "mission": "đặt tiêu chí p95, error budget và thời gian đáp ứng",
+      "group": 16,
+      "origin": "v13.2",
+      "tags": [
+        "slo",
+        "p99",
+        "latency",
+        "độ trễ"
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Release Evidence Publisher",
+      "mission": "tổng hợp bằng chứng kiểm thử và nguồn gốc",
+      "group": 16,
+      "origin": "v13.2",
+      "tags": [
+        "report",
+        "báo cáo",
+        "release",
+        "bằng chứng"
+      ]
+    },
+    {
+      "id": 127,
+      "name": "Rollback Decision Owner",
+      "mission": "xác định ngưỡng quay lại bản trước",
+      "group": 16,
+      "origin": "v13.2",
+      "tags": [
+        "rollback",
+        "khôi phục",
+        "triển khai"
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Independent Quality Gatekeeper",
+      "mission": "đối chiếu toàn bộ gate trước công bố hoàn thành",
+      "group": 16,
+      "origin": "v13.2",
+      "tags": [
+        "audit",
+        "kiểm toán",
+        "kiểm thử",
+        "release"
+      ]
+    }
+  ]
+}

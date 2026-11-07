@@ -1,0 +1,27 @@
+{
+  "batch": 13,
+  "readback_checked_after_release_version": "16.0.33",
+  "readback_release_id": "pluginrel_6aec1a620e4481918fd3025aceb40aa1",
+  "plugin_id": "plugins_6ae9e94153ec8191ac27f530ca5a0fd3",
+  "total_files_verified": 450,
+  "skills_md_files_verified": 76,
+  "clusters_verified": 16,
+  "agent_profiles_verified": 128,
+  "slash_codes_verified": 108,
+  "batch13_new_skill": "skills/architecture-technology-evaluation-vn/SKILL.md",
+  "batch13_files_verified": [
+    "skills/architecture-technology-evaluation-vn/SKILL.md",
+    "skills/architecture-technology-evaluation-vn/references/PROVENANCE.md",
+    "skills/architecture-technology-evaluation-vn/references/UPSTREAM_LICENSE_MIT.txt",
+    "skills/github-repo-intake-vn/references/BATCH_13_AUDIT_REPORT_2026-11-05.md",
+    "skills/github-repo-intake-vn/references/BATCH_13_REGISTRY_DELTA.json"
+  ],
+  "integrated_candidate_records": 14,
+  "excluded_candidate_records": 32,
+  "remaining_candidate_records": 338,
+  "repo_wide_security_audits": 0,
+  "source_registry_status": "Master registry snapshot still contains 13 verified / 29 excluded; Batch13 delta must be applied once. No main-registry rewrite was performed, to preserve 384 rows.",
+  "next_row": 49,
+  "next_repo": "addyosmani/agent-skills",
+  "audit_kind": "Plugin Creator source readback, file inventory + specific content; does not prove runtime execution or security of external repositories"
+}

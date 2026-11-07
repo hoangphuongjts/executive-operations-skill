@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "hoangphuong-core-overlay"
+version = "16.0.0a0"
+description = "Non-destructive local-only reference overlay for Hoang Phuong Core"
+requires-python = ">=3.10"
+dependencies = []
+[project.scripts]
+hpcore = "hpcore.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]

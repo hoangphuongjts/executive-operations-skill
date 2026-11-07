@@ -1,0 +1,6 @@
+interface:
+  display_name: "Quản Gia AI"
+  short_description: "Tìm, thẩm định, đóng gói, tích hợp"
+  default_prompt: "Hãy dùng Quản Gia AI để phân loại, kiểm tra an toàn và triển khai công cụ tôi cung cấp mà không thay đổi các gói đang có."
+policy:
+  allow_implicit_invocation: true

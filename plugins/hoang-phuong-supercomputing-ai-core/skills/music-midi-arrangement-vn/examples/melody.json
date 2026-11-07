@@ -1,0 +1,35 @@
+{
+  "title": "Giai điệu mẫu nguyên bản",
+  "bpm": 96,
+  "time_signature": [
+    4,
+    4
+  ],
+  "program": 0,
+  "notes": [
+    {
+      "pitch": 60,
+      "beats": 1
+    },
+    {
+      "pitch": 62,
+      "beats": 1
+    },
+    {
+      "pitch": 64,
+      "beats": 1
+    },
+    {
+      "pitch": 67,
+      "beats": 1
+    },
+    {
+      "pitch": 69,
+      "beats": 2
+    },
+    {
+      "pitch": 67,
+      "beats": 2
+    }
+  ]
+}

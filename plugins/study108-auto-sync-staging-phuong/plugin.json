@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "study108-auto-sync-staging-phuong",
+  "version": "0.1.3",
+  "description": "Private staging-only plugin to test 108 study code extension synchronization. No production updates.",
+  "author": {
+    "name": "Hoang Phuong"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Study108 Sync STAGING",
+        "category": "Productivity",
+        "capabilities": [],
+        "brandColor": "#236D72",
+        "brandColorDark": "#236D72",
+        "developerName": "Hoang Phuong",
+        "shortDescription": "Thử đồng bộ mã, không sửa Core",
+        "longDescription": "Isolated 108-code registry and approved extension code update tests.",
+        "defaultPrompt": "Chỉ chạy bộ định tuyến study108-sync-router trong plugin staging. Đọc danh sách 108 gốc từ references/STUDY_108_BASELINE.json và mã mở rộng từ references/CUSTOM_STUDY_CODES.json. Không tự khẳng định mã đã được kích hoạt ở Core production, không sửa Core gốc."
+      }
+    }
+  },
+  "keywords": [
+    "study108",
+    "staging",
+    "approved-sync",
+    "education"
+  ],
+  "skills": "./skills"
+}

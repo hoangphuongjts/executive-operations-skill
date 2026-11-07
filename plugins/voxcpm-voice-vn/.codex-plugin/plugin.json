@@ -1,0 +1,31 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": "H\u00e3y d\u00f9ng VoxCPM Voice VN gi\u00fap m\u00ecnh chu\u1ea9n b\u1ecb m\u1ed9t gi\u1ecdng \u0111\u1ecdc AI ti\u1ebfng Vi\u1ec7t cho VIDEO AI, b\u1ea3o \u0111\u1ea3m c\u00f3 quy\u1ec1n s\u1eed d\u1ee5ng ngu\u1ed3n gi\u1ecdng v\u00e0 kh\u00f4ng ph\u00e1t sinh chi ph\u00ed khi ch\u01b0a \u0111\u01b0\u1ee3c ch\u1ea5p thu\u1eadn.",
+    "developerName": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "displayName": "VoxCPM Voice VN",
+    "longDescription": "Tr\u1ee3 l\u00fd ti\u1ebfng Vi\u1ec7t \u0111\u1ec3 thi\u1ebft k\u1ebf gi\u1ecdng AI v\u00e0 h\u01b0\u1edbng d\u1eabn nh\u00e2n b\u1ea3n gi\u1ecdng c\u00f3 s\u1ef1 cho ph\u00e9p b\u1eb1ng VoxCPM2. Chu\u1ea9n b\u1ecb k\u1ecbch b\u1ea3n, ghi \u00e2m tham chi\u1ebfu, tri\u1ec3n khai local tr\u00ean Windows v\u00e0 t\u00edch h\u1ee3p v\u00e0o VIDEO AI; kh\u00f4ng t\u1ef1 ch\u1ea1y m\u00f4 h\u00ecnh ho\u1eb7c t\u1ea3i d\u1eef li\u1ec7u gi\u1ecdng.",
+    "shortDescription": "Thi\u1ebft k\u1ebf gi\u1ecdng AI ti\u1ebfng Vi\u1ec7t"
+  },
+  "name": "voxcpm-voice-vn",
+  "version": "0.1.0",
+  "description": "H\u01b0\u1edbng d\u1eabn ti\u1ebfng Vi\u1ec7t cho VoxCPM2: thi\u1ebft k\u1ebf gi\u1ecdng AI, nh\u00e2n b\u1ea3n gi\u1ecdng \u0111\u01b0\u1ee3c ph\u00e9p, tri\u1ec3n khai Windows v\u00e0 quy tr\u00ecnh h\u1eadu k\u1ef3 AUDIO AI. Skills-only; kh\u00f4ng c\u00f3 m\u00e1y ch\u1ee7 suy lu\u1eadn ho\u1eb7c quy\u1ec1n truy c\u1eadp m\u00e1y t\u00ednh.",
+  "author": {
+    "name": "Ho\u00e0ng Ph\u01b0\u01a1ng",
+    "email": "hoangphuongelectrical@gmail.com"
+  },
+  "keywords": [
+    "voxcpm",
+    "voice-cloning",
+    "tts",
+    "vietnamese",
+    "voice-design"
+  ],
+  "homepage": "https://github.com/OpenBMB/VoxCPM",
+  "repository": "https://github.com/OpenBMB/VoxCPM",
+  "license": "Apache-2.0",
+  "skills": "./skills"
+}

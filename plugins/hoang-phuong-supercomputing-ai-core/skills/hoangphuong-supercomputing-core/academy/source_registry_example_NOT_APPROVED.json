@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "source_id": "EXAMPLE-ONLY-NOT-APPROVED",
+      "title": "SAMPLE: replace with a real verified document",
+      "canonical_url": "https://example.org/research/example",
+      "rights_holder": "UNVERIFIED",
+      "license_id": "unknown",
+      "license_evidence_url": "",
+      "allowed_uses": [],
+      "attribution": "",
+      "review_status": "pending_review",
+      "reviewer_id": "",
+      "reviewed_at": "",
+      "notes": "Synthetic metadata only; no source text bundled; never ingest pending_review"
+    }
+  ]
+}
